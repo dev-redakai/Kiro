@@ -1,0 +1,15 @@
+product_name,total_revenue,total_units,avg_unit_price,avg_discount,order_count,category,revenue_rank,units_rank,top_reason
+Laptop,14666039.11,14708,1141.05,0.12,6098,Electronics,1,4,Revenue
+Desktop Computer,11365205.66,7501,1715.75,0.12,3158,Electronics,2,14,Revenue
+Smartphone,11079328.43,19514,649.82,0.12,8028,Electronics,3,1,Revenue
+Camera,9072624.08,7579,1367.17,0.12,3207,Electronics,4,13,Revenue
+Tablet,4875736.2,11621,476.97,0.12,4808,Electronics,5,7,Revenue
+Monitor,3367126.36,6710,572.6,0.13,2714,Electronics,6,17,Revenue
+Smart Watch,2992932.61,9828,348.59,0.12,4033,Electronics,7,9,Revenue
+Headphones,2664983.72,14548,209.96,0.12,6035,Electronics,8,5,Revenue
+Shoes,2228395.97,14971,169.39,0.12,6236,Fashion,9,3,Revenue
+Gaming Console,1840484.31,4694,448.97,0.13,1983,Electronics,10,25,Revenue
+Dress,1027962.12,10323,112.73,0.12,4215,Fashion,15,8,Units
+Jeans,985758.34,12434,90.34,0.12,5137,Fashion,17,6,Units
+T-Shirt,667643.39,17128,44.71,0.12,7119,Fashion,20,2,Units
+Pillow,394526.08,9450,47.55,0.12,3871,Home Goods,24,10,Units

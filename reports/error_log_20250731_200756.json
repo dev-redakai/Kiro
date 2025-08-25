@@ -1,0 +1,141 @@
+[
+  {
+    "timestamp": "2025-07-31T20:07:54.152519",
+    "category": "data_quality",
+    "severity": "low",
+    "error_type": "DataQualityError",
+    "message": "Invalid email",
+    "details": {
+      "record_id": 20,
+      "processing_stage": "cleaning",
+      "field": "customer_email",
+      "value": "invalid-email",
+      "correction": null
+    },
+    "recovery_action": "_skip_invalid_record",
+    "resolved": true
+  },
+  {
+    "timestamp": "2025-07-31T20:07:54.260417",
+    "category": "data_quality",
+    "severity": "low",
+    "error_type": "DataQualityError",
+    "message": "Invalid discount",
+    "details": {
+      "record_id": 23,
+      "processing_stage": "cleaning",
+      "field": "discount_percent",
+      "value": "1.5",
+      "correction": 0.15
+    },
+    "recovery_action": "_apply_data_correction",
+    "resolved": true
+  },
+  {
+    "timestamp": "2025-07-31T20:07:54.367824",
+    "category": "data_quality",
+    "severity": "low",
+    "error_type": "DataQualityError",
+    "message": "Invalid email",
+    "details": {
+      "record_id": 46,
+      "processing_stage": "cleaning",
+      "field": "customer_email",
+      "value": "invalid-email",
+      "correction": null
+    },
+    "recovery_action": "_skip_invalid_record",
+    "resolved": true
+  },
+  {
+    "timestamp": "2025-07-31T20:07:54.476732",
+    "category": "data_quality",
+    "severity": "low",
+    "error_type": "DataQualityError",
+    "message": "Invalid quantity",
+    "details": {
+      "record_id": 78,
+      "processing_stage": "cleaning",
+      "field": "quantity",
+      "value": "-5",
+      "correction": 0
+    },
+    "recovery_action": "_apply_data_correction",
+    "resolved": true
+  },
+  {
+    "timestamp": "2025-07-31T20:07:54.586123",
+    "category": "data_quality",
+    "severity": "low",
+    "error_type": "DataQualityError",
+    "message": "Invalid email",
+    "details": {
+      "record_id": 88,
+      "processing_stage": "cleaning",
+      "field": "customer_email",
+      "value": "invalid-email",
+      "correction": null
+    },
+    "recovery_action": "_skip_invalid_record",
+    "resolved": true
+  },
+  {
+    "timestamp": "2025-07-31T20:07:54.588147",
+    "category": "data_quality",
+    "severity": "low",
+    "error_type": "DataQualityError",
+    "message": "Invalid email",
+    "details": {
+      "record_id": 99,
+      "processing_stage": "cleaning",
+      "field": "customer_email",
+      "value": "invalid-email",
+      "correction": null
+    },
+    "recovery_action": "_skip_invalid_record",
+    "resolved": true
+  },
+  {
+    "timestamp": "2025-07-31T20:07:56.056823",
+    "category": "data_quality",
+    "severity": "low",
+    "error_type": "DataQualityError",
+    "message": "Invalid quantity value",
+    "details": {
+      "field": "quantity",
+      "value": "-10",
+      "correction": 0
+    },
+    "recovery_action": "_apply_data_correction",
+    "resolved": true
+  },
+  {
+    "timestamp": "2025-07-31T20:07:56.063448",
+    "category": "memory",
+    "severity": "high",
+    "error_type": "PipelineMemoryError",
+    "message": "Out of memory during chunk processing",
+    "details": {
+      "chunk_size": 100000,
+      "current_usage": 7.8,
+      "max_usage": 8.0,
+      "available_memory": 14.681896209716797
+    },
+    "recovery_action": "_reduce_chunk_size",
+    "resolved": true
+  },
+  {
+    "timestamp": "2025-07-31T20:07:56.064415",
+    "category": "processing",
+    "severity": "medium",
+    "error_type": "ProcessingError",
+    "message": "Transformation failed due to invalid data format",
+    "details": {
+      "retry_count": 0,
+      "operation": "data_transformation",
+      "data_info": {}
+    },
+    "recovery_action": "_retry_operation",
+    "resolved": true
+  }
+]

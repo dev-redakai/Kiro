@@ -1,0 +1,54 @@
+{
+  "export_timestamp": "2025-08-11T16:06:44.661137",
+  "data_shape": [
+    15,
+    10
+  ],
+  "columns": [
+    "product_name",
+    "total_revenue",
+    "total_units",
+    "avg_unit_price",
+    "avg_discount",
+    "order_count",
+    "category",
+    "revenue_rank",
+    "units_rank",
+    "top_reason"
+  ],
+  "dtypes": {
+    "product_name": "category",
+    "total_revenue": "float32",
+    "total_units": "int64",
+    "avg_unit_price": "float64",
+    "avg_discount": "float64",
+    "order_count": "int64",
+    "category": "category",
+    "revenue_rank": "int64",
+    "units_rank": "int64",
+    "top_reason": "object"
+  },
+  "file_hash": "269a20b6",
+  "export_info": {
+    "format": "parquet",
+    "filename": "analytical_top_products_20250811_160644_20250811_160644.parquet",
+    "export_params": {
+      "engine": "pyarrow",
+      "compression": "snappy",
+      "index": false
+    }
+  },
+  "memory_usage": 5033,
+  "null_counts": {
+    "product_name": 0,
+    "total_revenue": 0,
+    "total_units": 0,
+    "avg_unit_price": 0,
+    "avg_discount": 0,
+    "order_count": 0,
+    "category": 0,
+    "revenue_rank": 0,
+    "units_rank": 0,
+    "top_reason": 0
+  }
+}

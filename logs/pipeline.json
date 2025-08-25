@@ -1,0 +1,1 @@
+{"timestamp": "2025-07-31T20:07:53.022637", "level": "INFO", "logger": "root", "message": "Advanced logging configuration initialized", "module": "logging_config", "function": "setup_logging", "line": 287}

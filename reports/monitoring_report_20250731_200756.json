@@ -1,0 +1,135 @@
+{
+  "generated_at": "2025-07-31T20:07:56.066414",
+  "system_metrics": {
+    "timestamp": "2025-07-31 20:07:56.070414",
+    "memory_total_gb": 31.627544403076172,
+    "memory_available_gb": 14.681888580322266,
+    "memory_used_gb": 16.945655822753906,
+    "memory_percent": 53.6,
+    "cpu_percent": 0.0,
+    "cpu_count": 32,
+    "disk_usage": {
+      ".": {
+        "total_gb": 399.99901962280273,
+        "used_gb": 117.0173110961914,
+        "free_gb": 282.9817085266113,
+        "percent": 29.254399474913264
+      },
+      "data": {
+        "total_gb": 399.99901962280273,
+        "used_gb": 117.0173110961914,
+        "free_gb": 282.9817085266113,
+        "percent": 29.254399474913264
+      }
+    }
+  },
+  "processing_summary": {
+    "total_operations": 3,
+    "completed_operations": 3,
+    "failed_operations": 0,
+    "active_operations": 0,
+    "total_records_processed": 17596,
+    "total_processing_time": 2.364194,
+    "average_throughput": 7442.705632448099,
+    "success_rate": 100.0,
+    "recent_operations": [
+      {
+        "operation": "data_transformation",
+        "duration": 0.804083,
+        "records": 7500,
+        "throughput": 9327.395306205952,
+        "status": "completed"
+      },
+      {
+        "operation": "data_cleaning",
+        "duration": 0.544881,
+        "records": 96,
+        "throughput": 176.18525879962783,
+        "status": "completed"
+      },
+      {
+        "operation": "data_ingestion",
+        "duration": 1.01523,
+        "records": 10000,
+        "throughput": 9849.984732523664,
+        "status": "completed"
+      }
+    ]
+  },
+  "data_quality_summary": {
+    "total_metrics": 1,
+    "total_records_analyzed": 100,
+    "total_valid_records": 96,
+    "overall_error_rate": 4.0,
+    "recent_metrics": [
+      {
+        "metric_name": "data_cleaning_validation",
+        "total_records": 100,
+        "error_rate": 4.0,
+        "timestamp": "2025-07-31T20:07:54.589755"
+      }
+    ]
+  },
+  "performance_summary": {
+    "total_metrics": 4,
+    "by_category": {
+      "memory": {
+        "count": 1,
+        "avg_value": 85.5,
+        "min_value": 85.5,
+        "max_value": 85.5
+      },
+      "cpu": {
+        "count": 1,
+        "avg_value": 45.2,
+        "min_value": 45.2,
+        "max_value": 45.2
+      },
+      "io": {
+        "count": 1,
+        "avg_value": 125.8,
+        "min_value": 125.8,
+        "max_value": 125.8
+      },
+      "quality": {
+        "count": 1,
+        "avg_value": 0.1,
+        "min_value": 0.1,
+        "max_value": 0.1
+      }
+    },
+    "recent_metrics": [
+      {
+        "name": "anomaly_detection_rate",
+        "value": 0.1,
+        "unit": "percent",
+        "category": "quality",
+        "timestamp": "2025-07-31T20:07:55.396835"
+      },
+      {
+        "name": "memory_efficiency",
+        "value": 85.5,
+        "unit": "percent",
+        "category": "memory",
+        "timestamp": "2025-07-31T20:07:55.395836"
+      },
+      {
+        "name": "cpu_utilization",
+        "value": 45.2,
+        "unit": "percent",
+        "category": "cpu",
+        "timestamp": "2025-07-31T20:07:55.395836"
+      },
+      {
+        "name": "disk_io_rate",
+        "value": 125.8,
+        "unit": "MB/s",
+        "category": "io",
+        "timestamp": "2025-07-31T20:07:55.395836"
+      }
+    ]
+  },
+  "error_summary": {
+    "message": "No errors recorded"
+  }
+}

@@ -1,0 +1,4 @@
+category,avg_discount,median_discount,std_discount,min_discount,max_discount,total_revenue,total_quantity,order_count,discount_effectiveness_score,discount_penetration_pct,avg_discount_amount,discount_strategy
+Fashion,0.1263,0.1253,0.0526,0.0,0.2982,94523.29,840,355,11938.29,,33.63,Moderate Discount
+Home Goods,0.1249,0.1234,0.0557,0.0,0.2777,59972.734,564,238,7490.59,,31.47,Moderate Discount
+Electronics,0.1214,0.1236,0.056,0.0,0.2865,637010.25,988,407,77333.04,,190.01,Moderate Discount

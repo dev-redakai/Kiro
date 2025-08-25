@@ -1,0 +1,189 @@
+{
+  "report_metadata": {
+    "generated_at": "2025-08-06T09:50:13.069759",
+    "total_validation_sessions": 13,
+    "total_error_reports": 0,
+    "report_version": "1.0"
+  },
+  "validation_overview": {
+    "total_rules_run": 13,
+    "successful_validations": 7,
+    "failed_validations": 6,
+    "average_error_rate": 13.107692307692307
+  },
+  "error_analysis": {
+    "by_field": {
+      "category": {
+        "total_failures": 1,
+        "total_invalid_records": 200,
+        "failed_rules_count": 1,
+        "sample_invalid_values": [
+          "InvalidCategory"
+        ],
+        "most_recent_failure": "2025-08-06T09:50:13.042067"
+      },
+      "unit_price": {
+        "total_failures": 1,
+        "total_invalid_records": 200,
+        "failed_rules_count": 1,
+        "sample_invalid_values": [
+          "-50.0"
+        ],
+        "most_recent_failure": "2025-08-06T09:50:13.047007"
+      },
+      "discount_percent": {
+        "total_failures": 1,
+        "total_invalid_records": 300,
+        "failed_rules_count": 1,
+        "sample_invalid_values": [
+          "1.5",
+          "2.0"
+        ],
+        "most_recent_failure": "2025-08-06T09:50:13.049634"
+      },
+      "region": {
+        "total_failures": 1,
+        "total_invalid_records": 300,
+        "failed_rules_count": 1,
+        "sample_invalid_values": [
+          "InvalidRegion"
+        ],
+        "most_recent_failure": "2025-08-06T09:50:13.053124"
+      },
+      "customer_email": {
+        "total_failures": 1,
+        "total_invalid_records": 200,
+        "failed_rules_count": 1,
+        "sample_invalid_values": [
+          "invalid-email"
+        ],
+        "most_recent_failure": "2025-08-06T09:50:13.055545"
+      },
+      "revenue": {
+        "total_failures": 1,
+        "total_invalid_records": 200,
+        "failed_rules_count": 1,
+        "sample_invalid_values": [
+          "-7575.0",
+          "-7525.0",
+          "-7600.0",
+          "-7625.0",
+          "-7550.0"
+        ],
+        "most_recent_failure": "2025-08-06T09:50:13.063370"
+      }
+    },
+    "by_rule_type": {
+      "enum": {
+        "failure_count": 2,
+        "total_invalid_records": 500,
+        "affected_fields": [
+          "category",
+          "region"
+        ]
+      },
+      "range": {
+        "failure_count": 2,
+        "total_invalid_records": 500,
+        "affected_fields": [
+          "discount_percent",
+          "unit_price"
+        ]
+      },
+      "format": {
+        "failure_count": 1,
+        "total_invalid_records": 200,
+        "affected_fields": [
+          "customer_email"
+        ]
+      },
+      "business_logic": {
+        "failure_count": 1,
+        "total_invalid_records": 200,
+        "affected_fields": [
+          "revenue"
+        ]
+      }
+    },
+    "by_severity": {
+      "warning": 3,
+      "error": 3
+    },
+    "common_patterns": {},
+    "problematic_values": {}
+  },
+  "performance_analysis": {
+    "slowest_rules": [
+      {
+        "rule_name": "sale_date_range",
+        "execution_time_seconds": 0.004219770431518555
+      },
+      {
+        "rule_name": "unit_price_positive",
+        "execution_time_seconds": 0.0010502338409423828
+      },
+      {
+        "rule_name": "order_id_not_null",
+        "execution_time_seconds": 0.0010132789611816406
+      },
+      {
+        "rule_name": "discount_range",
+        "execution_time_seconds": 0.000997781753540039
+      },
+      {
+        "rule_name": "email_format",
+        "execution_time_seconds": 0.000713348388671875
+      },
+      {
+        "rule_name": "quantity_statistical",
+        "execution_time_seconds": 0.0005488395690917969
+      },
+      {
+        "rule_name": "product_name_length",
+        "execution_time_seconds": 0.0004773139953613281
+      },
+      {
+        "rule_name": "order_id_unique",
+        "execution_time_seconds": 0.0
+      },
+      {
+        "rule_name": "product_name_not_null",
+        "execution_time_seconds": 0.0
+      },
+      {
+        "rule_name": "category_enum",
+        "execution_time_seconds": 0.0
+      }
+    ],
+    "memory_usage_trends": [],
+    "execution_failures": []
+  },
+  "actionable_recommendations": [
+    {
+      "category": "data_quality",
+      "priority": "high",
+      "title": "Address data quality issues in field: discount_percent",
+      "description": "Field discount_percent has 300 invalid records across 1 validation failures.",
+      "suggested_actions": [
+        "Review data source quality for discount_percent",
+        "Implement data cleaning rules for discount_percent",
+        "Add data validation at ingestion point",
+        "Consider default value strategies for discount_percent"
+      ],
+      "impact": "Reducing errors in this field will significantly improve overall data quality"
+    },
+    {
+      "category": "validation_rules",
+      "priority": "medium",
+      "title": "Optimize enum validation rules",
+      "description": "enum rules are failing frequently (2 failures) across 2 fields.",
+      "suggested_actions": [
+        "Review enum rule implementations",
+        "Adjust enum rule thresholds if appropriate",
+        "Add error handling for enum rules",
+        "Consider rule-specific data preprocessing"
+      ],
+      "impact": "Improving enum rules will reduce validation failures across multiple fields"
+    }
+  ]
+}

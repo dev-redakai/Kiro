@@ -1,0 +1,1001 @@
+order_id,product_name,category,quantity,unit_price,discount_percent,region,sale_date,customer_email,revenue
+ORD_000000,Headphones,Electronics,1,347.85,0.1265,West,2023-01-31 00:00:00,customer_000000@example.com,303.84
+ORD_000001,T-SHIRT,Fashion,3,13.07,0.1219,South,2023-02-05 00:00:00,customer_000001@example.com,34.43
+ORD_000002,Headphones,Electronics,4,,0.0736,North,2023-01-27 00:00:00,customer_000002@example.com,74.68
+ORD_000003,Smartphone,Electronics,2,1160.31,0.0593,North,2023-03-02 00:00:00,customer_000003@example.com,2183.1
+ORD_000004,Bed Sheets,Home Goods,3,32.29,0.0586,East,2023-02-21 00:00:00,user@,91.2
+ORD_000005,Jeans,Fashion,-1,90.49,0.1249,South,2023-01-14 00:00:00,customer_000005@example.com,158.36
+ORD_000006,Cookware Set,Home Goods,1,69.5,0.1477,South,2023-09-27 00:00:00,customer_000006@example.com,59.23
+,T-Shirt,Fashion,,40.12,0.0553,West,2023-02-11 00:00:00,customer_000007@example.com,
+ORD_000008,Towel Set,Home Goods,3,43.81,0.0975,North,2023-01-04 00:00:00,@domain.com,118.61
+ORD_000009,Laptop,Electronics,1,1981.89,0.1158,East,2023-02-02 00:00:00,customer_000009@example.com,1752.33
+ORD_000010,Bed_Sheets,Home Goods,2,89.17,0.1249,East,2023-02-23 00:00:00,customer_000010@example.com,156.07
+ORD_000011,Jeans - NEW,Fashion,6,133.39,0.0782,South,2023-01-20 00:00:00,customer_000011@example.com,737.78
+ORD_000012,Laptop,Electronics,3,756.45,0.1281,South,2023-02-09 00:00:00,customer_000012@example.com,1978.66
+ORD_000013,Shoes,Fashion,2,109.62,0.1946,South,2023-04-18 00:00:00,invalid-email,176.59
+ORD_000014,Bed Sheets,Home Goods,2,25.49,0.1905,South,01-01-2023,customer_000014@example.com,41.26
+ORD_000015,Vacuum Cleaner,Home Goods,3,447.65,0.0875,South,2023-01-18 00:00:00,customer_000015@example.com,1225.41
+ORD_000016,Lamp,Home Goods,2,68.52,0.1552,East,2023-03-12 00:00:00,customer_000016@example.com,115.77
+ORD_000017,T-Shirt,Fashion,2,15.51,0.1921,South,2023-01-10 00:00:00,customer_000017@example.com,25.06
+ORD_000018,Tablet,Electronics,8,263.61,0.0443,East,2023-03-22 00:00:00,customer_000018@example.com,2015.55
+ORD_000019,Bed Sheets,Home Goods,2,75.1,0.1558,North,2023-01-10 00:00:00,customer_000019@example.com,126.78
+ORD_000020,Jeans,Fashion,1,37.39,0.1008,West,2023-06-01 00:00:00,customer_000020@example.com,33.62
+ORD_000021,Shoes,Fashion,0,145.18,0.137,North,2023-01-07 00:00:00,customer_000021@example.com,125.28
+ORD_000022,Vacuum Cleaner,Home Goods,2,330.79,0.201,South,2023-04-11 00:00:00,customer_000022@example.com,528.57
+ORD_000023,Jeans,Fashion,1,51.82,0.0727,East,2023-03-02 00:00:00,customer_000023@example.com,48.05
+ORD_000024,Dress,Fashion,2,97.76,0.105,South,2023-01-20 00:00:00,customer_000024@example.com,175.0
+ORD_000025,Jeans,Fashion,1,85.21,0.1004,NORTH,2023-04-10 00:00:00,customer_000025@example.com,76.65
+ORD_000026,Vacuum Cleaner,home goods,1,175.56,0.0642,North,2023-01-03 00:00:00,customer_000026@example.com,164.29
+ORD_000027,Jeans,Fashion,2,114.95,0.1304,South,2023-01-14 00:00:00,customer_000027@example.com,199.92
+ORD_000028,Tablet,Electronics,1,434.15,0.0361,East,2023-04-06 00:00:00,@domain.com,418.49
+ORD_000029,Tablet,Electronics,0,388.73,0.2036,South,2023-01-24 00:00:00,customer_000029@example.com,1547.9
+ORD_000030,Camera,Electronics,2,1696.81,0.1369,South,2023-02-12 00:00:00,customer_000030@example.com,2929.12
+ORD_000031,Jacket,Fashion,4,52.55,0.1896,South,2023-02-16 00:00:00,customer_000031@example.com,170.36
+ORD_000032,Tablet,Electronics,2,472.61,2.0,East,2023-02-08 00:00:00,customer_000032@example.com,836.25
+ORD_000033,Coffee Maker,Home Goods,1,137.27,0.0957,East,2023-03-25 00:00:00,customer_000033@example.com,124.14
+ORD_000034,Laptop,Electronics,1,1745.54,0.1826,East,2023-06-29 00:00:00,customer_000034@example.com,1426.78
+ORD_000035,Headphones,Electronics,invalid,379.62,0.1281,South,2023-01-13 00:00:00,customer_000035@example.com,662.01
+ORD_000036,Towel Set,Home Goods,1,0,0.179,North,2023-03-26 00:00:00,customer_000036@example.com,81.8
+ORD_000037,Smart Watch,Electronics,1,128.19,0.1402,sout,2023-01-31 00:00:00,customer_000037@example.com,110.22
+ORD_000038,Dress,Fashion,2,132.22,0.084,South,2023-03-16 00:00:00,customer_000038@example.com,242.24
+ORD_000039,Desktop Computer,Electronics,4,1700.51,0.1186,East,01-01-2023,customer_000039@example.com,5995.54
+ORD_000040,Smartphone,Electronics,1,533.05,0.1268,North,2023-05-22 00:00:00,customer_000040@example.com,465.44
+ORD_000041,Smart Watch,Electronics,4,226.29,0.0813,East,2023-01-17 00:00:00,user@domain,831.61
+ORD_000042,Jacket,Fashion,2,142.97,0.1517,South,2023-09-23 00:00:00,customer_000042@example.com,242.55
+ORD_000043,Cookware Set,Home Goods,1,215.95,0.0312,East,2023-03-10 00:00:00,customer_000043@example.com,209.21
+ORD_000044,Storage Box,Home Goods,,12.76,0.1543,North,2023-03-05 00:00:00,customer_000044@example.com,43.16
+ORD_000045,T-Shirt,Fashion,2,21.8,0.0,East,2023-01-15 00:00:00,customer_000045@example.com,43.6
+ORD_000046,Jacket,Fashion,1,128.87,0.2316,northern,2023-08-15 00:00:00,customer_000046@example.com,99.03
+ORD_000047,Shoes,Fashion,1,59.29,0.1366,West,2023-02-19 00:00:00,customer_000047@example.com,51.18
+ORD_000048,Coffee Maker,Home Goods,1,297.36,0.0821,North,01-01-2023,customer_000048@example.com,272.95
+ORD_000049,Bed Sheets,Home Goods,1,0,0.1259,East,2023-03-20 00:00:00,customer_000049@example.com,93.64
+ORD_000050,Smartphone,Electronics,5,296.73,0.1189,South,2023-02-07 00:00:00,customer_000050@example.com,1307.16
+ORD_000051,Belt,Fashion,4,52.23,0.0107,East,2023-02-05 00:00:00,customer_000051@example.com,206.69
+ORD_000052,Shoes,Fashion,5,209.16,0.1325,South,2023-01-16 00:00:00,customer_000052@example.com,907.25
+ORD_000053,Jeans,Fashion,3,148.03,0.14,North,2023-03-03 00:00:00,user@domain,381.94
+ORD_000054,T-Shirt,Fashion,2,11.67,0.0533,South,2023-02-05 00:00:00,customer_000054@example.com,22.1
+ORD_000055,Shoes,Fashion,1,92.04,0.0588,East,2023-01-17 00:00:00,customer_000055@example.com,86.63
+ORD_000056,Laptop,Electronics,3,1680.94,2.0,West,2023-01-07 00:00:00,customer_000056@example.com,4277.8
+ORD_000057,T-Shirt,Fashion,3,53.5,0.1959,SOUTH,2023-02-28 00:00:00,customer_000057@example.com,129.06
+ORD_000058,Headphones,ELECTRONICS,4,283.26,0.1521,South,2023-02-10 00:00:00,customer_000058@example.com,960.76
+ORD_000059,Shoes,Fashion,3,190.25,0.244,West,2023-07-15 00:00:00,customer_000059@example.com,431.47
+ORD_000059,Monitor,Electronics,2,600.39,0.129,South,2023-01-07 00:00:00,customer_000060@example.com,1045.88
+ORD_000061,Smartphone,Electronics,1,1021.63,0.1164,West,2023-05-06 00:00:00,customer_000061@example.com,902.76
+ORD_000062,Sunglasses,Fashion,2,140.45,0.0161,East,2023-01-27 00:00:00,customer_000062@example.com,276.39
+ORD_000063,Pillow,Home Goods,1,38.09,0.0992,North,2023-06-05 00:00:00,customer_000063@example.com,34.31
+ORD_000064,Lamp,Home Goods,1,129.3,0.1345,South,2023-03-15 00:00:00,customer_000064@example.com,111.91
+ORD_000065,Bed Sheets,home_goods,2,139.9,0.0266,West,2023-01-07 00:00:00,customer_000065@example.com,272.35
+ORD_000066,Coffee Maker,Home Goods,5,232.02,0.1119,North,2023-02-30,customer_000066@example.com,1030.35
+ORD_000066,Shoes,Fashion,1,76.69,0.0864,West,2023-09-04 00:00:00,customer_000067@example.com,70.06
+ORD_000068,Sunglasses,Fashion,3,53.6,0.0393,North,2023-01-09 00:00:00,customer_000068@example.com,154.48
+ORD_000068,Tablet,Electronics,1,539.63,0.1175,East,2023-05-02 00:00:00,customer_000069@example.com,476.23
+ORD_000070,T-Shirt,Fashion,1,58.17,0.1761,South,2023-02-02 00:00:00,customer_000070@example.com,47.92
+ORD_000071,Towel Set,Home Goods,2,35.72,0.0542,North,,customer_000071@example.com,67.56
+ORD_000072,Jacket,Fashion,1,174.94,0.1501,South,invalid-date,customer_000072@example.com,148.68
+ORD_000073,Jeans,Fashion,1,68.93,0.0926,North,2023-03-05 00:00:00,customer_000073@example.com,62.55
+ORD_000074,Towel Set,Home Goods,2,61.46,0.1072,North,2023-02-07 00:00:00,customer_000074@example.com,109.74
+ORD_000075,Coffee Maker,Home Goods,2,186.98,0.1422,North,2023-02-08 00:00:00,customer_000075@example.com,320.8
+ORD_000076,Jacket,Fashion,6,50.14,0.0693,North,2023-02-20 00:00:00,customer_000076@example.com,280.0
+ORD_000077,Monitor,Electronics,1,417.93,0.0525,North,2023-01-04 00:00:00,customer_000077@example.com,396.01
+ORD_000078,Bed Sheets - NEW,Home Goods,1,22.72,0.1241,North,2023-04-26 00:00:00,,19.9
+ORD_000079,Jeans,Fashion,5,142.86,0.0341,East,2023-01-24 00:00:00,customer_000079@example.com,689.96
+ORD_000080,Smartphone,electronic,2,900.34,0.1089,West,2023-02-09 00:00:00,customer_000080@example.com,1604.58
+ORD_000081,Desktop Computer,Electronics,1,1475.01,0.1519,w,2023-03-16 00:00:00,customer_000081@example.com,1250.93
+ORD_000082,Shoes,Fashion,1,219.88,0.0175,West,2023-01-16 00:00:00,customer_000082@example.com,216.03
+ORD_000083,Handbag,Fashion,4,257.38,0.2176,South,2023/13/01,customer_000083@example.com,805.45
+ORD_000084,SMARTPHONE,Electronics,3,867.79,0.0,South,2023-01-12 00:00:00,customer_000084@example.com,2603.37
+ORD_000085,Laptop,Electronics,1,634.37,0.1005,North,2023-02-18 00:00:00,customer_000085@example.com,570.6
+ORD_000086,Jeans,Fashion,1,146.78,0.2346,South,2023-01-01 00:00:00,customer_000086@example.com,112.34
+ORD_000087,Headphones (Used),Electronics,1,37.01,0.2584,South,2023-04-07 00:00:00,customer_000087@example.com,27.45
+ORD_000088,  Coffee Maker  ,Home Goods,1,252.11,0.1053,South,2023-03-14 00:00:00,customer_000088@example.com,225.56
+ORD_000088,Handbag,Fashion,2,193.37,0.0219,West,2023-01-15 00:00:00,customer_000089@example.com,378.25
+ORD_000090,Jeans,apparel,2,136.19,0.1735,North,2023-04-22 00:00:00,customer_000090@example.com,225.13
+ORD_000091,Vacuum Cleaner,Home Goods,1,414.35,0.0884,South,,customer_000091@example.com,377.71
+ORD_000092,Shoes,Fashion,1,52.82,0.1182,North,2023-07-13 00:00:00,customer_000092@example.com,46.57
+ORD_000093,Shoes,Fashion,1,225.14,0.114,North,2023-01-11 00:00:00,customer_000093@example.com,199.47
+ORD_000094,Camera,Electronics,3,2186.03,1.5,North,2023-09-14 00:00:00,customer_000094@example.com,5594.9
+ORD_000095,Smartphone,Electronics,2,234.08,0.1321,East,2023-03-24 00:00:00,customer_000095@example.com,406.31
+ORD_000096,Dress,Fashion,5,137.18,0.0578,North,2023-02-10 00:00:00,customer_000096@example.com,646.22
+ORD_000097,Sunglasses,Fashion,6,66.59,0.1034,North,2023-03-31 00:00:00,customer_000097@example.com,358.22
+,Gaming Console,Electronics,3,458.94,0.1119,West,2023-03-26 00:00:00,customer_000098@example.com,
+ORD_000099,Shoes,Fashion,1,48.05,0.1331,North,2023-01-13 00:00:00,customer_000099@example.com,41.66
+ORD_000100,Storage Box,Home Goods,1,41.85,0.0565,West,2023-02-19 00:00:00,,39.49
+ORD_000101,Cookware Set,Home Goods,1,227.3,0.1348,North,2023-08-20 00:00:00,customer_000101@example.com,196.65
+ORD_000102,Tablet,Electronics,3,658.3,0.1903,South,2023-04-17 00:00:00,customer_000102@example.com,1599.12
+ORD_000103,Smartphone,Electronics,1,446.33,0.1868,South,2023-04-07 00:00:00,customer_000103@example.com,362.95
+ORD_000104,Sunglasses,clothing,3,34.33,0.0,East,2023-01-22 00:00:00,customer_000104@example.com,102.99
+ORD_000105,Headphones,Electronics,4,35.09,0.1989,south,2023-05-09 00:00:00,customer_000105@example.com,112.44
+ORD_000106,Headphones - NEW,Electronics,2,313.45,0.1579,East,2023-04-03 00:00:00,customer_000106@example.com,527.94
+ORD_000106,Towel Set,Home Goods,1,52.84,0.1447,South,2023-03-04 00:00:00,customer_000107@example.com,45.19
+ORD_000108,Tablet,Electronics,1,673.96,0.0978,East,2023-06-09 00:00:00,customer_000108@example.com,608.02
+ORD_000109,Smartphone,Electronics,1,1040.62,0.1156,West,2023-05-24 00:00:00,customer_000109@example.com,920.35
+ORD_000110,Laptop,Electronics,2,1498.61,invalid,North,2023-12-21 00:00:00,customer_000110@example.com,2479.25
+ORD_000111,Handbag,Fashion,1,177.12,0.1237,North,2023-10-21 00:00:00,customer_000111@example.com,155.21
+ORD_000112,SHOES,Fashion,6,106.85,0.0161,North,2023-03-01 00:00:00,customer_000112@example.com,630.75
+ORD_000113,Dress,Fashion,3,97.6,0.0782,East,2023-02-24 00:00:00,customer_000113@example.com,269.89
+ORD_000114,Headphones,Electronics,1,242.37,0.139,southern,2023-06-13 00:00:00,customer_000114@example.com,208.69
+ORD_000115,Headphones,Electronics,6,271.08,0.0587,eastern,2023-01-22 00:00:00,customer_000115@example.com,1531.05
+ORD_000116,Towel Set,Home Goods,2,55.47,0.1493,West,2023-01-05 00:00:00,customer_000116@example.com,94.37
+ORD_000117,Tablet,Electronics,4,530.09,0.1076,West,2023-01-08 00:00:00,customer_000117@example.com,1892.19
+ORD_000118,Camera,Electronics,1,1590.08,0.1771,South,2023-02-14 00:00:00,customer_000118@example.com,1308.43
+ORD_000119,Monitor,Electronics,2,713.86,0.1877,South,2023-03-05 00:00:00,customer_000119@example.com,1159.67
+ORD_000120,Desktop Computer,Electronics,1,1777.57,0.1265,East,2023-04-30 00:00:00,customer_000120@example.com,1552.7
+ORD_000121,Laptop,Electronics,4,1887.15,0.0553,North,2023-01-31 00:00:00,customer_000121@example.com,7131.15
+ORD_000122,Belt,Fashion,3,46.76,0.142,North,2023-05-18 00:00:00,customer_000122@example.com,120.35
+ORD_000123,Laptop,tech,2,1496.0,0.1451,South,2023-03-12 00:00:00,customer_000123@example.com,2557.9
+ORD_000124,Smartphone,Electronics,1,,0.2301,South,2023-10-02 00:00:00,customer_000124@example.com,857.0
+ORD_000125,Cookware Set,Home Goods,3,95.31,0.1269,South,2023-01-10 00:00:00,customer_000125@example.com,249.66
+ORD_000126,Storage Box,Home Goods,2,16.33,0.0609,South,2023-02-16 00:00:00,customer_000126@example.com,30.68
+ORD_000127,Dress,Fashion,4,59.09,0.037,West,2023-01-05 00:00:00,customer_000127@example.com,227.6
+ORD_000128,Headphones,Electronics,1,129.5,2.0,East,2023-03-02 00:00:00,customer_000128@example.com,121.51
+ORD_000129,Lamp,Home Goods,4,67.43,0.0969,South,,customer_000129@example.com,243.56
+ORD_000130,Smartphone,Electronics,3,448.35,0.1001,south,2023-02-07 00:00:00,customer_000130@example.com,1210.44
+ORD_000131,Sunglasses,Fashion,3,84.79,0.1262,South,2023-01-20 00:00:00,customer_000131@example.com,222.27
+ORD_000132,Smartphone,Electronics,1,273.43,0.1059,West,2023-01-13 00:00:00,customer_000132@example.com,244.48
+ORD_000133,Shoes,Fashion,1,121.48,0.0743,East,2023-02-13 00:00:00,customer_000133@example.com,112.45
+ORD_000134,Laptop,Electronics,1,1826.25,0.0857,East,2023-07-06 00:00:00,customer_000134@example.com,1669.75
+ORD_000135,Jeans,Fashion,3,84.22,0.0834,East,2023-03-22 00:00:00,customer_000135@example.com,231.61
+ORD_000136,Jacket,Fashion,2,208.54,0.1459,North,2023-01-10 00:00:00,customer_000136@example.com,356.24
+ORD_000137,Jeans,Fashion,1,110.33,0.1391,East,2023-01-03 00:00:00,customer_000137@example.com,94.98
+ORD_000138,Storage Box,Home Goods,1,58.93,0.1633,East,2023-08-11 00:00:00,customer_000138@example.com,49.3
+ORD_000139,Pillow,Home Goods,1,66.58,0.0831,North,2023-01-27 00:00:00,customer_000139@example.com,61.05
+ORD_000140,Camera,Electronics,3,232.08,0.2276,South,2023-05-10 00:00:00,customer_000140@example.com,537.81
+ORD_000141,Laptop,Electronics,2,1301.19,0.1341,East,2023-02-08 00:00:00,customer_000141@example.com,2253.37
+ORD_000142,Dress,Fashion,1,29.63,0.1116,West,2023-03-06 00:00:00,customer_000142@example.com,26.32
+ORD_000143,Kitchen Knife Set,Home Goods,1,28.14,0.1904,South,2023/13/01,customer_000143@example.com,22.79
+ORD_000144,T-Shirt,Fashion,3,23.26,0.259,West,2023-11-14 00:00:00,customer_000144@example.com,51.69
+ORD_000145,Cookware Set,Home Goods,3,114.76,0.1588,North,2023-01-03 00:00:00,customer_000145@example.com,289.62
+ORD_000146,Desktop Computer,Electronics,2,1278.14,0.0325,South,2023-01-04 00:00:00,user name@domain.com,2473.33
+ORD_000147,Dress,Fashion,4,invalid,0.0711,East,2023-01-03 00:00:00,customer_000147@example.com,287.09
+ORD_000148,T-Shirt,Fashion,1,58.74,0.1746,South,2023-06-27 00:00:00,invalid-email,48.48
+ORD_000149,Handbag,Fashion,3,189.77,0.2056,South,2023-05-05 00:00:00,customer_000149@example.com,452.25
+ORD_000150,Dress,fashion,4,162.39,0.0933,East,2023-09-15 00:00:00,customer_000150@example.com,588.91
+ORD_000151,Towel Set,Home Goods,2,22.63,0.074,East,2023-11-10 00:00:00,customer_000151@example.com,41.91
+ORD_000152,Camera,Electronics,1,1461.32,0.1927,South,2023-06-11 00:00:00,customer_000152@example.com,1179.74
+ORD_000153,Camera,Electronics,1,-10,0.0303,South,2023-01-05 00:00:00,customer_000153@example.com,489.66
+ORD_000154,Kitchen Knife Set,Home Goods,2,,0.1092,North,2023-03-08 00:00:00,customer_000154@example.com,290.8
+ORD_000155,Shoes,Fashion,1,140.91,0.0491,North,2023-02-16 00:00:00,customer_000155@example.com,133.99
+ORD_000156,Shoes,Fashion,3,84.38,0.127,West,2023-03-19 00:00:00,customer_000156@example.com,220.98
+ORD_000157,Headphones,Electronics,2,54.27,0.0949,North,2023-12-04 00:00:00,customer_000157@example.com,98.25
+ORD_000158,Handbag,Fashion,2,,0.2034,South,2023-10-19 00:00:00,customer_000158@example.com,462.87
+ORD_000159,Dress,Fashion,1,61.63,0.1199,North,2023-03-21 00:00:00,customer_000159@example.com,54.24
+ORD_000160,Tablet,tech,1,787.42,0.1687,South,2023-03-06 00:00:00,customer_000160@example.com,654.6
+ORD_000161,Headphones,Electronics,1,116.38,0.1928,North,2023-05-11 00:00:00,customer_000161@example.com,93.95
+ORD_000162,Laptop,Electronics,1,1975.96,0.1151,North,2023-01-13 00:00:00,customer_000162@example.com,1748.48
+ORD_000163,Storage Box,Home Goods,2,22.34,0.0304,North,2023-01-07 00:00:00,customer_000163@example.com,43.32
+ORD_000164,Jeans,Fashion,3,54.82,0.1926,South,2023-04-04 00:00:00,customer_000164@example.com,132.78
+ORD_000165,Coffee Maker (Used),Home Goods,3,242.13,0.0732,North,2023-03-17 00:00:00,customer_000165@example.com,673.24
+ORD_000166,Sunglasses,Fashion,2,41.2,0.1594,South,2023-04-19 00:00:00,customer_000166@example.com,69.26
+ORD_000167,Bed Sheets,Home Goods,10,124.46,0.18,South,2023-10-26 00:00:00,customer_000167@example.com,1020.63
+ORD_000168,Jeans,Fashion,1,31.83,0.0723,sout,2023-02-22 00:00:00,customer_000168@example.com,29.53
+ORD_000168,T-Shirt,Fashion,3,55.51,0.1583,West,2023-07-07 00:00:00,customer_000169@example.com,140.17
+ORD_000170,Gaming Console,Electronics,3,579.64,0.1055,West,2023-01-01 00:00:00,customer_000170@example.com,1555.42
+ORD_000171,Camera,Electronics,2,510.59,0.0591,West,2023-01-24 00:00:00,customer_000171@example.com,960.79
+ORD_000171,Storage Box,Home Goods,1,37.78,0.0322,South,2023-01-19 00:00:00,customer_000172@example.com,36.56
+ORD_000171,Vacuum Cleaner,Home Goods,1,388.0,0.0452,East,2023-01-30 00:00:00,customer_000173@example.com,370.44
+ORD_000174,Desktop Computer,Electronics,3,2094.37,0.0535,East,2023-08-14 00:00:00,customer_000174@example.com,5946.91
+ORD_000175,Lamp,Home Goods,2,130.01,0.1238,South,2023-10-12 00:00:00,customer_000175@example.com,227.82
+ORD_000176,Shoes,Fashion,2,45.85,0.1576,West,2023-01-16 00:00:00,customer_000176@example.com,77.25
+ORD_000176,Headphones,Electronics,2,319.19,0.2364,South,2023-08-07 00:00:00,customer_000177@example.com,487.45
+ORD_000178,  Lamp  ,Home Goods,2,134.15,0.1084,East,2023-01-14 00:00:00,customer_000178@example.com,239.22
+ORD_000179,Handbag,Fashion,1,168.25,0.1623,North,2023-02-16 00:00:00,customer_000179@example.com,140.94
+ORD_000180,Headphones,Electronics,2,177.01,0.1174,e,2023-08-12 00:00:00,customer_000180@example.com,312.48
+ORD_000181,Vacuum Cleaner,Home Goods,3,456.92,0.096,West,2023-05-15 00:00:00,customer_000181@example.com,1239.19
+ORD_000182,Sunglasses,Fashion,,181.48,0.0716,South,2023-03-02 00:00:00,customer_000182@example.com,336.98
+ORD_000183,Camera,Electronics,-1,360.68,0.0214,North,2023-01-31 00:00:00,customer_000183@example.com,1058.92
+ORD_000184,Smartphone,Electronics,5,945.26,0.0109,North,2023-02-08 00:00:00,customer_000184@example.com,4674.7
+ORD_000184,Lamp,Home Goods,4,107.2,0.0368,North,2023-07-08 00:00:00,customer_000185@example.com,413.03
+ORD_000186,Cookware Set,Home Goods,2,185.71,0.2418,South,2023-02-16 00:00:00,customer_000186@example.com,281.62
+ORD_000187,Watch,Fashion,2,98.48,0.1491,South,2023-02-19 00:00:00,customer_000187@example.com,167.58
+,Headphones,Electronics,2,353.45,,West,2023-04-16 00:00:00,customer_000188@example.com,563.32
+ORD_000189,Jeans,Fashion,1,133.48,0.0804,East,2023-01-02 00:00:00,customer_000189@example.com,122.74
+ORD_000190,Laptop,Electronics,1,995.72,0.133,West,2023-04-13 00:00:00,customer_000190@example.com,863.3
+ORD_000191,Handbag,Fashion,1,187.25,0.22,South,2023-03-26 00:00:00,customer_000191@example.com,146.06
+ORD_000192,Dress,Fashion,3,40.95,0.1012,North,2023-03-11 00:00:00,customer_000192@example.com,110.41
+ORD_000193,Dress,Fashion,2,103.56,2.0,North,2023-01-24 00:00:00,customer_000193@example.com,200.75
+ORD_000194,Kitchen Knife Set,Home Goods,1,97.12,0.2196,South,2023-01-16 00:00:00,customer_000194@example.com,75.79
+ORD_000195,Smartphone,Electronics,6,991.8,0.2237,North,2023-04-22 00:00:00,customer_000195@example.com,4619.65
+ORD_000196,Laptop,Electronics,1,853.36,0.0424,East,2023-03-04 00:00:00,,817.17
+ORD_000197,Vacuum Cleaner,Home Goods,1,334.61,0.0855,East,2023-01-01 00:00:00,user@,306.02
+ORD_000198,Desktop Computer,Electronics,2,888.95,0.2121,East,2023-02-04 00:00:00,customer_000198@example.com,1400.88
+ORD_000199,Shoes,Fashion,5,189.08,0.1649,West,2023-10-27 00:00:00,customer_000199@example.com,789.56
+ORD_000200,Smartphone,Electronics,3,654.86,0.1426,South,2023-02-05 00:00:00,customer_000200@example.com,1684.5
+ORD_000201,Headphones,Electronics,5,182.1,0.1154,West,2023-05-30 00:00:00,customer_000201@example.com,805.48
+ORD_000202,Watch - NEW,Fashion,1,260.47,0.1037,West,2023-03-09 00:00:00,customer_000202@example.com,233.46
+ORD_000203,Dress,Fashion,1,62.58,0.1289,South,2023-07-02 00:00:00,@domain.com,54.51
+ORD_000204,Jeans,Fashion,1,84.5,0.0676,West,2023-01-18 00:00:00,customer_000204@example.com,78.79
+ORD_000205,Shoes,Fashion,2,148.88,0.0865,North,2023-01-09 00:00:00,,271.98
+ORD_000206,T-Shirt,Fashion,1,17.27,0.0578,North,2023-03-08 00:00:00,customer_000206@example.com,16.27
+ORD_000207,Monitor,Electronics,1,invalid,0.1425,South,2023-01-27 00:00:00,customer_000207@example.com,751.54
+ORD_000208,T-Shirt,Fashion,2,57.0,0.1251,West,2023-01-22 00:00:00,customer_000208@example.com,99.73
+ORD_000209,Smartphone,Electronics,1,287.17,0.1267,South,2023-05-23 00:00:00,customer_000209@example.com,250.79
+ORD_000210,Sunglasses,Fashion,7,38.38,0.0857,North,2023-03-15 00:00:00,customer_000210@example.com,245.63
+ORD_000211,Bed Sheets,Home Goods,2,105.65,0.1782,South,2023-01-15 00:00:00,customer_000211@example.com,173.65
+ORD_000212,T-Shirt,Fashion,5,56.77,0.1416,North,2023-03-04 00:00:00,customer_000212@example.com,243.66
+ORD_000213,T-Shirt,Fashion,1,45.47,0.0991,South,2023-02-22 00:00:00,customer_000213@example.com,40.97
+ORD_000214,Tablet,Electronics,3,794.81,0.2023,West,2023-05-12 00:00:00,customer_000214@example.com,1901.99
+ORD_000215,Desktop Computer,Electronics,4,1445.08,0.097,South,2023-01-04 00:00:00,customer_000215@example.com,5219.57
+ORD_000216,Shoes,Fashion,2,132.88,0.1466,South,,customer_000216@example.com,226.8
+ORD_000217,Smartphone,Electronics,1,388.32,-0.1,South,2023-04-06 00:00:00,customer_000217@example.com,310.61
+ORD_000218,Sunglasses,Fashion,2,22.75,0.1658,East,2023-04-26 00:00:00,customer_000218@example.com,37.95
+ORD_000219,Coffee Maker,Home Goods,6,227.76,0.0916,East,2023-01-26 00:00:00,customer_000219@example.com,1241.39
+ORD_000220,Gaming Console,Electronics,1,441.09,-0.1,East,2023-02-22 00:00:00,customer_000220@example.com,424.9
+ORD_000221,Headphones,Electronics,2,256.37,0.1014,West,2023-01-22 00:00:00,customer_000221@example.com,460.74
+ORD_000222,T-Shirt,Fashion,2,-100,0.0542,East,2023-06-29 00:00:00,customer_000222@example.com,110.97
+ORD_000223,Headphones,Electronics,5,21.66,0.1975,North,2023-08-15 00:00:00,customer_000223@example.com,86.9
+ORD_000224,Smartphone,Electronics,2,335.73,0.1189,South,2023-01-10 00:00:00,customer_000224@example.com,591.64
+ORD_000225,Jacket,Fashion,1,189.62,0.1411,North,2023-06-01 00:00:00,customer_000225@example.com,162.87
+ORD_000226,Storage Box,home goods,1,34.69,0.1353,North,2023-01-29 00:00:00,customer_000226@example.com,30.0
+ORD_000227,Bed Sheets,Home Goods,3,138.64,0.0151,West,2023-01-08 00:00:00,customer_000227@example.com,409.62
+ORD_000228,Shoes,Fashion,2,203.47,0.1736,West,,customer_000228@example.com,336.27
+ORD_000229,Laptop,Electronics,2,1120.92,0.2056,western,2023-07-07 00:00:00,customer_000229@example.com,1780.91
+ORD_000230,Shoes,Fashion,2,49.93,0.1325,West,2023-02-23 00:00:00,customer_000230@example.com,86.63
+ORD_000231,Laptop,Electronics,1,1966.09,0.0636,North,2023-03-23 00:00:00,customer_000231@example.com,1840.97
+ORD_000232,Shoes,Fashion,1,invalid,0.0254,West,2023-01-18 00:00:00,customer_000232@example.com,202.05
+ORD_000233,Camera,Electronics,1,2337.3,0.0704,West,2023-02-26 00:00:00,customer_000233@example.com,2172.8
+ORD_000233,Bed Sheets,Home Goods,1,95.0,0.1306,West,2023-05-19 00:00:00,customer_000234@example.com,82.6
+ORD_000235,headphones,Electronics,2,343.56,0.1124,West,2023-02-07 00:00:00,customer_000235@example.com,609.93
+ORD_000236,Dress,Fashion,2,27.04,0.1568,eastern,2023-01-28 00:00:00,customer_000236@example.com,45.6
+ORD_000237,Laptop,elec,1,1314.01,0.1499,North,2023-03-19 00:00:00,customer_000237@example.com,1117.07
+ORD_000238,Jeans,Fashion,2,116.45,0.1716,South,2023-02-21 00:00:00,customer_000238@example.com,192.94
+ORD_000238,T-Shirt,Fashion,1,58.76,0.2057,West,2023-04-03 00:00:00,customer_000239@example.com,46.67
+ORD_000240,Jeans,Fashion,1,54.45,0.1869,South,2023-06-05 00:00:00,customer_000240@example.com,44.27
+ORD_000241,Coffee Maker,Home Goods,5,281.62,0.0257,South,2023-01-17 00:00:00,customer_000241@example.com,1371.94
+ORD_000242,Shoes,Fashion,1,128.55,2.0,East,2023-04-28 00:00:00,customer_000242@example.com,96.99
+ORD_000243,Laptop,Electronics,1,388.87,0.0928,North,2023-01-31 00:00:00,customer_000243@example.com,352.78
+ORD_000244,Coffee Maker,Home Goods,1,207.91,0.0073,West,2023-01-10 00:00:00,customer_000244@example.com,206.41
+ORD_000245,Headphones,Electronics,10,63.52,0.1425,South,2023-03-08 00:00:00,customer_000245@example.com,544.69
+ORD_000246,Dress,Fashion,2,170.82,0.048,east,2023-02-08 00:00:00,customer_000246@example.com,325.26
+ORD_000247,Monitor,Electronics,2,368.31,0.1304,North,2023-01-15 00:00:00,customer_000247@example.com,640.59
+ORD_000248,Belt,Fashion,4,58.92,0.1313,South,2023-02-16 00:00:00,customer_000248@example.com,204.75
+ORD_000249,Towel Set,Home Goods,1,38.27,0.1108,North,2023-03-19 00:00:00,customer_000249@example.com,34.03
+ORD_000249,Cookware Set,Home Goods,2,148.18,0.1667,South,2023-08-21 00:00:00,customer_000250@example.com,246.96
+ORD_000251,Gaming Console,Electronics,2,525.5,0.036,South,2023-01-03 00:00:00,customer_000251@example.com,1013.22
+ORD_000252,Handbag,Fashion,3,312.42,0.0887,northern,2023-02-12 00:00:00,customer_000252@example.com,854.09
+ORD_000253,Bed Sheets,Home Goods,1,37.97,0.0134,West,2023-02-06 00:00:00,customer_000253@example.com,37.46
+ORD_000254,Dress,Fashion,2,37.43,0.1343,East,2023-01-24 00:00:00,customer_000254@example.com,64.81
+ORD_000255,Monitor,Electronics,2,471.47,0.1189,West,2023-02-01 00:00:00,customer_000255@example.com,830.79
+ORD_000256,T-Shirt,Fashion,1,30.39,0.1535,western,2023-02-05 00:00:00,customer_000256@example.com,25.73
+ORD_000257,Shoes,fashion,1,159.87,0.1034,South,2023-09-19 00:00:00,customer_000257@example.com,143.33
+ORD_000258,Storage Box,Home Goods,5,53.11,,South,2023-03-26 00:00:00,customer_000258@example.com,215.78
+ORD_000259,Kitchen Knife Set,Home Goods,3,130.19,0.1319,West,2023-02-15 00:00:00,customer_000259@example.com,339.05
+ORD_000260,Shoes,Fashion,3,109.82,,East,2023-01-26 00:00:00,customer_000260@example.com,324.04
+ORD_000261,Dress,Fashion,7,59.72,0.2077,South,2023-03-01 00:00:00,customer_000261@example.com,331.17
+ORD_000262,Dress,Fashion,2,96.25,0.1398,South,2023-05-01 00:00:00,customer_000262@example.com,165.6
+ORD_000263,T-Shirt,Fashion,6,18.83,0.2359,East,2023-01-14 00:00:00,user@domain,86.33
+ORD_000264,Sunglasses,Fashion,3,133.02,0.1521,South,2023-04-09 00:00:00,customer_000264@example.com,338.34
+ORD_000265,Smartphone,Electronics,1,1040.95,0.1099,North,2023-01-29 00:00:00,customer_000265@example.com,926.57
+ORD_000266,Smartphone,Electronics,2,977.74,0.0001,North,2023-01-30 00:00:00,customer_000266@example.com,1955.22
+ORD_000267,Jacket,Fashion,3,194.18,0.0224,North,2023-01-12 00:00:00,customer_000267@example.com,569.46
+ORD_000268,Storage Box,Home Goods,6,10.78,0.179,West,2023-10-08 00:00:00,customer_000268@example.com,53.12
+ORD_000269,Shoes,Fashion,6,163.85,0.211,North,2023-09-22 00:00:00,customer_000269@example.com,775.67
+ORD_000270,Handbag,Fashion,5,245.72,0.1226,West,invalid-date,customer_000270@example.com,1077.91
+ORD_000271,Tablet,Electronics,4,742.02,0.0632,North,2023-01-03 00:00:00,,
+ORD_000272,Shoes,Fashion,5,109.26,0.1492,West,2023-01-09 00:00:00,customer_000272@example.com,464.76
+ORD_000273,Shoes,Fashion,5,71.87,0.1237,South,2023-02-14 00:00:00,customer_000273@example.com,314.9
+ORD_000274,Laptop,Electronics,2,470.9,0.1625,East,2023-05-01 00:00:00,customer_000274@example.com,788.77
+ORD_000275,Shoes,Fashion,2,-10,0.1122,South,2023-04-20 00:00:00,customer_000275@example.com,493.4
+ORD_000276,Laptop,Electronics,1,1377.01,0.0842,South,2023-01-21 00:00:00,customer_000276@example.com,1261.03
+ORD_000277,Smart Watch,Electronics,2,164.85,0.1761,South,2023-01-26 00:00:00,customer_000277@example.com,271.65
+ORD_000278,Handbag,Fashion,1,46.56,0.1425,South,2023-04-16 00:00:00,customer_000278@example.com,39.92
+ORD_000279,Jacket,Fashion,3,126.22,0.0972,South,2023-02-03 00:00:00,customer_000279@example.com,341.85
+ORD_000280,T-Shirt,Fashion,2,15.59,0.0942,West,2023/13/01,customer_000280@example.com,28.23
+ORD_000281,Shoes,Fashion,2,253.28,0.1562,North,2023-06-20 00:00:00,customer_000281@example.com,427.4
+ORD_000282,Shoes,Fashion,6,186.92,,West,2023-03-07 00:00:00,customer_000282@example.com,962.16
+ORD_000282,Smartphone,Electronics,4,644.56,0.1651,South,2023-09-19 00:00:00,customer_000283@example.com,2152.65
+ORD_000284,Smartphone,Electronics,1,904.95,0.1089,South,2023-05-06 00:00:00,customer_000284@example.com,806.41
+ORD_000285,Headphones,Electronics,4,57.97,0.1006,South,2023-04-23 00:00:00,customer_000285@example.com,208.56
+ORD_000286,Jeans,Fashion,2,136.16,0.127,South,2023-04-06 00:00:00,@domain.com,237.73
+ORD_000287,  Pillow  ,Home Goods,2,64.78,0.1232,East,2023-02-07 00:00:00,customer_000287@example.com,113.59
+ORD_000288,Headphones,Electronics,,390.89,0.1585,South,2023-02-14 00:00:00,customer_000288@example.com,328.92
+ORD_000289,Coffee Maker,Home Goods,3,299.57,0.2546,West,2023-06-18 00:00:00,customer_000289@example.com,669.89
+ORD_000290,Coffee Maker (Used),Home Goods,4,123.89,0.1162,North,2023-04-06 00:00:00,customer_000290@example.com,437.98
+ORD_000291,Shoes,Fashion,2,255.87,0.1597,North,2023-02-30,customer_000291@example.com,430.0
+ORD_000292,Shoes,Fashion,3,249.45,0.0485,East,2023-01-31 00:00:00,customer_000292@example.com,712.06
+ORD_000293,Coffee Maker,Home Goods,3,96.61,0.1487,south,2023-01-05 00:00:00,customer_000293@example.com,246.72
+ORD_000294,Laptop,Electronics,2,811.11,0.2476,South,2023-07-10 00:00:00,customer_000294@example.com,1220.55
+ORD_000295,Tablet,Electronics,6,506.94,0.1479,West,2023-08-10 00:00:00,customer_000295@example.com,2591.89
+ORD_000296,Dress,clothing,1,26.42,0.0986,South,2023-01-25 00:00:00,customer_000296@example.com,23.81
+ORD_000297,Headphones,Electronics,1,0,0.1645,South,2023-04-16 00:00:00,customer_000297@example.com,112.25
+ORD_000298,T-Shirt,Fashion,1,45.59,0.0575,East,2023-01-25 00:00:00,customer_000298@example.com,42.97
+ORD_000299,Headphones,Electronics,2,120.47,0.1497,South,2023-02-27 00:00:00,customer_000299@example.com,204.88
+ORD_000300,Shoes,Fashion,6,144.43,0.1818,West,2023-08-23 00:00:00,customer_000300@example.com,709.02
+ORD_000301,Towel Set,Home Goods,3,35.11,0.1108,South,2023-02-21 00:00:00,customer_000301@example.com,93.66
+ORD_000302,Smart Watch,Electronics,1,214.91,0.0592,East,2023-02-02 00:00:00,customer_000302@example.com,202.2
+ORD_000303,Monitor,Electronics,1,758.65,0.0676,South,2023-02-28 00:00:00,customer_000303@example.com,707.37
+ORD_000304,t-shirt,Fashion,4,23.23,0.1824,South,2023-02-24 00:00:00,customer_000304@example.com,75.95
+ORD_000305,Headphones,Electronics,3,27.48,0.1497,South,2023-04-10 00:00:00,customer_000305@example.com,70.1
+ORD_000306,Storage Box,Home Goods,2,55.46,0.2759,South,2023-06-02 00:00:00,user.domain.com,80.32
+ORD_000307,Gaming Console,Electronics,7,544.55,0.1513,West,2023-07-16 00:00:00,customer_000307@example.com,3235.0
+ORD_000308,Laptop,Electronics,2,795.08,0.1165,West,2023-01-30 00:00:00,customer_000308@example.com,1404.86
+ORD_000309,Laptop,Electronics,2,917.65,0.1364,North,2023-01-01 00:00:00,customer_000309@example.com,1584.92
+ORD_000310,Headphones,Electronics,2,196.42,0.2213,South,2023-02-08 00:00:00,customer_000310@example.com,305.92
+ORD_000311,Kitchen Knife Set,Home Goods,1,106.14,0.1061,East,2023-03-16 00:00:00,customer_000311@example.com,94.88
+ORD_000312,Tablet,Electronics,invalid,496.0,0.0211,East,2023-01-31 00:00:00,customer_000312@example.com,485.52
+ORD_000313,Shoes,Fashion,1,142.83,0.1134,East,2023-02-27 00:00:00,customer_000313@example.com,126.63
+ORD_000314,T-Shirt,Fashion,5,42.25,0.1708,North,2023-09-12 00:00:00,customer_000314@example.com,175.16
+ORD_000315,Shoes,Fashion,1,241.36,0.0698,East,2023-02-19 00:00:00,customer_000315@example.com,224.51
+ORD_000316,Smartphone,Electronics,1,615.97,0.1265,North,2023-01-19 00:00:00,customer_000316@example.com,538.05
+ORD_000317,  Cookware Set  ,Home Goods,2,209.37,0.102,West,2023-01-12 00:00:00,customer_000317@example.com,376.04
+ORD_000318,Jacket,Fashion,4,167.36,0.1131,North,2023-01-11 00:00:00,customer_000318@example.com,593.74
+ORD_000319,Headphones,Electronics,2,358.58,0.2129,West,2023-02-13 00:00:00,customer_000319@example.com,564.5
+ORD_000320,Laptop,Electronics,1,387.27,0.1836,South,2023-02-16 00:00:00,customer_000320@example.com,316.16
+ORD_000321,Smartphone,Electronics,1,702.37,0.1396,North,2023-01-05 00:00:00,customer_000321@example.com,604.29
+ORD_000322,Vacuum Cleaner,Home Goods,1,250.76,1.5,West,2023-09-19 00:00:00,customer_000322@example.com,231.77
+,Smartphone,Electronics,2,513.05,,South,,customer_000323@example.com,870.65
+ORD_000324,Laptop,Electronics,1,1613.25,0.1555,North,2023-01-26 00:00:00,customer_000324@example.com,1362.45
+ORD_000325,Jeans,Fashion,3,118.47,0.1774,North,2023-06-02 00:00:00,customer_000325@example.com,292.37
+ORD_000326,Monitor,Electronics,3,881.21,0.1007,West,2023-08-01 00:00:00,customer_000326@example.com,2377.48
+ORD_000327,Smartphone,Electronics,1,915.76,0.1654,South,2023-02-23 00:00:00,customer_000327@example.com,764.3
+ORD_000328,Coffee Maker,Home Goods,1,134.08,0.1153,East,invalid-date,customer_000328@example.com,118.62
+ORD_000329,Monitor,Electronics,2,165.75,0.0594,North,2023-01-31 00:00:00,customer_000329@example.com,311.79
+ORD_000330,Jeans,Fashion,1,45.86,0.1081,East,2023-03-02 00:00:00,customer_000330@example.com,40.9
+ORD_000331,Smartphone,Electronics,1,278.09,0.1948,North,2023-03-23 00:00:00,customer_000331@example.com,223.93
+ORD_000332,Sunglasses,Fashion,2,51.18,0.0497,West,2023-03-08 00:00:00,customer_000332@example.com,97.28
+ORD_000333,Smartphone,Electronics,1,919.06,0.1157,North,2023-01-28 00:00:00,customer_000333@example.com,812.68
+ORD_000334,Lamp,Home Goods,1,110.75,0.2038,North,2023-04-22 00:00:00,customer_000334@example.com,88.18
+ORD_000335,Tablet,Electronics,2,363.8,0.0286,North,2023-09-27 00:00:00,user.domain.com,706.8
+ORD_000336,Lamp,Home Goods,1,78.58,0.1902,South,2023-02-04 00:00:00,customer_000336@example.com,63.63
+ORD_000337,Dress,Fashion,2,173.15,0.1208,East,,customer_000337@example.com,304.47
+ORD_000338,Shoes,Fashion,3,250.35,0.1407,North,2023-01-24 00:00:00,customer_000338@example.com,645.41
+ORD_000339,Laptop,Electronics,1,1066.54,0.1221,East,2023-02-08 00:00:00,customer_000339@example.com,936.32
+ORD_000340,Bed Sheets,Home Goods,2,49.44,0.0849,South,2023-01-19 00:00:00,customer_000340@example.com,90.47
+ORD_000341,Handbag,clothing,3,201.06,0.0362,East,2023-01-17 00:00:00,customer_000341@example.com,581.34
+ORD_000342,Towel Set,Home Goods,1,36.36,0.1165,north,2023-01-14 00:00:00,customer_000342@example.com,32.12
+ORD_000343,Cookware Set,Home Goods,3,201.15,0.0782,North,2023-02-27 00:00:00,customer_000343@example.com,556.3
+ORD_000344,T-Shirt,Fashion,4,12.31,2.0,East,2023-02-04 00:00:00,customer_000344@example.com,42.61
+ORD_000345,Laptop,Electronics,1,1885.72,0.0643,North,2023-05-24 00:00:00,customer_000345@example.com,1764.41
+ORD_000346,Bed Sheets,Home Goods,1,55.03,0.1466,West,2023-03-03 00:00:00,user@domain,46.96
+ORD_000347,Monitor,Electronics,5,955.36,0.0653,North,2023-08-25 00:00:00,customer_000347@example.com,4464.65
+ORD_000348,STORAGE BOX,Home Goods,3,19.02,0.15,South,2023-04-02 00:00:00,customer_000348@example.com,48.5
+ORD_000349,Shoes,Fashion,1,298.74,invalid,East,2023-05-24 00:00:00,customer_000349@example.com,287.33
+ORD_000350,Headphones,Electronics,2,376.4,0.0968,West,2023-02-11 00:00:00,customer_000350@example.com,679.93
+ORD_000351,T-Shirt,Fashion,2,28.52,0.0801,East,2023-01-27 00:00:00,customer_000351@example.com,52.47
+ORD_000352,DRESS,Fashion,3,187.81,0.1513,North,2023-08-25 00:00:00,customer_000352@example.com,478.19
+ORD_000353,Cookware Set,Home Goods,8,206.3,0.1095,South,2023-03-16 00:00:00,customer_000353@example.com,1469.69
+ORD_000354,Bed Sheets,Home Goods,invalid,121.05,0.0322,East,2023-01-11 00:00:00,customer_000354@example.com,702.91
+ORD_000355,Headphones,Electronics,3,305.48,0.2239,North,2023-02-11 00:00:00,customer_000355@example.com,711.27
+ORD_000356,Lamp,Home Goods,3,89.76,0.1446,east,2023-03-03 00:00:00,customer_000356@example.com,230.35
+ORD_000357,Coffee Maker,Home Goods,5,34.04,0.0858,North,2023-01-17 00:00:00,customer_000357@example.com,155.58
+ORD_000358,Towel Set,Home Goods,1,99.33,invalid,East,2023-04-30 00:00:00,customer_000358@example.com,89.53
+ORD_000359,HEADPHONES,Electronics,2,211.43,0.109,West,2023-06-21 00:00:00,customer_000359@example.com,376.78
+ORD_000360,Watch,Fashion,1,253.66,0.0337,East,2023-01-06 00:00:00,customer_000360@example.com,245.1
+ORD_000361,Sunglasses,Fashion,3,164.11,-0.1,North,2023-06-22 00:00:00,customer_000361@example.com,432.52
+ORD_000362,Gaming Console,Electronics,1,,0.0933,South,2023-02-20 00:00:00,customer_000362@example.com,319.49
+ORD_000363,Laptop,Electronics,3,932.82,0.066,East,2023-03-25 00:00:00,customer_000363@example.com,2613.74
+ORD_000364,Dress,Fashion,1,188.83,0.0959,East,2023-02-20 00:00:00,customer_000364@example.com,170.72
+ORD_000365,Smart Watch,Electronics,4,142.14,0.0876,East,2023-01-19 00:00:00,customer_000365@example.com,518.75
+ORD_000366,Smart Watch,Electronics,4,439.91,0.1291,North,2023-04-30 00:00:00,customer_000366@example.com,1532.54
+ORD_000367,Sunglasses,Fashion,4,87.42,0.085,North,2023-01-15 00:00:00,customer_000367@example.com,319.99
+ORD_000368,Smartphone,Electronics,1,1099.01,0.1152,East,2023-02-30,customer_000368@example.com,972.43
+ORD_000369,Laptop,Electronics,1,1037.69,0.1001,West,2023-01-12 00:00:00,customer_000369@example.com,933.81
+ORD_000370,Shoes,Fashion,2,63.88,0.0975,West,2023-03-26 00:00:00,customer_000370@example.com,115.31
+ORD_000371,Watch,Fashion,6,invalid,0.0917,North,2023-02-28 00:00:00,customer_000371@example.com,2075.78
+ORD_000372,Jeans,Fashion,1,60.42,0.0,South,2023-01-02 00:00:00,customer_000372@example.com,60.42
+ORD_000373,Dress,Fashion,1,68.98,0.1772,South,2023-03-07 00:00:00,customer_000373@example.com,56.75
+ORD_000374,Pillow,Home Goods,2,30.21,0.2433,East,2023-05-04 00:00:00,customer_000374@example.com,45.72
+ORD_000375,Jacket,Fashion,3,71.93,0.0749,North,2023-03-03 00:00:00,customer_000375@example.com,199.62
+ORD_000376,Storage Box,Home Goods,2,13.02,0.1603,North,2023-01-07 00:00:00,customer_000376@example.com,21.87
+ORD_000377,Dress,Fashion,-5,130.58,0.1401,West,2023-10-01 00:00:00,customer_000377@example.com,112.28
+ORD_000377,Jeans,Fashion,1,65.21,0.0722,West,2023-07-05 00:00:00,customer_000378@example.com,60.5
+ORD_000379,Vacuum Cleaner,Home Goods,5,440.22,0.0895,West,2023-02-27 00:00:00,customer_000379@example.com,2003.99
+ORD_000380,Smartphone,Electronics,1,466.2,0.1456,e,2023-02-16 00:00:00,customer_000380@example.com,398.31
+ORD_000380,Handbag,Fashion,5,311.01,0.0764,East,2023-01-03 00:00:00,customer_000381@example.com,1436.18
+ORD_000380,Tablet,Electronics,1,159.15,0.1183,North,2023-08-28 00:00:00,customer_000382@example.com,140.33
+ORD_000383,Gaming Console,Electronics,3,302.47,0.0731,n,2023-01-18 00:00:00,customer_000383@example.com,841.03
+ORD_000384,Pillow,Home Goods,1,58.7,0.0802,West,2023-08-10 00:00:00,customer_000384@example.com,53.99
+ORD_000385,Headphones,Electronics,5,57.9,0.2205,North,,customer_000385@example.com,225.67
+ORD_000386,Handbag,Fashion,1,259.16,0.0873,North,2023-01-24 00:00:00,user@,236.54
+ORD_000387,Shoes,Fashion,2,164.05,0.211,West,2023-08-02 00:00:00,customer_000387@example.com,258.87
+ORD_000388,Smartphone,Electronics,2,141.52,0.1406,North,2023-03-10 00:00:00,customer_000388@example.com,243.25
+ORD_000389,Lamp,Home Goods,6,136.23,0.0959,West,2023-04-15 00:00:00,user@domain,738.95
+ORD_000390,Monitor,Electronics,1,383.02,0.2326,South,2023-04-02 00:00:00,customer_000390@example.com,293.93
+ORD_000391,T-Shirt,Fashion,3,52.86,0.27,South,2023-04-08 00:00:00,customer_000391@example.com,115.77
+ORD_000392,Desktop Computer,Electronics,1,819.68,0.1098,West,2023-05-09 00:00:00,customer_000392@example.com,729.72
+ORD_000393,Jeans,Fashion,7,50.18,0.1566,East,2023/13/01,customer_000393@example.com,296.22
+ORD_000394,Smart Watch,Electronics,1,211.3,0.1786,South,2023-12-29 00:00:00,customer_000394@example.com,173.57
+ORD_000395,Smart Watch,Electronics,1,346.06,0.0708,North,2023-01-28 00:00:00,customer_000395@example.com,321.56
+ORD_000396,T-Shirt,Fashion,1,62.8,0.1122,North,2023-01-10 00:00:00,customer_000396@example.com,55.75
+ORD_000397,Lamp,Home Goods,2,130.08,0.109,East,2023-01-07 00:00:00,customer_000397@example.com,231.8
+ORD_000398,Headphones,Electronics,1,194.92,0.1483,North,2023-02-30,customer_000398@example.com,166.01
+ORD_000399,T-Shirt,Fashion,5,42.85,0.1082,South,2023-03-18 00:00:00,customer_000399@example.com,191.06
+ORD_000400,Cookware Set,Home Goods,4,179.82,0.1356,South,2023-03-31 00:00:00,customer_000400@example.com,621.75
+ORD_000401,Smart Watch,Electronics,1,308.53,0.1176,North,2023-01-30 00:00:00,customer_000401@example.com,272.26
+ORD_000401,Lamp,Home Goods,2,100.09,0.1044,South,2023-07-30 00:00:00,customer_000402@example.com,179.29
+ORD_000403,Shoes,Fashion,2,invalid,0.0725,North,2023-03-04 00:00:00,customer_000403@example.com,141.69
+ORD_000404,Smart Watch,Electronics,2,313.72,0.0637,East,2023-01-19 00:00:00,customer_000404@example.com,587.49
+ORD_000405,Headphones,Electronics,4,208.02,0.2163,West,2023-02-14 00:00:00,customer_000405@example.com,652.13
+ORD_000406,Headphones,Electronics,1,134.47,0.1517,West,2023-01-18 00:00:00,customer_000406@example.com,114.07
+ORD_000407,Tablet,Electronics,1,261.86,0.1595,South,2023-01-21 00:00:00,customer_000407@example.com,220.11
+ORD_000408,Smart Watch,Electronics,1,183.6,0.0892,East,2023/13/01,customer_000408@example.com,167.23
+ORD_000409,Pillow,Home Goods,2,35.48,0.0824,North,2023-08-04 00:00:00,customer_000409@example.com,65.11
+ORD_000410,Belt,Fashion,1,37.13,0.2124,South,2023-04-14 00:00:00,customer_000410@example.com,29.25
+ORD_000411,Tablet,Electronics,4,364.89,0.1537,South,2023-01-20 00:00:00,user.domain.com,1235.18
+ORD_000412,Handbag,Fashion,4,153.09,0.0771,South,2023-05-27 00:00:00,customer_000412@example.com,565.17
+ORD_000413,Smartphone,Electronics,1,1163.68,0.1288,West,2023-02-28 00:00:00,customer_000413@example.com,1013.85
+ORD_000413,Headphones,Electronics,1,116.11,0.1221,South,2023-01-14 00:00:00,customer_000414@example.com,101.93
+ORD_000415,Headphones,Electronics,3,278.44,0.3008,West,2023-07-08 00:00:00,customer_000415@example.com,584.03
+ORD_000416,Tablet,Electronics,1,408.67,0.1221,South,2023-06-07 00:00:00,customer_000416@example.com,358.76
+ORD_000417,Gaming Console,Electronics,2,444.07,0.096,West,2023-12-19 00:00:00,customer_000417@example.com,802.92
+ORD_000418,Dress,Fashion,5,90.58,0.0726,West,01-01-2023,customer_000418@example.com,420.03
+ORD_000419,Tablet,Electronics,1,154.69,0.092,east,2023-03-29 00:00:00,customer_000419@example.com,140.46
+ORD_000420,Towel Set,Home Goods,1,48.73,0.174,West,2023-03-02 00:00:00,customer_000420@example.com,40.25
+ORD_000421,Gaming Console,Electronics,7,0,0.1177,South,2023-08-06 00:00:00,customer_000421@example.com,2426.31
+ORD_000422,Smart Watch,Electronics,2,366.06,0.0866,North,2023-10-07 00:00:00,customer_000422@example.com,668.73
+ORD_000423,Monitor,Electronics,1,174.34,0.1502,North,2023-03-15 00:00:00,customer_000423@example.com,148.15
+ORD_000424,Tablet,Electronics,3,717.1,0.1032,East,2023-02-18 00:00:00,customer_000424@example.com,1929.32
+ORD_000425,Bed Sheets,homegoods,1,74.22,0.0761,West,2023-01-17 00:00:00,customer_000425@example.com,68.57
+ORD_000426,T-Shirt,fashion,5,59.34,0.1595,South,2023-01-13 00:00:00,customer_000426@example.com,249.35
+ORD_000427,Shoes,Fashion,1,219.2,0.1289,West,2023-03-08 00:00:00,customer_000427@example.com,190.95
+ORD_000428,Smart Watch,Electronics,1,288.47,0.0665,East,2023-02-22 00:00:00,customer_000428@example.com,269.3
+ORD_000429,Dress,Fashion,0,183.28,0.2061,South,2023-03-25 00:00:00,customer_000429@example.com,291.03
+ORD_000430,T-Shirt,Fashion,invalid,45.91,0.2031,West,2023-07-01 00:00:00,customer_000430@example.com,146.36
+ORD_000431,Towel Set,Home Goods,1,-100,0.1513,West,2023-01-27 00:00:00,customer_000431@example.com,30.16
+ORD_000432,Towel Set,Home Goods,2,63.33,0.3053,southern,2023-07-04 00:00:00,customer_000432@example.com,87.99
+ORD_000433,T-Shirt,Fashion,1,29.51,0.124,North,2023-03-05 00:00:00,customer_000433@example.com,25.85
+ORD_000434,Smartphone,electronic,2,749.65,0.1991,North,2023-11-25 00:00:00,customer_000434@example.com,1200.72
+ORD_000435,Monitor,Electronics,3,851.82,0.1281,North,2023-01-25 00:00:00,customer_000435@example.com,2228.17
+ORD_000436,T-Shirt,Fashion,2,41.38,0.1622,South,2023-02-19 00:00:00,user name@domain.com,69.33
+ORD_000437,Coffee Maker,household,1,256.19,0.1305,North,2023-02-05 00:00:00,customer_000437@example.com,222.76
+ORD_000438,Sunglasses,Fashion,1,82.19,0.0628,South,2023-04-04 00:00:00,customer_000438@example.com,77.03
+ORD_000439,Towel Set,Home Goods,1,97.83,0.0811,East,2023-04-18 00:00:00,customer_000439@example.com,89.9
+ORD_000440,Shoes,Fashion,3,298.38,0.1083,West,2023-02-15 00:00:00,customer_000440@example.com,798.19
+ORD_000441,Laptop,Electronics,2,1190.79,0.1869,South,2023-01-27 00:00:00,customer_000441@example.com,1936.39
+ORD_000442,Vacuum Cleaner,Home Goods,2,234.93,0.2157,South,2023-11-29 00:00:00,customer_000442@example.com,368.49
+ORD_000443,Towel Set,Home Goods,3,30.58,0.2214,South,2023-03-19 00:00:00,customer_000443@example.com,71.42
+ORD_000444,Tablet,Electronics,1,381.03,0.0525,East,2023-02-01 00:00:00,user name@domain.com,361.04
+ORD_000445,CoffeeMaker,Home Goods,2,283.02,0.1596,South,2023-01-05 00:00:00,customer_000445@example.com,475.68
+ORD_000446,Smartphone,Electronics,2,251.5,0.219,north,2023-01-26 00:00:00,customer_000446@example.com,392.85
+ORD_000447,Laptop,Electronics,3,344.79,0.1741,South,2023-02-02 00:00:00,customer_000447@example.com,854.31
+ORD_000448,Dress,Fashion,3,114.75,0.1576,South,2023-05-25 00:00:00,customer_000448@example.com,290.01
+ORD_000449,Shoes,Fashion,2,168.47,0.0838,South,2023-02-06 00:00:00,customer_000449@example.com,308.71
+ORD_000450,Shoes,Fashion,4,216.51,0.2227,South,2023-05-03 00:00:00,customer_000450@example.com,673.19
+ORD_000451,Gaming Console,Electronics,3,309.23,0.106,West,2023-03-21 00:00:00,customer_000451@example.com,829.37
+ORD_000452,Headphones (Used),Electronics,1,,0.0869,North,2023-10-06 00:00:00,,166.72
+ORD_000453,Jacket,Fashion,5,203.46,0.2549,South,2023-01-11 00:00:00,customer_000453@example.com,757.96
+ORD_000454,Bed Sheets,Home Goods,2,40.71,0.2554,South,2023-10-06 00:00:00,@domain.com,60.62
+ORD_000455,T-Shirt,Fashion,1,70.08,0.2121,West,2023-05-07 00:00:00,customer_000455@example.com,55.22
+ORD_000456,Coffee Maker,Home Goods,1,92.38,,East,2023-01-12 00:00:00,customer_000456@example.com,85.98
+ORD_000457,Shoes,Fashion,1,259.81,0.2222,South,2023-08-29 00:00:00,customer_000457@example.com,202.09
+ORD_000458,Storage Box,Home Goods,1,,0.1474,West,2023-08-04 00:00:00,customer_000458@example.com,46.97
+ORD_000459,Shoes,Fashion,1,123.65,0.1162,West,2023-02-28 00:00:00,customer_000459@example.com,109.28
+ORD_000460,Smart Watch,Electronics,2,412.92,0.1714,South,2023-05-28 00:00:00,customer_000460@example.com,684.27
+ORD_000461,T-Shirt,Fashion,1,43.17,0.1585,North,2023-03-14 00:00:00,customer_000461@example.com,36.33
+ORD_000462,Kitchen Knife Set,Home Goods,2,61.36,,West,2023-04-09 00:00:00,customer_000462@example.com,101.68
+ORD_000463,Vacuum Cleaner,Home Goods,1,226.28,0.1691,South,2023-03-11 00:00:00,customer_000463@example.com,188.0
+ORD_000464,Vacuum Cleaner,Home Goods,1,152.57,0.2055,South,2023/13/01,customer_000464@example.com,121.22
+ORD_000465,Watch,Fashion,-5,274.47,0.1765,South,2023-10-26 00:00:00,customer_000465@example.com,226.02
+ORD_000465,Jeans,Fashion,1,74.2,0.2087,West,2023-03-15 00:00:00,customer_000466@example.com,58.71
+ORD_000467,Headphones,Electronics,2,359.84,0.1127,West,2023-05-07 00:00:00,customer_000467@example.com,638.56
+ORD_000468,Gaming Console,Electronics,9,554.3,0.0917,East,2023-01-22 00:00:00,customer_000468@example.com,4531.31
+ORD_000469,Kitchen Knife Set,Home Goods,2,119.29,0.1482,East,2023-02-13 00:00:00,,203.22
+ORD_000470,Gaming Console,tech,2,433.32,0.0791,North,2023-02-27 00:00:00,customer_000470@example.com,798.09
+ORD_000471,Desktop Computer,electronic,1,871.92,0.1578,West,2023-08-07 00:00:00,customer_000471@example.com,734.37
+ORD_000472,T-Shirt,Fashion,2,invalid,0.2105,West,2023-07-09 00:00:00,customer_000472@example.com,47.32
+ORD_000473,Tablet,Electronics,3,196.28,0.0627,North,2023-02-22 00:00:00,customer_000473@example.com,551.93
+ORD_000474,Monitor,Electronics,5,314.06,0.1418,West,invalid-date,customer_000474@example.com,1347.65
+ORD_000475,Desktop Computer,Electronics,1,1552.0,0.1685,West,2023-04-29 00:00:00,customer_000475@example.com,1290.44
+ORD_000476,Shoes,Fashion,3,179.9,0.0082,North,2023.01.01,customer_000476@example.com,535.26
+ORD_000477,Storage Box,Home Goods,1,11.88,0.1427,North,2023-09-14 00:00:00,customer_000477@example.com,10.18
+ORD_000478,Headphones,Electronics,2,107.81,0.0608,West,2023-01-02 00:00:00,customer_000478@example.com,202.52
+ORD_000479,T-Shirt,Fashion,1,54.38,0.1965,West,2023-02-12 00:00:00,customer_000479@example.com,43.7
+ORD_000480,Dress,Fashion,3,61.74,0.1171,South,2023-05-09 00:00:00,customer_000480@example.com,163.53
+ORD_000481,Bed Sheets,Home Goods,2,88.46,0.0503,East,2023-01-17 00:00:00,customer_000481@example.com,168.03
+ORD_000482,Lamp,Home Goods,2,22.0,invalid,East,2023-07-10 00:00:00,customer_000482@example.com,33.91
+ORD_000483,T-Shirt,Fashion,1,62.54,0.1179,East,2023-01-16 00:00:00,customer_000483@example.com,55.17
+ORD_000484,Jacket,Fashion,3,95.37,0.0,East,2023-01-05 00:00:00,customer_000484@example.com,286.12
+ORD_000485,Shoes,Fashion,2,221.56,0.1732,n,2023-03-01 00:00:00,customer_000485@example.com,366.37
+ORD_000486,Smartphone,Electronics,3,923.81,,North,2023-01-22 00:00:00,customer_000486@example.com,2504.95
+ORD_000487,Jacket,Fashion,1,67.01,0.1612,North,2023-08-15 00:00:00,customer_000487@example.com,56.2
+ORD_000488,Smart Watch,Electronics,4,269.47,0.1073,North,2023-04-25 00:00:00,customer_000488@example.com,962.27
+ORD_000489,Smart Watch,Electronics,1,148.48,0.0662,West,2023-02-17 00:00:00,customer_000489@example.com,138.65
+ORD_000490,Storage Box,Home Goods,1,invalid,0.144,South,2023-01-07 00:00:00,customer_000490@example.com,12.35
+ORD_000491,Coffee Maker,Home Goods,3,254.97,0.1792,East,2023-04-05 00:00:00,customer_000491@example.com,627.86
+ORD_000492,Jeans,Fashion,2,81.57,0.159,North,2023-07-20 00:00:00,customer_000492@example.com,137.19
+ORD_000493,Towel Set,Home Goods,1,61.94,0.1923,North,2023-01-03 00:00:00,customer_000493@example.com,50.03
+ORD_000494,Tablet,Electronics,2,-100,0.0994,West,2023-02-11 00:00:00,customer_000494@example.com,1401.67
+ORD_000495,Watch,Fashion,1,163.5,0.2634,West,2023-06-25 00:00:00,customer_000495@example.com,120.43
+ORD_000496,Storage Box,Home Goods,2,12.68,0.2115,South,2023-03-22 00:00:00,customer_000496@example.com,20.0
+ORD_000497,Jacket,Fashion,4,76.89,0.1064,East,2023-01-30 00:00:00,customer_000497@example.com,274.83
+ORD_000498,Laptop,Electronics,1,1161.05,0.0172,West,2023-09-29 00:00:00,customer_000498@example.com,1141.07
+ORD_000499,Shoes,Fashion,5,113.03,0.1416,South,2023-01-07 00:00:00,customer_000499@example.com,485.15
+ORD_000500,T-Shirt,Fashion,1,75.25,0.1807,North,2023-02-24 00:00:00,customer_000500@example.com,61.65
+ORD_000500,,Fashion,4,29.92,0.0382,North,2023-03-07 00:00:00,customer_000501@example.com,115.1
+ORD_000502,Camera,Electronics,2,1029.81,0.1248,North,2023-06-26 00:00:00,customer_000502@example.com,1802.6
+ORD_000502,Handbag,Fashion,2,272.81,0.1119,South,2023-03-07 00:00:00,customer_000503@example.com,484.57
+ORD_000504,Watch,Fashion,1,134.25,0.1009,East,2023-02-28 00:00:00,customer_000504@example.com,120.7
+ORD_000505,Laptop,Electronics,2,1141.79,0.1717,South,2023-06-28 00:00:00,customer_000505@example.com,1891.59
+ORD_000506,Jeans (Used),Fashion,3,33.04,0.1178,North,2023-04-25 00:00:00,customer_000506@example.com,87.45
+ORD_000507,Towel Set,Home Goods,1,49.72,0.1895,west,2023-03-20 00:00:00,customer_000507@example.com,40.3
+ORD_000508,Gaming Console,Electronics,1,359.43,0.1838,North,2023-02-21 00:00:00,user@domain,293.38
+ORD_000509,Smartphone,Electronics,1,848.17,0.1743,West,2023-02-03 00:00:00,customer_000509@example.com,700.32
+ORD_000510,Vacuum Cleaner,Home Goods,1,404.05,0.1769,North,2023-01-23 00:00:00,customer_000510@example.com,332.59
+ORD_000511,BedSheets,Home Goods,2,88.08,0.1115,South,2023-03-16 00:00:00,customer_000511@example.com,156.52
+ORD_000512,Laptop,Electronics,3,1280.75,0.1841,North,2023-07-22 00:00:00,customer_000512@example.com,3134.72
+ORD_000513,Jacket,Fashion,6,139.63,0.0731,East,2023-01-26 00:00:00,customer_000513@example.com,776.5
+ORD_000514,Jacket,Fashion,4,168.44,0.0859,South,2023-02-25 00:00:00,customer_000514@example.com,615.88
+ORD_000515,Camera,electronics,3,1760.3,0.0457,East,2023-01-04 00:00:00,customer_000515@example.com,5039.77
+ORD_000516,Watch,Fashion,5,195.74,0.1412,East,2023-06-22 00:00:00,customer_000516@example.com,840.52
+ORD_000517,Headphones,Electronics,1,139.62,0.0498,West,2023-03-11 00:00:00,customer_000517@example.com,132.67
+ORD_000518,Pillow,Home Goods,2,38.2,0.1355,East,2023-04-04 00:00:00,customer_000518@example.com,66.05
+ORD_000519,Pillow,Home Goods,5,17.73,0.1451,South,2023-02-16 00:00:00,customer_000519@example.com,75.79
+ORD_000520,T-Shirt,Fashion,4,42.84,0.1876,North,2023-02-26 00:00:00,customer_000520@example.com,139.22
+ORD_000521,Pillow,Home Goods,5,31.55,0.1006,West,2023-05-26 00:00:00,,141.88
+ORD_000522,sunglasses,Fashion,1,146.79,0.0944,East,2023-03-19 00:00:00,customer_000522@example.com,132.93
+ORD_000523,Laptop,Electronics,3,526.75,0.0944,West,2023-02-17 00:00:00,invalid-email,1431.12
+ORD_000524,Headphones,Electronics,1,376.12,0.0745,East,2023-02-10 00:00:00,customer_000524@example.com,348.09
+ORD_000524,Coffee Maker,Home Goods,1,54.59,0.1896,South,2023-06-29 00:00:00,customer_000525@example.com,44.24
+ORD_000526,Jeans,Fashion,1,139.39,0.1346,North,2023-03-06 00:00:00,customer_000526@example.com,120.62
+ORD_000527,Laptop,Electronics,10,1692.58,0.041,South,2023-02-17 00:00:00,customer_000527@example.com,16232.21
+ORD_000528,Jacket,Fashion,5,128.41,0.1926,East,2023-02-13 00:00:00,customer_000528@example.com,518.4
+ORD_000528,Coffee Maker,Home Goods,2,119.72,0.1303,South,2023-10-05 00:00:00,customer_000529@example.com,208.25
+ORD_000530,Cookware Set,Home Goods,,297.33,0.1102,West,2023-04-20 00:00:00,customer_000530@example.com,264.57
+ORD_000531,Smart Watch,Electronics,1,366.17,0.1635,East,2023-05-01 00:00:00,customer_000531@example.com,306.31
+ORD_000532,Laptop,Electronics,2,1037.16,0.1456,West,2023-04-04 00:00:00,customer_000532@example.com,1772.25
+ORD_000533,Jacket,Fashion,0,90.96,0.139,East,2023-05-08 00:00:00,customer_000533@example.com,78.32
+ORD_000534,Watch,Fashion,2,214.59,0.0673,West,2023-01-02 00:00:00,customer_000534@example.com,400.31
+ORD_000535,Shoes,Fashion,1,82.18,1.5,West,2023-02-05 00:00:00,customer_000535@example.com,68.64
+ORD_000536,Cookware Set,Home Goods,1,285.49,0.0373,West,2023-04-17 00:00:00,@domain.com,274.85
+ORD_000536,Coffee Maker,Home Goods,1,194.57,0.1588,South,,customer_000537@example.com,
+ORD_000538,Monitor,elec,3,302.69,0.0792,East,2023-06-12 00:00:00,customer_000538@example.com,836.14
+ORD_000539,Bed Sheets,Home Goods,1,89.41,0.0863,North,2023-06-13 00:00:00,customer_000539@example.com,81.7
+ORD_000540,Camera,Electronics,6,1851.41,0.1042,East,2023-03-02 00:00:00,customer_000540@example.com,9950.5
+ORD_000541,Pillow,Home Goods,3,17.0,0.1643,West,2023-03-25 00:00:00,customer_000541@example.com,42.62
+ORD_000542,Jacket,Fashion,1,248.04,0.1442,East,2023-05-25 00:00:00,customer_000542@example.com,212.28
+ORD_000543,Desktop Computer,Electronics,1,2016.24,0.0817,South,2023-03-27 00:00:00,customer_000543@example.com,1851.53
+ORD_000544,TABLET,Electronics,1,761.74,0.251,South,2023-06-14 00:00:00,customer_000544@example.com,570.54
+ORD_000545,Cookware Set,Home Goods,1,107.08,0.2246,South,2023-07-31 00:00:00,customer_000545@example.com,83.03
+ORD_000546,Jacket,apparel,4,58.79,0.1895,North,2023-01-14 00:00:00,customer_000546@example.com,190.62
+ORD_000547,T-Shirt,Fashion,0,38.1,0.0793,West,2023-02-21 00:00:00,customer_000547@example.com,105.24
+ORD_000548,Jacket,Fashion,1,238.55,0.1586,South,2023-02-18 00:00:00,customer_000548@example.com,200.73
+ORD_000548,T-Shirt,Fashion,2,45.72,0.1676,West,2023-01-11 00:00:00,customer_000549@example.com,76.11
+ORD_000550,Smartphone,Electronics,1,1061.68,0.1633,South,2023-02-26 00:00:00,customer_000550@example.com,888.28
+ORD_000551,Smartphone,elec,2,1037.44,0.0576,East,2023-02-28 00:00:00,customer_000551@example.com,1955.41
+ORD_000552,Bed Sheets,Home Goods,1,143.82,0.1799,South,2023-07-26 00:00:00,customer_000552@example.com,117.95
+ORD_000553,Headphones,Electronics,3,186.57,0.1305,West,2023-01-30 00:00:00,@domain.com,486.63
+ORD_000554,Monitor,Electronics,1,374.82,,North,2023-04-13 00:00:00,customer_000554@example.com,343.65
+ORD_000554,Smartphone,Electronics,4,764.66,0.112,West,2023-01-14 00:00:00,customer_000555@example.com,2716.04
+ORD_000556,Monitor,Electronics,-1,157.0,0.0884,North,2023-01-28 00:00:00,customer_000556@example.com,572.51
+ORD_000557,Shoes,Fashion,2,122.66,0.1117,East,2023-02-22 00:00:00,customer_000557@example.com,217.93
+ORD_000557,Tablet,Electronics,3,235.69,0.0284,North,2023-01-04 00:00:00,customer_000558@example.com,686.98
+ORD_000559,Laptop,Electronics,6,386.92,0.105,North,2023-03-14 00:00:00,customer_000559@example.com,2077.8
+ORD_000560,Laptop,Electronics,2,1165.09,0.0936,West,2023-04-23 00:00:00,customer_000560@example.com,2112.14
+ORD_000561,Pillow,Home Goods,1,52.64,0.22,North,2023-02-10 00:00:00,customer_000561@example.com,41.06
+ORD_000562,Tablet,Electronics,4,224.52,0.11,North,2023-09-22 00:00:00,customer_000562@example.com,799.23
+ORD_000563,T-Shirt,Fashion,1,49.61,0.1652,North,2023-07-18 00:00:00,customer_000563@example.com,41.41
+ORD_000564,Dress,apparel,1,54.73,0.179,West,2023-06-28 00:00:00,customer_000564@example.com,44.93
+ORD_000565,Desktop Computer,Electronics,1,2642.95,0.113,North,2023-09-24 00:00:00,customer_000565@example.com,2344.24
+ORD_000566,Handbag,Fashion,1,79.35,0.1307,West,2023-01-30 00:00:00,customer_000566@example.com,68.98
+ORD_000567,Handbag,Fashion,1,167.57,0.1746,East,2023-05-14 00:00:00,customer_000567@example.com,138.3
+ORD_000567,Bed Sheets,Home Goods,6,139.82,0.0926,North,2023-02-19 00:00:00,customer_000568@example.com,761.23
+ORD_000569,  Jacket  ,Fashion,1,143.39,0.2005,North,2023-08-16 00:00:00,customer_000569@example.com,114.65
+ORD_000570,Pillow,Home Goods,1,59.76,0.134,South,2023-02-20 00:00:00,customer_000570@example.com,51.75
+ORD_000571,Headphones,Electronics,3,252.59,0.1251,South,2023-01-02 00:00:00,customer_000571@example.com,662.99
+ORD_000572,Jeans,Fashion,1,0,0.1399,South,2023-05-12 00:00:00,customer_000572@example.com,82.11
+ORD_000573,T-Shirt,Fashion,2,50.68,0.229,South,2023-06-16 00:00:00,customer_000573@example.com,78.14
+ORD_000574,T-Shirt,Fashion,2,16.91,0.1103,South,2023-01-12 00:00:00,customer_000574@example.com,30.1
+ORD_000575,Jacket,Fashion,6,102.02,0.1833,South,2023-05-10 00:00:00,customer_000575@example.com,499.94
+ORD_000576,Laptop,Electronics,1,1445.31,,South,2023-06-11 00:00:00,customer_000576@example.com,1149.8
+ORD_000577,Handbag,Fashion,2,217.88,0.136,WEST,2023-12-20 00:00:00,customer_000577@example.com,376.49
+ORD_000578,Bed Sheets,Home Goods,1,90.85,0.2589,South,2023-07-20 00:00:00,customer_000578@example.com,67.33
+ORD_000579,T-Shirt,Fashion,1,70.32,0.127,East,2023-07-25 00:00:00,customer_000579@example.com,61.4
+ORD_000580,Monitor,Electronics,2,235.59,0.1108,South,2023-01-03 00:00:00,customer_000580@example.com,418.96
+ORD_000581,Headphones,Electronics,1,32.21,0.0943,East,2023-03-31 00:00:00,customer_000581@example.com,29.17
+ORD_000582,Coffee Maker,Home Goods,10,88.18,0.0752,South,2023-01-22 00:00:00,customer_000582@example.com,815.52
+ORD_000583,Jeans,Fashion,2,129.47,0.1787,South,2023-03-27 00:00:00,customer_000583@example.com,212.67
+ORD_000584,T-Shirt,Fashion,1,38.19,0.1446,South,2023-03-16 00:00:00,customer_000584@example.com,32.67
+ORD_000584,Smartphone,Electronics,2,965.65,0.2303,South,2023-09-14 00:00:00,customer_000585@example.com,1486.56
+ORD_000586,Smartphone,Electronics,1,1199.27,,West,2023-01-05 00:00:00,customer_000586@example.com,1143.9
+ORD_000587,Towel Set,Home Goods,1,32.83,0.2141,South,2023-03-13 00:00:00,customer_000587@example.com,25.8
+ORD_000588,Watch,FASHION,3,206.25,0.0305,East,2023-01-04 00:00:00,customer_000588@example.com,599.89
+,Pillow,Home Goods,1,16.16,0.1148,North,2023-04-23 00:00:00,customer_000589@example.com,14.31
+ORD_000589,Coffee Maker,Home Goods,2,256.35,0.1531,East,2023-03-18 00:00:00,customer_000590@example.com,434.2
+ORD_000591,Shoes,Fashion,4,224.12,0.1158,North,2023-08-04 00:00:00,customer_000591@example.com,792.64
+ORD_000592,Dress,Fashion,2,99.18,0.1863,West,2023-06-01 00:00:00,customer_000592@example.com,161.41
+ORD_000593,Handbag,fashion,2,281.28,0.0832,East,2023-01-19 00:00:00,customer_000593@example.com,515.74
+ORD_000594,Vacuum Cleaner,Home Goods,2,436.41,0.1703,South,2023-06-29 00:00:00,customer_000594@example.com,724.13
+ORD_000594,Laptop,Electronics,1,1142.28,0.1825,West,2023-05-31 00:00:00,customer_000595@example.com,933.8
+ORD_000596,T-Shirt,Fashion,3,30.07,0.1289,North,2023-01-30 00:00:00,customer_000596@example.com,78.57
+ORD_000597,Coffee Maker,Home Goods,5,97.7,invalid,East,2023-04-14 00:00:00,customer_000597@example.com,429.08
+ORD_000598,Dress,Fashion,3,-10,0.1569,East,2023-04-03 00:00:00,customer_000598@example.com,82.95
+ORD_000598,Camera,Electronics,2,2033.07,0.1048,North,2023-02-07 00:00:00,customer_000599@example.com,3639.99
+ORD_000600,Dress,Fashion,6,171.38,0.1669,West,2023-01-23 00:00:00,customer_000600@example.com,856.69
+ORD_000601,Laptop,,5,955.72,0.0813,North,2023-02-09 00:00:00,invalid-email,4389.96
+ORD_000602,Coffee Maker,Home Goods,0,242.16,0.0105,North,2023-01-22 00:00:00,customer_000602@example.com,239.61
+ORD_000603,Laptop,Electronics,3,421.32,0.1396,South,2023-01-07 00:00:00,customer_000603@example.com,1087.54
+ORD_000604,Sunglasses,Fashion,3,183.49,0.0666,West,,customer_000604@example.com,513.82
+ORD_000605,Shoes,Fashion,8,144.17,0.0535,West,2023-03-28 00:00:00,customer_000605@example.com,1091.65
+ORD_000606,Jeans,Fashion,1,42.02,0.1876,South,2023-02-21 00:00:00,customer_000606@example.com,34.14
+ORD_000607,Gaming Console,Electronics,6,482.61,0.0119,West,2023-01-07 00:00:00,@domain.com,2861.32
+ORD_000608,Camera,Electronics,2,2496.81,0.0861,West,2023-02-12 00:00:00,customer_000608@example.com,4563.48
+ORD_000609,Pillow,homegoods,1,16.38,0.1801,North,2023-03-19 00:00:00,customer_000609@example.com,13.43
+ORD_000610,Coffee Maker,Home Goods,1,89.35,0.0053,East,2023-01-25 00:00:00,customer_000610@example.com,88.87
+ORD_000611,Tablet,Electronics,6,326.27,0.129,South,2023-01-17 00:00:00,customer_000611@example.com,1704.98
+ORD_000612,Jeans,Fashion,1,108.42,0.0381,East,2023-01-06 00:00:00,customer_000612@example.com,104.29
+ORD_000613,Storage Box,Home Goods,0,14.49,0.0744,South,2023-02-26 00:00:00,customer_000613@example.com,13.42
+ORD_000614,Laptop,Electronics,6,1381.27,0.1705,West,2023-01-11 00:00:00,customer_000614@example.com,6874.66
+ORD_000615,Headphones,Electronics,1,175.36,0.0962,South,,customer_000615@example.com,158.49
+ORD_000616,Jeans,Fashion,1,67.37,0.2424,West,2023-01-08 00:00:00,customer_000616@example.com,51.04
+ORD_000617,T-Shirt,Fashion,1,62.16,0.1074,North,2023-03-18 00:00:00,customer_000617@example.com,55.48
+ORD_000618,Smartphone,Electronics,2,622.75,0.1848,East,2023-04-23 00:00:00,customer_000618@example.com,1015.36
+ORD_000619,Smartphone,Electronics,1,581.8,0.2069,West,invalid-date,customer_000619@example.com,461.41
+ORD_000620,Laptop,Electronics,1,-10,0.2012,North,2023-06-03 00:00:00,customer_000620@example.com,297.75
+ORD_000621,Smartphone,Electronics,4,658.68,0.1353,West,2023-05-02 00:00:00,customer_000621@example.com,2278.19
+ORD_000622,Jacket,Fashion,2,72.36,0.2297,North,2023-08-07 00:00:00,customer_000622@example.com,111.48
+ORD_000623,Laptop,Electronics,1,337.67,0.0463,North,2023-01-28 00:00:00,customer_000623@example.com,322.05
+ORD_000624,Monitor,Electronics,1,410.11,0.1411,South,2023-01-25 00:00:00,customer_000624@example.com,352.25
+ORD_000624,Jacket,Fashion,3,195.62,0.1593,West,2023-02-01 00:00:00,customer_000625@example.com,493.35
+ORD_000626,Dress,Fashion,4,137.27,0.2099,North,2023/13/01,customer_000626@example.com,433.84
+ORD_000627,T-Shirt,Fashion,-1,37.66,0.1157,South,2023-01-24 00:00:00,customer_000627@example.com,33.3
+ORD_000628,Storage Box,Home Goods,0,15.74,0.0856,North,2023-02-12 00:00:00,customer_000628@example.com,43.18
+ORD_000629,Shoes,apparel,3,97.61,0.0997,South,2023-01-26 00:00:00,customer_000629@example.com,263.65
+ORD_000630,Dress,Fashion,4,163.23,0.1905,South,2023-08-21 00:00:00,customer_000630@example.com,528.57
+ORD_000631,TABLET,Electronics,3,670.79,0.0946,West,2023-01-17 00:00:00,customer_000631@example.com,1821.92
+ORD_000632,Headphones,Electronics,1,315.79,0.1216,North,2023-03-11 00:00:00,customer_000632@example.com,277.41
+ORD_000633,Belt,Fashion,5,0,0.1609,West,2023-07-18 00:00:00,customer_000633@example.com,85.41
+ORD_000634,Bed Sheets,Home Goods,5,135.61,0.0666,West,2023/13/01,customer_000634@example.com,632.86
+ORD_000635,Smart Watch,Electronics,5,479.06,0.1284,North,2023-03-11 00:00:00,,2087.74
+ORD_000636,Cookware Set,Home Goods,1,82.55,0.1912,North,2023-05-31 00:00:00,customer_000636@example.com,66.77
+ORD_000637,Smartphone,Electronics,4,786.87,0.1747,West,2023-01-31 00:00:00,customer_000637@example.com,2597.64
+ORD_000638,Shoes,Fashion,2,262.64,0.0905,North,2023/13/01,customer_000638@example.com,477.74
+ORD_000639,Headphones,Electronics,3,171.22,0.1126,North,2023-01-26 00:00:00,customer_000639@example.com,455.86
+ORD_000639,Jeans,Fashion,1,65.5,0.0678,West,2023-01-13 00:00:00,customer_000640@example.com,61.05
+ORD_000641,Pillow,Home Goods,3,42.13,0.1223,West,2023-01-07 00:00:00,customer_000641@example.com,110.94
+ORD_000642,Dress,Fashion,5,26.93,-0.1,East,2023-05-18 00:00:00,customer_000642@example.com,116.9
+ORD_000643,Laptop,Electronics,1,1965.01,0.1322,West,2023-06-07 00:00:00,customer_000643@example.com,1705.15
+ORD_000643,Tablet,Electronics,3,305.16,0.0201,East,2023-01-01 00:00:00,customer_000644@example.com,897.09
+ORD_000645,T-Shirt,Fashion,1,43.9,0.0987,North,2023-05-23 00:00:00,customer_000645@example.com,39.57
+ORD_000646,Storage Box,Home Goods,1,51.31,0.2067,South,2023-01-25 00:00:00,customer_000646@example.com,40.71
+ORD_000647,Laptop,Electronics,4,1480.41,0.1622,West,2023-04-03 00:00:00,customer_000647@example.com,4961.07
+ORD_000648,Lamp,Home Goods,7,138.8,0.0941,West,2023-04-14 00:00:00,customer_000648@example.com,880.14
+ORD_000649,Watch,Fashion,1,72.52,0.0994,West,2023-03-14 00:00:00,customer_000649@example.com,65.31
+ORD_000650,Smartphone,Electronics,1,784.85,0.1453,West,2023-01-10 00:00:00,customer_000650@example.com,670.78
+ORD_000650,Laptop,Electronics,2,306.37,0.1028,North,2023-02-27 00:00:00,customer_000651@example.com,549.74
+ORD_000652,Jeans,Fashion,3,51.03,0.0979,West,2023-02-15 00:00:00,customer_000652@example.com,138.09
+ORD_000653,Headphones,Electronics,1,50.41,0.167,West,2023-09-11 00:00:00,customer_000653@example.com,41.99
+ORD_000653,Kitchen Knife Set,Home Goods,2,177.22,0.1252,West,2023-03-10 00:00:00,customer_000654@example.com,310.06
+ORD_000655,Vacuum Cleaner,Home Goods,1,342.2,0.1819,West,invalid-date,customer_000655@example.com,279.94
+ORD_000656,Smartphone,Electronics,,734.61,0.0698,West,2023-01-18 00:00:00,customer_000656@example.com,2733.47
+ORD_000657,Dress,Fashion,2,79.12,0.1453,South,2023-05-06 00:00:00,customer_000657@example.com,135.25
+ORD_000658,Watch,Fashion,,,,West,2023-05-09 00:00:00,,266.32
+ORD_000658,Camera,Electronics,3,1242.59,0.1338,North,2023-03-30 00:00:00,customer_000659@example.com,3229.18
+ORD_000660,Towel Set,Home Goods,1,32.8,0.1971,sout,2023-02-15 00:00:00,customer_000660@example.com,26.33
+ORD_000660,Handbag,Fashion,1,191.72,0.1364,East,2023-05-06 00:00:00,customer_000661@example.com,165.58
+ORD_000662,Pillow,home,6,57.04,0.1448,South,2023-10-04 00:00:00,customer_000662@example.com,292.69
+ORD_000663,T-Shirt,Fashion,,77.05,0.1585,West,2023-02-26 00:00:00,customer_000663@example.com,129.68
+ORD_000664,T-Shirt,Fashion,2,63.5,0.07,East,2023-01-20 00:00:00,customer_000664@example.com,118.11
+ORD_000665,Shoes,Fashion,1,182.81,0.0998,North,2023-03-31 00:00:00,customer_000665@example.com,164.57
+ORD_000666,Pillow,Home Goods,1,27.12,0.1445,West,2023-01-14 00:00:00,customer_000666@example.com,23.2
+ORD_000667,Monitor,Electronics,-5,827.65,0.1786,West,2023-02-17 00:00:00,customer_000667@example.com,679.82
+ORD_000668,Smartphone,Electronics,-5,304.55,0.1392,East,2023-05-10 00:00:00,customer_000668@example.com,262.17
+ORD_000669,Tablet,Electronics,3,671.34,0.1016,West,2023-05-10 00:00:00,customer_000669@example.com,1809.49
+ORD_000670,Shoes,Fashion,1,293.22,0.0955,West,2023-02-09 00:00:00,customer_000670@example.com,265.23
+ORD_000671,Smartphone,Electronics,1,224.91,0.2504,South,2023-03-28 00:00:00,customer_000671@example.com,168.59
+ORD_000672,T-Shirt,Fashion,0,69.66,0.0807,West,2023-05-11 00:00:00,customer_000672@example.com,128.07
+ORD_000673,T-Shirt,Fashion,1,11.04,0.1608,South,2023-02-28 00:00:00,customer_000673@example.com,9.27
+ORD_000674,T-Shirt,Fashion,2,57.14,,South,2023-02-21 00:00:00,customer_000674@example.com,105.03
+ORD_000675,Shoes,Fashion,1,100.11,0.0731,East,2023-02-13 00:00:00,customer_000675@example.com,92.79
+ORD_000676,Lamp,Home Goods,1,67.1,0.2186,WEST,2023-06-29 00:00:00,customer_000676@example.com,52.43
+ORD_000677,Shoes,Fashion,1,67.5,0.1608,West,2023-01-04 00:00:00,customer_000677@example.com,56.65
+ORD_000678,T-Shirt,Fashion,3,59.99,0.0,East,2023-03-14 00:00:00,customer_000678@example.com,179.97
+ORD_000679,Monitor,Electronics,1,650.48,0.1717,South,2023-03-23 00:00:00,customer_000679@example.com,538.78
+ORD_000680,Smartphone,Electronics,1,847.46,0.1481,West,2023-05-30 00:00:00,customer_000680@example.com,721.93
+ORD_000681,Gaming_Console,Electronics,1,474.4,0.0705,North,2023-01-07 00:00:00,customer_000681@example.com,440.95
+ORD_000682,Belt,Fashion,2,98.57,0.2502,South,2023-03-29 00:00:00,customer_000682@example.com,147.82
+ORD_000683,Laptop,electronic,1,424.71,0.1151,South,2023-01-10 00:00:00,customer_000683@example.com,375.81
+ORD_000684,Jeans,Fashion,2,39.88,0.1632,South,2023-05-20 00:00:00,customer_000684@example.com,66.75
+ORD_000685,Tablet,Electronics,3,779.6,0.1072,West,2023-01-11 00:00:00,customer_000685@example.com,2088.11
+ORD_000685,Coffee Maker,Home Goods,4,44.3,0.1732,West,2023-02-06 00:00:00,customer_000686@example.com,146.52
+ORD_000687,Handbag,Fashion,1,250.45,0.1338,East,2023-05-17 00:00:00,customer_000687@example.com,216.93
+ORD_000688,Storage Box,Home Goods,3,30.55,0.0904,North,2023-03-11 00:00:00,customer_000688@example.com,83.37
+ORD_000689,Headphones,Electronics,5,65.32,0.1597,North,2023-01-04 00:00:00,customer_000689@example.com,274.42
+ORD_000690,Jeans,Fashion,3,76.89,0.0587,East,2023-08-31 00:00:00,customer_000690@example.com,217.13
+ORD_000690,Vacuum Cleaner,Home Goods,1,255.5,0.2095,West,2023-03-02 00:00:00,customer_000691@example.com,201.98
+ORD_000692,Laptop,Electronics,2,319.44,0.1491,South,2023-05-12 00:00:00,customer_000692@example.com,543.62
+ORD_000693,Lamp,Home Goods,1,97.89,0.1347,South,2023-01-27 00:00:00,customer_000693@example.com,84.71
+ORD_000694,Jeans,Fashion,5,105.08,0.1794,South,2023-09-20 00:00:00,customer_000694@example.com,431.17
+ORD_000695,Shoes,apparel,1,216.72,0.1203,South,2023-01-18 00:00:00,customer_000695@example.com,190.64
+ORD_000696,Smartphone,Electronics,1,306.99,0.1657,West,2023-04-15 00:00:00,customer_000696@example.com,256.11
+ORD_000697,Jeans,Fashion,3,124.81,0.0927,North,2023-01-14 00:00:00,user@domain,339.72
+ORD_000698,Headphones,Electronics,5,394.54,0.1055,western,2023-08-10 00:00:00,customer_000698@example.com,1764.65
+ORD_000699,Handbag,Fashion,3,85.56,0.105,South,2023-01-19 00:00:00,customer_000699@example.com,229.71
+ORD_000700,Dress,Fashion,1,167.11,0.1632,West,2023-02-07 00:00:00,user name@domain.com,139.84
+ORD_000701,Tablet,Electronics,4,287.52,0.1243,West,2023-01-27 00:00:00,customer_000701@example.com,1007.13
+ORD_000702,Handbag,Fashion,2,154.81,0.0422,North,2023-01-15 00:00:00,customer_000702@example.com,296.55
+ORD_000703,Smartphone,Electronics,1,1024.98,0.1968,South,2023-06-11 00:00:00,user.domain.com,823.23
+ORD_000704,Gaming Console,Electronics,1,525.28,0.1367,East,2023-02-12 00:00:00,customer_000704@example.com,453.5
+ORD_000705,Shoes,Fashion,2,167.29,0.1112,North,2023-02-04 00:00:00,customer_000705@example.com,297.37
+ORD_000706,Belt,Fashion,3,37.17,0.1718,West,2023-05-09 00:00:00,customer_000706@example.com,92.34
+ORD_000707,Headphones,Electronics,2,invalid,0.1624,North,2023-06-09 00:00:00,customer_000707@example.com,132.97
+ORD_000708,Dress,Fashion,10,72.04,0.1611,North,2023-05-04 00:00:00,customer_000708@example.com,604.31
+ORD_000709,Vacuum Cleaner,Home Goods,1,122.47,0.0968,East,2023-01-22 00:00:00,customer_000709@example.com,110.62
+ORD_000710,monitor,Electronics,1,519.26,0.1967,South,2023-05-19 00:00:00,customer_000710@example.com,417.12
+ORD_000711,Jeans,Fashion,8,107.51,0.1332,nort,2023-02-25 00:00:00,customer_000711@example.com,745.55
+ORD_000712,Jeans,Fashion,2,144.59,0.1668,South,2023-07-18 00:00:00,customer_000712@example.com,240.93
+ORD_000713,Sunglasses,Fashion,1,57.91,0.1089,North,2023-06-12 00:00:00,customer_000713@example.com,51.61
+ORD_000714,Pillow,Home Goods,4,35.05,0.0897,West,2023-03-06 00:00:00,customer_000714@example.com,127.61
+ORD_000715,Dress,Fashion,1,75.56,0.081,West,2023-01-24 00:00:00,customer_000715@example.com,69.43
+,Bed Sheets,Home Goods,1,51.83,0.2163,North,2023-02-26 00:00:00,customer_000716@example.com,40.62
+ORD_000717,Jeans,Fashion,3,69.64,0.2177,South,2023-04-22 00:00:00,customer_000717@example.com,163.43
+ORD_000718,Smartphone,Electronics,4,197.14,0.0626,West,2023-01-22 00:00:00,customer_000718@example.com,739.22
+ORD_000719,Desktop Computer,Electronics,4,2461.55,0.1423,North,2023-02-15 00:00:00,customer_000719@example.com,8445.24
+ORD_000720,Laptop,Electronics,3,1986.69,0.1653,South,2023-02-07 00:00:00,customer_000720@example.com,4975.05
+ORD_000721,Desktop_Computer,Electronics,1,2102.75,0.1536,West,2023-05-30 00:00:00,customer_000721@example.com,1779.7
+ORD_000722,Vacuum Cleaner,Home Goods,1,,0.1459,West,2023-04-10 00:00:00,customer_000722@example.com,378.23
+ORD_000723,Dress,Fashion,2,197.61,0.0386,East,2023-05-24 00:00:00,customer_000723@example.com,379.97
+ORD_000724,Pillow,Home Goods,1,41.26,0.02,East,2023-01-06 00:00:00,customer_000724@example.com,40.43
+ORD_000725,T-Shirt,Fashion,1,31.94,,East,2023-01-20 00:00:00,customer_000725@example.com,28.67
+ORD_000726,Jeans,Fashion,1,40.71,0.1428,South,2023-04-09 00:00:00,customer_000726@example.com,34.9
+ORD_000727,Shoes,Fashion,2,263.89,0.1065,North,2023-03-26 00:00:00,customer_000727@example.com,471.59
+ORD_000728,Shoes,Fashion,3,178.06,0.1009,East,2023-02-01 00:00:00,customer_000728@example.com,480.27
+ORD_000729,Headphones,Electronics,1,362.83,0.1784,West,2023-05-18 00:00:00,customer_000729@example.com,298.11
+ORD_000730,Headphones,Electronics,,69.47,0.0571,West,2023-04-28 00:00:00,customer_000730@example.com,458.56
+ORD_000731,Dress,Fashion,,42.69,0.1563,West,2023-01-04 00:00:00,customer_000731@example.com,144.06
+ORD_000732,Vacuum Cleaner,Home Goods,1,190.7,0.133,West,2023-05-09 00:00:00,customer_000732@example.com,165.34
+ORD_000733,Dress,Fashion,1,99.51,0.1622,North,2023-07-14 00:00:00,customer_000733@example.com,83.37
+ORD_000734,Shoes,Fashion,1,184.99,0.0478,South,2023-04-19 00:00:00,customer_000734@example.com,176.14
+ORD_000735,Shoes,Fashion,4,272.84,0.1253,West,2023-06-06 00:00:00,customer_000735@example.com,954.6
+ORD_000736,Smartphone,Electronics,5,406.58,0.0996,East,2023-01-29 00:00:00,customer_000736@example.com,1830.43
+ORD_000737,Storage Box,Home Goods,1,20.09,0.0683,North,2023-05-01 00:00:00,customer_000737@example.com,18.71
+ORD_000738,Pillow,Home Goods,2,62.98,0.1112,North,2023-02-10 00:00:00,customer_000738@example.com,111.96
+ORD_000739,Smart Watch,Electronics,2,505.33,0.0736,East,2023-04-26 00:00:00,customer_000739@example.com,
+ORD_000740,Handbag,Fashion,1,397.01,1.5,South,2023-02-17 00:00:00,customer_000740@example.com,352.27
+ORD_000741,Kitchen Knife Set,Home Goods,1,invalid,0.1398,South,2023-04-18 00:00:00,customer_000741@example.com,48.58
+ORD_000742,Smart Watch,Electronics,2,103.92,0.1501,West,2023-02-01 00:00:00,customer_000742@example.com,176.65
+ORD_000743,Dress,Fashion,4,85.65,0.0681,West,2023-04-11 00:00:00,customer_000743@example.com,319.28
+ORD_000744,Laptop,Electronics,2,460.27,0.1679,North,2023-02-05 00:00:00,customer_000744@example.com,766.02
+ORD_000745,Cookware Set,Home Goods,3,111.46,0.0514,East,2023-02-01 00:00:00,customer_000745@example.com,317.17
+ORD_000746,Tablet,Electronics,2,748.91,0.0723,North,2023-02-16 00:00:00,customer_000746@example.com,1389.59
+ORD_000747,Shoes,Fashion,3,251.64,0.1897,East,2023-03-23 00:00:00,user@,611.68
+ORD_000748,Storage Box,Home Goods,2,16.85,0.1612,South,2023-01-15 00:00:00,customer_000748@example.com,28.27
+ORD_000749,Vacuum Cleaner,Home Goods,2,414.85,0.1673,South,2023/13/01,customer_000749@example.com,690.9
+ORD_000750,Headphones,Electronics,1,229.16,0.1022,North,2023-01-16 00:00:00,customer_000750@example.com,205.75
+ORD_000751,Headphones,Electronics,5,52.18,0.1322,West,2023.01.01,customer_000751@example.com,226.41
+,Towel Set,Home Goods,2,,0.1314,South,,user@domain,149.88
+ORD_000753,Smartphone,Electronics,1,614.87,0.0552,East,2023-04-01 00:00:00,customer_000753@example.com,580.92
+ORD_000754,Jacket,Fashion,2,166.54,0.1182,North,2023-08-22 00:00:00,customer_000754@example.com,293.72
+ORD_000755,Vacuum Cleaner,Home Goods,1,236.2,0.1177,North,2023-01-09 00:00:00,customer_000755@example.com,208.4
+ORD_000756,Headphones,Electronics,1,338.06,0.0712,West,2023-01-18 00:00:00,,314.01
+ORD_000757,Dress,Fashion,3,132.32,0.0661,South,2023-01-15 00:00:00,customer_000757@example.com,370.74
+ORD_000758,Bed Sheets,Home Goods,0,66.69,0.0781,East,2023-03-31 00:00:00,customer_000758@example.com,184.46
+ORD_000759,T-Shirt,Fashion,3,74.71,0.078,South,2023-02-27 00:00:00,customer_000759@example.com,206.64
+ORD_000760,Vacuum Cleaner,Home Goods,2,185.16,0.0379,w,2023-04-14 00:00:00,customer_000760@example.com,356.29
+ORD_000760,Smart Watch,Electronics,2,577.71,0.0833,West,2023-02-01 00:00:00,customer_000761@example.com,1059.14
+ORD_000762,Jacket,Fashion,2,137.0,0.1299,North,2023-06-07 00:00:00,customer_000762@example.com,238.39
+ORD_000763,Bed Sheets (Used),Home Goods,2,62.08,0.1262,East,2023-06-04 00:00:00,customer_000763@example.com,108.49
+ORD_000764,Jeans,Fashion,1,36.66,0.1196,North,,customer_000764@example.com,32.27
+ORD_000765,T-Shirt,Fashion,6,52.79,1.5,North,2023-01-15 00:00:00,customer_000765@example.com,316.71
+ORD_000766,Smartphone,Electronics,-5,221.82,0.0603,North,2023-05-12 00:00:00,customer_000766@example.com,208.44
+ORD_000767,Sunglasses,Fashion,1,89.11,0.0433,South,2023-02-02 00:00:00,customer_000767@example.com,85.25
+ORD_000768,Dress,Fashion,2,51.19,0.1817,South,2023-06-25 00:00:00,customer_000768@example.com,83.77
+ORD_000769,Watch,Fashion,1,275.57,0.0533,North,2023-01-24 00:00:00,customer_000769@example.com,260.89
+ORD_000770,Dress,Fashion,1,63.06,0.0062,West,2023-05-27 00:00:00,customer_000770@example.com,62.67
+ORD_000771,Bed Sheets,Home Goods,2,43.23,0.1251,East,2023-03-09 00:00:00,customer_000771@example.com,75.65
+ORD_000772,Kitchen Knife Set,Home Goods,6,38.19,0.2404,South,2023-04-24 00:00:00,@domain.com,174.03
+ORD_000773,Smart Watch,Electronics,2,501.88,0.2059,South,2023-03-13 00:00:00,customer_000773@example.com,797.06
+ORD_000774,Smartphone,Electronics,6,441.93,0.1157,West,2023-01-12 00:00:00,customer_000774@example.com,2344.85
+ORD_000775,Kitchen Knife Set,Home Goods,2,43.71,0.2098,West,2023-01-17 00:00:00,customer_000775@example.com,69.08
+ORD_000776,Gaming Console,Electronics,1,381.45,0.1826,West,2023-07-18 00:00:00,customer_000776@example.com,311.78
+ORD_000777,Cookware Set,Home Goods,2,272.53,,West,,,446.11
+ORD_000778,Camera,Electronics,1,1349.59,0.1005,East,2023-05-22 00:00:00,customer_000778@example.com,1213.96
+ORD_000779,Smartphone,Electronics,2,1133.43,0.1606,South,2023-07-06 00:00:00,customer_000779@example.com,1902.88
+ORD_000780,Shoes,Fashion,2,248.18,0.0139,West,2023-02-22 00:00:00,customer_000780@example.com,489.45
+ORD_000781,Shoes,clothing,1,54.72,0.1865,South,2023-04-08 00:00:00,customer_000781@example.com,44.51
+ORD_000782,T-Shirt,Fashion,1,62.9,0.0455,South,2023-01-31 00:00:00,customer_000782@example.com,60.04
+ORD_000783,Tablet,Electronics,2,702.12,0.2023,South,2023-07-16 00:00:00,customer_000783@example.com,1120.14
+ORD_000784,Belt,Fashion,1,90.92,0.0931,West,2023-02-19 00:00:00,customer_000784@example.com,82.45
+ORD_000785,Smartphone,Electronics,2,903.62,0.1218,North,2023-01-06 00:00:00,customer_000785@example.com,1587.15
+ORD_000786,Towel Set,Home Goods,8,45.86,0.1264,East,2023-03-05 00:00:00,customer_000786@example.com,320.47
+ORD_000787,T-Shirt,Fashion,1,74.46,0.0656,West,2023-01-19 00:00:00,customer_000787@example.com,69.58
+ORD_000788,Tablet,Electronics,5,,0.1796,South,2023-09-21 00:00:00,customer_000788@example.com,681.08
+ORD_000789,Bed Sheets,Home Goods,7,25.62,0.1242,North,2023-04-18 00:00:00,customer_000789@example.com,157.06
+ORD_000790,LAPTOP,Electronics,8,1471.57,0.1116,West,2023-09-26 00:00:00,customer_000790@example.com,10458.15
+ORD_000791,Jacket,Fashion,6,86.21,0.0805,East,2023-03-17 00:00:00,customer_000791@example.com,475.63
+ORD_000792,Dress,Fashion,2,-10,0.1621,West,2023-06-20 00:00:00,customer_000792@example.com,328.48
+ORD_000792,Laptop,Electronics,1,641.45,0.1657,South,2023-03-14 00:00:00,customer_000793@example.com,535.16
+ORD_000794,Smartphone,Electronics,1,208.75,0.0,EAST,2023-02-03 00:00:00,customer_000794@example.com,208.75
+ORD_000795,Kitchen Knife Set,Home Goods,6,137.2,0.2217,West,2023-04-02 00:00:00,customer_000795@example.com,640.65
+ORD_000796,T-Shirt,Fashion,8,49.24,0.1273,South,,customer_000796@example.com,343.76
+ORD_000797,T-Shirt,Fashion,1,51.07,0.1557,North,2023-09-09 00:00:00,customer_000797@example.com,43.12
+ORD_000798,Smart Watch,Electronics,1,244.11,0.2171,West,2023-06-06 00:00:00,customer_000798@example.com,191.1
+ORD_000799,Sunglasses,Fashion,2,139.77,0.0466,West,2023-03-27 00:00:00,customer_000799@example.com,266.53
+ORD_000800,Belt,Fashion,4,68.16,0.0413,East,2023-01-19 00:00:00,customer_000800@example.com,261.39
+ORD_000801,Jeans,Fashion,1,30.49,0.1034,West,2023-03-02 00:00:00,customer_000801@example.com,27.34
+ORD_000802,T-Shirt,Fashion,-5,34.93,0.1095,North,2023-04-19 00:00:00,customer_000802@example.com,31.1
+ORD_000803,Desktop Computer,Electronics,3,2413.08,0.0,East,2023-01-21 00:00:00,customer_000803@example.com,7239.23
+ORD_000803,Storage Box,Home Goods,1,18.68,0.1283,South,2023-02-14 00:00:00,customer_000804@example.com,16.28
+ORD_000805,Jeans,Fashion,6,95.09,0.077,North,2023-03-21 00:00:00,customer_000805@example.com,526.64
+ORD_000806,Laptop,Electronics,1,1238.11,0.1443,North,2023-04-07 00:00:00,customer_000806@example.com,1059.49
+ORD_000807,Headphones,Electronics,2,89.34,0.1029,South,2023-04-21 00:00:00,customer_000807@example.com,160.3
+ORD_000808,Storage Box,Home Goods,5,10.21,0.0933,North,2023/13/01,customer_000808@example.com,46.31
+ORD_000809,Sunglasses,Fashion,3,127.99,0.0928,West,2023-01-11 00:00:00,,348.33
+ORD_000810,Laptop,Electronics,1,896.1,0.0874,North,2023-01-28 00:00:00,customer_000810@example.com,817.78
+ORD_000811,Tablet,Electronics,2,535.52,0.1247,North,2023-08-13 00:00:00,customer_000811@example.com,937.51
+ORD_000812,Smartphone,Electronics,2,307.46,0.0,East,2023-02-04 00:00:00,customer_000812@example.com,614.92
+ORD_000813,Vacuum Cleaner,Home Goods,3,388.37,0.1958,South,2023-02-14 00:00:00,customer_000813@example.com,936.94
+ORD_000814,T-Shirt,Fashion,1,13.22,0.1679,North,2023-02-02 00:00:00,customer_000814@example.com,11.0
+ORD_000815,Storage Box,Home Goods,4,57.95,0.1207,South,2023-01-25 00:00:00,customer_000815@example.com,203.8
+ORD_000816,Shoes,Fashion,10,260.99,0.0665,South,2023-01-07 00:00:00,customer_000816@example.com,2436.46
+ORD_000817,Shoes,Fashion,2,254.48,0.0776,w,2023-01-01 00:00:00,customer_000817@example.com,469.46
+ORD_000818,  Vacuum Cleaner  ,Home Goods,3,439.24,0.13,North,2023-04-01 00:00:00,customer_000818@example.com,1146.43
+ORD_000819,Watch,Fashion,2,196.18,0.0919,West,2023-02-30,customer_000819@example.com,356.3
+ORD_000820,Kitchen Knife Set,Home Goods,invalid,65.96,0.0841,East,2023-05-20 00:00:00,customer_000820@example.com,120.83
+ORD_000821,Handbag,apparel,3,39.13,0.0769,West,2023-01-05 00:00:00,customer_000821@example.com,108.35
+ORD_000822,Belt,Fashion,1,96.79,0.1188,North,2023-01-25 00:00:00,customer_000822@example.com,85.3
+ORD_000823,Jeans,Fashion,2,50.37,0.1253,South,2023-04-28 00:00:00,customer_000823@example.com,88.12
+ORD_000824,Jeans,Fashion,1,65.22,0.1516,South,2023-04-29 00:00:00,customer_000824@example.com,55.33
+ORD_000825,Smart Watch,Electronics,3,262.73,0.0446,East,2023-01-04 00:00:00,customer_000825@example.com,753.08
+ORD_000826,Coff33 M@k3r,Home Goods,6,229.44,0.1051,West,2023-03-21 00:00:00,customer_000826@example.com,1231.87
+ORD_000827,Jacket,Fashion,2,113.41,0.0323,East,2023-01-18 00:00:00,customer_000827@example.com,219.49
+ORD_000828,Cookware Set,Home Goods,2,66.17,0.1365,North,2023-02-19 00:00:00,customer_000828@example.com,114.27
+ORD_000829,Jeans,Fashion,2,58.13,0.1596,North,2023-07-12 00:00:00,customer_000829@example.com,97.7
+ORD_000830,Smartphone,Electronics,7,341.93,0.0647,East,2023-03-14 00:00:00,customer_000830@example.com,2238.61
+ORD_000831,Tablet,Electronics,2,692.99,0.087,East,2023-03-08 00:00:00,customer_000831@example.com,1265.43
+ORD_000832,Storage Box,Home Goods,1,-100,0.1746,South,2023-03-12 00:00:00,customer_000832@example.com,29.41
+ORD_000833,Desktop Computer,Electronics,5,1647.04,0.0434,East,2023-03-05 00:00:00,customer_000833@example.com,7877.42
+ORD_000834,Headphones,Electronics,3,190.0,0.0374,North,2023-04-15 00:00:00,customer_000834@example.com,548.7
+ORD_000835,Vacuum Cleaner,Home Goods,2,210.72,0.1139,West,2023-02-05 00:00:00,customer_000835@example.com,373.45
+ORD_000836,Watch,Fashion,invalid,172.26,0.1899,South,2023-02-19 00:00:00,customer_000836@example.com,139.55
+ORD_000837,Shoes,Fashion,2,91.37,0.0914,South,2023-03-17 00:00:00,customer_000837@example.com,166.04
+ORD_000838,Camera,Electronics,1,1681.76,0.1106,East,2023-07-30 00:00:00,customer_000838@example.com,1495.71
+ORD_000839,Smartphone,Electronics,1,509.57,0.1156,East,2023-01-28 00:00:00,customer_000839@example.com,450.65
+ORD_000840,Towel Set,Home Goods,4,58.12,0.0979,North,2023-01-17 00:00:00,customer_000840@example.com,209.72
+ORD_000841,Watch,apparel,2,485.71,0.1094,West,2023-02-25 00:00:00,customer_000841@example.com,865.16
+ORD_000842,Smart Watch,Electronics,2,315.68,0.0596,South,2023-01-08 00:00:00,customer_000842@example.com,593.75
+ORD_000843,Laptop,Electronics,1,861.61,0.1506,West,2023-03-31 00:00:00,customer_000843@example.com,731.85
+ORD_000844,Tablet,Electronics,1,462.69,0.0716,North,2023-01-06 00:00:00,customer_000844@example.com,429.55
+ORD_000845,Headphones,Electronics,1,355.47,0.0,West,2023-01-29 00:00:00,customer_000845@example.com,355.47
+ORD_000846,Laptop,Electronics,5,539.38,0.1368,south,2023-01-12 00:00:00,customer_000846@example.com,2327.95
+ORD_000847,Camera,Electronics,4,1786.98,0.155,West,2023-09-04 00:00:00,customer_000847@example.com,6039.95
+ORD_000848,Bed Sheets,Home Goods,1,62.72,0.1261,West,2023-02-08 00:00:00,customer_000848@example.com,54.81
+ORD_000849,BedSheets,Home Goods,4,121.21,0.0423,South,2023-02-15 00:00:00,customer_000849@example.com,464.33
+ORD_000850,Sunglasses,fashion,1,154.66,0.1811,West,2023-02-13 00:00:00,customer_000850@example.com,126.66
+ORD_000851,Smart Watch,Electronics,5,398.08,0.0495,North,2023-06-12 00:00:00,customer_000851@example.com,1891.85
+ORD_000852,CoffeeMaker,Home Goods,9,60.29,0.2,South,2023-02-19 00:00:00,customer_000852@example.com,434.12
+ORD_000853,Shoes,Fashion,1,259.29,0.1293,South,2023-04-08 00:00:00,customer_000853@example.com,225.77
+ORD_000853,Jeans,Fashion,2,70.06,0.1097,North,2023-01-16 00:00:00,customer_000854@example.com,124.75
+ORD_000855,Pillow,Home Goods,2,15.53,0.078,North,2023-02-20 00:00:00,customer_000855@example.com,28.63
+ORD_000856,Lamp,Home Goods,1,108.76,0.139,South,2023-05-19 00:00:00,customer_000856@example.com,93.64
+ORD_000856,Jacket,Fashion,5,125.18,0.1077,North,2023-01-29 00:00:00,customer_000857@example.com,558.45
+ORD_000858,Jeans,Fashion,1,108.77,0.1782,North,2023-02-12 00:00:00,customer_000858@example.com,89.39
+ORD_000859,Shoes,Fashion,3,285.89,0.1023,East,2023-02-06 00:00:00,customer_000859@example.com,769.97
+ORD_000860,Dress,Fashion,1,187.37,0.0461,South,2023-01-05 00:00:00,customer_000860@example.com,178.73
+ORD_000861,Lamp,Home Goods,4,131.98,0.0945,South,2023-01-13 00:00:00,customer_000861@example.com,478.03
+ORD_000862,Gaming Console,Electronics,1,421.28,0.0681,South,2023-03-14 00:00:00,customer_000862@example.com,392.59
+ORD_000863,Towel Set,Home Goods,2,44.33,0.104,West,2023-02-12 00:00:00,,79.45
+ORD_000864,Vacuum Cleaner,Home Goods,2,364.99,0.1061,East,2023-01-05 00:00:00,customer_000864@example.com,652.55
+ORD_000864,Camera,,,,0.0518,West,2023-06-01 00:00:00,customer_000865@example.com,1061.21
+ORD_000866,T-Shirt,Fashion,2,34.95,0.0084,eastern,2023-01-09 00:00:00,customer_000866@example.com,69.31
+ORD_000867,Belt,Fashion,1,87.29,0.0,North,2023-01-24 00:00:00,customer_000867@example.com,87.29
+ORD_000868,Shoes,Fashion,1,242.99,0.1513,South,2023-09-04 00:00:00,customer_000868@example.com,206.22
+ORD_000869,Desktop Computer,Electronics,1,2393.45,0.0996,North,2023-01-16 00:00:00,customer_000869@example.com,2155.15
+ORD_000870,Laptop,Electronics,1,703.12,0.0354,South,2023-09-20 00:00:00,customer_000870@example.com,678.21
+ORD_000871,Laptop,Electronics,1,1896.68,0.0646,North,2023-03-15 00:00:00,customer_000871@example.com,1774.2
+ORD_000872,T-Shirt,Fashion,1,20.36,0.0694,East,2023-02-28 00:00:00,customer_000872@example.com,18.94
+ORD_000873,Bed Sheets,Home Goods,2,37.36,0.0273,East,2023-03-16 00:00:00,customer_000873@example.com,72.69
+ORD_000874,T-Shirt,Fashion,2,12.35,0.1363,South,2023-01-11 00:00:00,customer_000874@example.com,21.33
+ORD_000875,Shoes,Fashion,5,50.51,0.172,West,2023-02-25 00:00:00,customer_000875@example.com,209.13
+ORD_000876,Laptop,Electronics,3,1423.75,0.088,West,2023-01-19 00:00:00,customer_000876@example.com,3895.33
+ORD_000877,Shoes,Fashion,2,163.67,0.18,East,2023-03-28 00:00:00,customer_000877@example.com,268.4
+ORD_000878,Jacket,Fashion,2,178.56,0.0314,East,2023-04-04 00:00:00,customer_000878@example.com,345.91
+ORD_000879,Shoes,Fashion,1,292.73,0.1046,South,2023-01-01 00:00:00,customer_000879@example.com,262.1
+ORD_000880,Smart Watch,Electronics,2,224.84,0.1329,East,2023-01-21 00:00:00,customer_000880@example.com,389.93
+ORD_000881,Gaming Console,Electronics,1,558.47,0.104,North,2023-02-23 00:00:00,customer_000881@example.com,500.41
+ORD_000881,Monitor,Electronics,1,624.74,0.0088,West,2023-01-09 00:00:00,customer_000882@example.com,619.23
+ORD_000883,Towel Set,Home Goods,0,60.98,0.0959,North,2023-09-15 00:00:00,customer_000883@example.com,165.41
+ORD_000884,Bed Sheets,Home Goods,2,123.27,0.088,North,2023-03-19 00:00:00,customer_000884@example.com,224.84
+ORD_000885,Monitor,Electronics,1,397.97,0.1574,North,2023-04-01 00:00:00,customer_000885@example.com,335.33
+ORD_000886,Jacket,Fashion,2,149.88,0.0413,North,2023-02-30,customer_000886@example.com,287.38
+ORD_000887,Kitchen Knife Set,Home Goods,3,51.48,0.1986,North,2023-02-30,customer_000887@example.com,123.78
+ORD_000888,Headphones,Electronics,1,319.08,0.1783,North,2023-01-20 00:00:00,customer_000888@example.com,262.2
+ORD_000889,Monitor,Electronics,9,961.03,0.0922,West,2023-01-23 00:00:00,customer_000889@example.com,7851.45
+ORD_000890,SMARTPHONE,Electronics,6,449.95,0.0625,West,2023-01-19 00:00:00,customer_000890@example.com,2530.85
+ORD_000891,Vacuum Cleaner,Home Goods,1,445.89,0.1616,nort,2023-08-07 00:00:00,customer_000891@example.com,373.85
+ORD_000892,T-Shirt,Fashion,9,32.32,0.0668,East,2023-02-30,customer_000892@example.com,271.45
+ORD_000893,Smartphone,Electronics,1,358.0,0.1146,East,2023-01-08 00:00:00,customer_000893@example.com,316.96
+ORD_000894,Vacuum Cleaner,Home Goods,1,275.14,0.1325,South,2023-02-06 00:00:00,customer_000894@example.com,238.69
+ORD_000895,Handbag,Fashion,2,100.57,0.1776,West,2023-01-09 00:00:00,customer_000895@example.com,165.41
+ORD_000896,Towel Set,Home Goods,2,95.01,0.1334,East,2023-05-14 00:00:00,customer_000896@example.com,164.69
+ORD_000897,Smartphone,Electronics,1,invalid,0.1692,North,2023-05-09 00:00:00,customer_000897@example.com,339.91
+ORD_000898,Smart Watch,Electronics,1,446.71,0.2308,South,2023-04-23 00:00:00,customer_000898@example.com,343.62
+ORD_000899,Storage Box,Home Goods,5,39.07,0.2013,West,2023-07-10 00:00:00,customer_000899@example.com,156.02
+ORD_000900,Monitor,Electronics,3,552.5,0.0805,North,2023-07-24 00:00:00,customer_000900@example.com,1524.12
+ORD_000901,Camera,Electronics,1,221.26,,North,2023-02-01 00:00:00,customer_000901@example.com,204.97
+ORD_000902,Smartphone,Electronics,3,637.17,0.0928,North,2023-03-22 00:00:00,customer_000902@example.com,1734.03
+ORD_000903,Headphones,Electronics,2,111.79,0.1332,North,2023-11-28 00:00:00,customer_000903@example.com,193.8
+ORD_000904,Dress,Fashion,3,48.95,0.1853,West,2023-01-04 00:00:00,customer_000904@example.com,119.65
+ORD_000905,lamp,Home Goods,1,115.87,0.0969,South,2023-10-27 00:00:00,customer_000905@example.com,104.64
+ORD_000906,Smartphone,Electronics,3,244.12,0.0617,South,2023-01-30 00:00:00,user name@domain.com,687.16
+ORD_000907,Belt,Fashion,1,23.18,0.1091,West,invalid-date,customer_000907@example.com,20.65
+ORD_000908,Lamp,Home Goods,1,73.07,0.1544,South,2023-01-07 00:00:00,customer_000908@example.com,61.79
+ORD_000909,Handbag,Fashion,2,125.13,0.1476,South,2023-04-28 00:00:00,customer_000909@example.com,213.32
+ORD_000910,Headphones,Electronics,2,-10,0.0123,North,2023-05-19 00:00:00,customer_000910@example.com,701.73
+ORD_000911,Lamp,Home Goods,3,80.6,0.1432,North,2023-04-12 00:00:00,customer_000911@example.com,207.18
+,Pillow,Home Goods,-1,15.87,0.1105,East,2023-01-27 00:00:00,,14.12
+ORD_000913,Lamp,Home Goods,2,110.55,0.1317,North,2023-02-01 00:00:00,customer_000913@example.com,191.97
+ORD_000914,Smartphone,Electronics,-5,994.99,0.0259,West,2023-10-28 00:00:00,customer_000914@example.com,1938.49
+ORD_000915,Camera,Electronics,4,730.88,0.147,North,2023-08-20 00:00:00,customer_000915@example.com,2493.81
+ORD_000916,Lamp,Home Goods,4,117.05,0.0951,East,2023-03-20 00:00:00,customer_000916@example.com,423.67
+ORD_000916,Smartphone,Electronics,2,257.52,0.1349,North,2023-01-18 00:00:00,customer_000917@example.com,445.54
+ORD_000918,Camera,Electronics,1,1560.33,0.0451,WEST,2023-01-04 00:00:00,customer_000918@example.com,1489.98
+ORD_000919,Kitchen Knife Set,Home Goods,1,175.79,0.1866,South,2023-04-14 00:00:00,customer_000919@example.com,142.98
+ORD_000920,Smartphone,Electronics,1,1109.4,0.1671,South,2023.01.01,customer_000920@example.com,924.04
+ORD_000921,Storage Box,Home Goods,7,49.36,0.1338,East,2023.01.01,customer_000921@example.com,299.25
+ORD_000922,Shoes,Fashion,1,131.19,0.1182,East,2023-01-08 00:00:00,customer_000922@example.com,115.69
+ORD_000923,Cookware Set,Home Goods,1,0,0.2111,South,2023-10-30 00:00:00,customer_000923@example.com,142.08
+ORD_000924,Cookware Set,Home Goods,2,98.82,0.1061,South,2023-05-12 00:00:00,customer_000924@example.com,176.67
+ORD_000925,Laptop,Electronics,0,782.54,0.0828,North,2023-10-20 00:00:00,customer_000925@example.com,717.78
+ORD_000925,T-Shirt,Fashion,4,35.29,0.1198,South,2023-01-08 00:00:00,customer_000926@example.com,124.24
+ORD_000927,Coffee Maker,Home Goods,3,54.16,0.178,South,2023-02-16 00:00:00,,133.56
+ORD_000928,Kitchen Knife Set,Home Goods,2,129.37,0.1713,West,2023-05-23 00:00:00,customer_000928@example.com,214.41
+ORD_000929,Monitor,Electronics,7,166.41,0.0588,North,2023-01-29 00:00:00,customer_000929@example.com,1096.42
+ORD_000930,Smartphone,Electronics,2,338.43,0.2436,South,2023-06-05 00:00:00,customer_000930@example.com,512.01
+ORD_000931,Headphones,Electronics,1,311.98,0.1786,South,2023-07-19 00:00:00,customer_000931@example.com,256.24
+ORD_000932,Laptop,Electronics,2,559.77,0.0924,North,2023-03-09 00:00:00,customer_000932@example.com,1016.15
+ORD_000932,Gaming Console,Electronics,3,305.79,0.0671,South,2023-01-08 00:00:00,customer_000933@example.com,855.82
+ORD_000934,Jeans,Fashion,2,131.67,0.154,West,2023-04-12 00:00:00,customer_000934@example.com,222.77
+ORD_000934,Lamp,Home Goods,3,81.58,0.1279,West,2023-05-14 00:00:00,customer_000935@example.com,213.45
+ORD_000936,Smart Watch,Electronics,2,205.32,0.1601,North,2023-10-30 00:00:00,customer_000936@example.com,344.91
+ORD_000937,Shoes,Fashion,-5,71.39,0.0701,East,2023-01-15 00:00:00,customer_000937@example.com,66.39
+ORD_000938,Storage Box,Home Goods,1,20.74,0.0774,South,2023-01-19 00:00:00,customer_000938@example.com,19.13
+ORD_000939,Belt,Fashion,2,48.26,0.1523,West,2023-01-02 00:00:00,customer_000939@example.com,81.82
+ORD_000940,Shoes,Fashion,3,293.4,0.196,West,2023-04-18 00:00:00,customer_000940@example.com,707.64
+ORD_000941,Smart Watch,Electronics,2,248.35,0.153,North,2023.01.01,customer_000941@example.com,420.72
+ORD_000941,Camera,Electronics,1,1586.28,0.132,South,2023-06-04 00:00:00,customer_000942@example.com,1376.84
+ORD_000943,Monitor,Electronics,3,176.8,0.0759,South,2023-02-09 00:00:00,customer_000943@example.com,490.15
+ORD_000944,Headphones,electronic,3,297.11,0.0681,North,2023-04-05 00:00:00,customer_000944@example.com,830.6
+ORD_000945,Dress,Fashion,3,106.76,0.1655,South,2023/13/01,customer_000945@example.com,267.25
+ORD_000946,Headphones,Electronics,1,235.77,0.0,East,2023-02-04 00:00:00,customer_000946@example.com,235.77
+ORD_000947,Jacket,Fashion,1,107.79,0.238,North,2023-03-07 00:00:00,customer_000947@example.com,82.14
+ORD_000948,Kitchen Knife Set,Home Goods,3,54.67,2.0,West,2023-04-03 00:00:00,customer_000948@example.com,138.4
+ORD_000949,Laptop,Electronics,3,457.38,0.1907,North,2023-06-29 00:00:00,customer_000949@example.com,1110.51
+ORD_000950,Jeans,Fashion,1,134.45,0.2002,South,2023-03-04 00:00:00,user name@domain.com,107.54
+ORD_000951,Bed Sheets,Home Goods,1,96.23,0.1774,South,2023-09-02 00:00:00,customer_000951@example.com,79.15
+ORD_000952,Camera,Electronics,2,998.48,0.1442,South,2023-01-10 00:00:00,user name@domain.com,1709.02
+ORD_000953,Dress,Fashion,2,35.7,2.0,West,2023-02-01 00:00:00,customer_000953@example.com,63.2
+ORD_000953,Desktop Computer,Electronics,3,2387.44,0.1298,East,2023-01-10 00:00:00,customer_000954@example.com,6232.82
+ORD_000955,Towel Set,homegoods,2,71.42,0.1259,West,2023-05-13 00:00:00,customer_000955@example.com,124.85
+ORD_000956,Laptop,electronics,1,1929.86,0.0968,West,2023-08-25 00:00:00,customer_000956@example.com,1742.96
+ORD_000957,Smartphone,Electronics,3,637.37,0.0905,West,2023-01-08 00:00:00,customer_000957@example.com,1739.02
+ORD_000958,Shoes,Fashion,2,180.25,0.1231,North,2023-02-23 00:00:00,customer_000958@example.com,316.11
+ORD_000959,Storage Box,Home Goods,0,58.79,0.0905,South,2023-01-21 00:00:00,customer_000959@example.com,320.83
+ORD_000960,Camera,Electronics,4,2243.39,0.1323,South,2023-03-06 00:00:00,customer_000960@example.com,7786.21
+ORD_000960,Kitchen Knife Set,Home Goods,1,199.22,0.1154,West,2023-01-04 00:00:00,customer_000961@example.com,176.24
+ORD_000962,Towel Set,Home Goods,1,93.28,0.1919,West,2023-03-01 00:00:00,customer_000962@example.com,75.38
+ORD_000963,Cookware Set,Home Goods,0,102.36,0.0951,North,2023-02-28 00:00:00,customer_000963@example.com,555.73
+ORD_000964,Tablet,Electronics,-1,424.53,0.1673,South,2023-07-27 00:00:00,customer_000964@example.com,353.49
+ORD_000965,Handbag,Fashion,5,240.52,0.0513,East,2023-01-19 00:00:00,customer_000965@example.com,1140.88
+ORD_000966,Dress,Fashion,1,145.63,0.1071,West,2023-04-17 00:00:00,customer_000966@example.com,130.04
+ORD_000967,Desktop Computer,Electronics,3,569.36,0.1692,West,2023-05-13 00:00:00,customer_000967@example.com,1419.11
+ORD_000968,Tablet,Electronics,1,608.14,0.2268,East,2023-06-02 00:00:00,customer_000968@example.com,470.24
+ORD_000969,Desktop Computer,Electronics,1,1020.62,0.1032,South,2023-01-15 00:00:00,customer_000969@example.com,915.32
+ORD_000970,Handbag,Fashion,1,296.13,0.1909,North,2023-04-07 00:00:00,customer_000970@example.com,239.61
+ORD_000971,Kitchen Knife Set,Home Goods,1,90.03,0.1877,North,2023-01-31 00:00:00,customer_000971@example.com,73.13
+ORD_000972,Laptop,Electronics,0,708.87,0.115,West,2023-01-14 00:00:00,customer_000972@example.com,627.37
+ORD_000973,Jeans,Fashion,1,51.95,0.1188,West,2023-02-30,customer_000973@example.com,45.78
+ORD_000974,Desktop Computer,Electronics,1,1501.16,0.1137,South,2023-01-30 00:00:00,customer_000974@example.com,1330.47
+ORD_000974,Laptop,Electronics,8,1027.82,0.0663,South,2023-01-29 00:00:00,customer_000975@example.com,7677.01
+ORD_000976,Storage Box,Home Goods,3,49.51,0.1655,West,01-01-2023,customer_000976@example.com,123.94
+ORD_000977,Storage Box,Home Goods,4,48.98,0.0501,East,2023-02-18 00:00:00,customer_000977@example.com,186.11
+ORD_000978,Sunglasses,Fashion,,167.63,0.1067,East,2023-05-11 00:00:00,,599.0
+ORD_000979,Camera,Electronics,4,2124.0,0.1238,East,2023-02-02 00:00:00,customer_000979@example.com,7444.33
+ORD_000980,Laptop,Electronics,1,1717.13,0.2589,East,2023-02-11 00:00:00,customer_000980@example.com,1272.59
+ORD_000981,Smart Watch,Electronics,1,126.03,0.1908,south,2023-08-26 00:00:00,customer_000981@example.com,101.98
+ORD_000982,Lamp,Home Goods,1,23.78,0.0663,East,2023-01-06 00:00:00,user@,22.2
+ORD_000983,Pillow,Home Goods,2,29.61,0.1672,East,2023-03-15 00:00:00,customer_000983@example.com,49.32
+ORD_000984,Belt,Fashion,invalid,31.77,0.116,South,2023-05-01 00:00:00,customer_000984@example.com,168.51
+ORD_000985,Pillow,Home Goods,2,17.61,0.1226,North,2023-02-13 00:00:00,customer_000985@example.com,30.9
+ORD_000986,Coffee Maker,Home Goods,5,261.84,0.1273,South,2023-05-16 00:00:00,customer_000986@example.com,1142.47
+ORD_000987,Smartphone,Electronics,1,566.88,0.2289,West,2023-04-07 00:00:00,customer_000987@example.com,437.11
+ORD_000988,Watch,Fashion,2,260.9,0.1409,West,2023-02-09 00:00:00,customer_000988@example.com,
+ORD_000989,Desktop Computer,Electronics,3,697.24,0.1156,West,2023-02-12 00:00:00,customer_000989@example.com,1849.84
+ORD_000990,Bed Sheets,Home Goods,8,25.22,0.2403,south,2023-11-13 00:00:00,customer_000990@example.com,153.26
+ORD_000991,Gaming Console,Electronics,1,598.01,0.116,West,2023-03-22 00:00:00,customer_000991@example.com,528.65
+ORD_000992,Sunglasses,Fashion,1,195.08,0.1139,North,2023-02-15 00:00:00,@domain.com,172.85
+ORD_000993,T-Shirt,Fashion,1,38.37,0.0638,West,2023-01-02 00:00:00,customer_000993@example.com,35.92
+ORD_000993,Camera,Electronics,1,1916.41,0.0575,North,2023-01-22 00:00:00,customer_000994@example.com,1806.28
+ORD_000995,  Jeans  ,Fashion,3,84.14,0.206,West,2023-05-13 00:00:00,customer_000995@example.com,200.42
+ORD_000996,T-Shirt,Fashion,5,42.79,0.1292,South,2023-01-05 00:00:00,customer_000996@example.com,186.3
+ORD_000997,Coffee Maker,Home Goods,1,92.41,0.1505,North,2023-09-05 00:00:00,customer_000997@example.com,78.5
+ORD_000998,Belt,fashion,3,51.87,0.1166,West,2023-03-04 00:00:00,customer_000998@example.com,137.46
+ORD_000998,Smartphone,Electronics,4,496.89,0.1674,South,2023-03-04 00:00:00,customer_000999@example.com,1654.87

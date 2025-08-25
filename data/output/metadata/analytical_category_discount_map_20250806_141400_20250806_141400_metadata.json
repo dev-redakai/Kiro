@@ -1,0 +1,63 @@
+{
+  "export_timestamp": "2025-08-06T14:14:00.207586",
+  "data_shape": [
+    3,
+    13
+  ],
+  "columns": [
+    "category",
+    "avg_discount",
+    "median_discount",
+    "std_discount",
+    "min_discount",
+    "max_discount",
+    "total_revenue",
+    "total_quantity",
+    "order_count",
+    "discount_effectiveness_score",
+    "discount_penetration_pct",
+    "avg_discount_amount",
+    "discount_strategy"
+  ],
+  "dtypes": {
+    "category": "category",
+    "avg_discount": "float64",
+    "median_discount": "float64",
+    "std_discount": "float64",
+    "min_discount": "float64",
+    "max_discount": "float64",
+    "total_revenue": "float64",
+    "total_quantity": "int64",
+    "order_count": "int64",
+    "discount_effectiveness_score": "float64",
+    "discount_penetration_pct": "float64",
+    "avg_discount_amount": "float64",
+    "discount_strategy": "object"
+  },
+  "file_hash": "c1c58070",
+  "export_info": {
+    "format": "parquet",
+    "filename": "analytical_category_discount_map_20250806_141400_20250806_141400.parquet",
+    "export_params": {
+      "engine": "pyarrow",
+      "compression": "snappy",
+      "index": false
+    }
+  },
+  "memory_usage": 820,
+  "null_counts": {
+    "category": 0,
+    "avg_discount": 0,
+    "median_discount": 0,
+    "std_discount": 0,
+    "min_discount": 0,
+    "max_discount": 0,
+    "total_revenue": 0,
+    "total_quantity": 0,
+    "order_count": 0,
+    "discount_effectiveness_score": 0,
+    "discount_penetration_pct": 3,
+    "avg_discount_amount": 0,
+    "discount_strategy": 0
+  }
+}

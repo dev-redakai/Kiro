@@ -1,0 +1,36 @@
+{
+  "export_timestamp": "2025-07-31T20:21:46.832084",
+  "data_shape": [
+    4,
+    4
+  ],
+  "columns": [
+    "region",
+    "revenue",
+    "order_count",
+    "avg_price"
+  ],
+  "dtypes": {
+    "region": "object",
+    "revenue": "float64",
+    "order_count": "int64",
+    "avg_price": "float64"
+  },
+  "file_hash": "31685291",
+  "export_info": {
+    "format": "parquet",
+    "filename": "analytical_region_wise_performance_20250731_202146.parquet",
+    "export_params": {
+      "engine": "pyarrow",
+      "compression": "snappy",
+      "index": false
+    }
+  },
+  "memory_usage": 470,
+  "null_counts": {
+    "region": 0,
+    "revenue": 0,
+    "order_count": 0,
+    "avg_price": 0
+  }
+}

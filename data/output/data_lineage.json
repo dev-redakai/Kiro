@@ -1,0 +1,103 @@
+{
+  "datasets": {
+    "raw_data_v1": {
+      "dataset_id": "raw_data_v1",
+      "registered_at": "2025-07-31T20:30:00.512224",
+      "metadata": {
+        "source": "simulated",
+        "records": 5000,
+        "columns": [
+          "id",
+          "value",
+          "category",
+          "timestamp"
+        ],
+        "created_at": "2025-07-31T20:30:00.512224"
+      }
+    },
+    "cleaned_data_v1": {
+      "dataset_id": "cleaned_data_v1",
+      "registered_at": "2025-07-31T20:30:00.540993",
+      "metadata": {
+        "source": "cleaning_transform",
+        "records": 4984,
+        "removed_outliers": 16
+      }
+    },
+    "aggregated_data_v1": {
+      "dataset_id": "aggregated_data_v1",
+      "registered_at": "2025-07-31T20:30:00.553113",
+      "metadata": {
+        "source": "aggregation_transform",
+        "records": 3,
+        "aggregation_level": "category"
+      }
+    }
+  },
+  "transformations": [
+    {
+      "transformation_id": "cleaning_transform_001",
+      "timestamp": "2025-07-31T20:27:53.238205",
+      "input_datasets": [
+        "raw_data_v1"
+      ],
+      "output_datasets": [
+        "cleaned_data_v1"
+      ],
+      "transformation_type": "outlier_removal",
+      "parameters": {
+        "remove_outliers": true,
+        "threshold": 3.0
+      },
+      "metadata": {}
+    },
+    {
+      "transformation_id": "aggregation_transform_001",
+      "timestamp": "2025-07-31T20:27:53.764208",
+      "input_datasets": [
+        "cleaned_data_v1"
+      ],
+      "output_datasets": [
+        "aggregated_data_v1"
+      ],
+      "transformation_type": "group_aggregation",
+      "parameters": {
+        "group_by": "category",
+        "agg_func": "mean"
+      },
+      "metadata": {}
+    },
+    {
+      "transformation_id": "cleaning_transform_001",
+      "timestamp": "2025-07-31T20:30:00.539945",
+      "input_datasets": [
+        "raw_data_v1"
+      ],
+      "output_datasets": [
+        "cleaned_data_v1"
+      ],
+      "transformation_type": "outlier_removal",
+      "parameters": {
+        "remove_outliers": true,
+        "threshold": 3.0
+      },
+      "metadata": {}
+    },
+    {
+      "transformation_id": "aggregation_transform_001",
+      "timestamp": "2025-07-31T20:30:00.552112",
+      "input_datasets": [
+        "cleaned_data_v1"
+      ],
+      "output_datasets": [
+        "aggregated_data_v1"
+      ],
+      "transformation_type": "group_aggregation",
+      "parameters": {
+        "group_by": "category",
+        "agg_func": "mean"
+      },
+      "metadata": {}
+    }
+  ]
+}

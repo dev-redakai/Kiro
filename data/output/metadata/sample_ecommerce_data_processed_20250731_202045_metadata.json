@@ -1,0 +1,43 @@
+{
+  "export_timestamp": "2025-07-31T20:20:45.795330",
+  "data_shape": [
+    1000,
+    11
+  ],
+  "columns": [
+    "order_id",
+    "product_name",
+    "category",
+    "quantity",
+    "unit_price",
+    "discount_percent",
+    "region",
+    "sale_date",
+    "customer_email",
+    "revenue",
+    "month"
+  ],
+  "dtypes": {
+    "order_id": "object",
+    "product_name": "object",
+    "category": "object",
+    "quantity": "int32",
+    "unit_price": "float64",
+    "discount_percent": "float64",
+    "region": "object",
+    "sale_date": "datetime64[ns]",
+    "customer_email": "object",
+    "revenue": "float64",
+    "month": "period[M]"
+  },
+  "file_hash": "a5db78a8",
+  "export_info": {
+    "format": "csv",
+    "filename": "sample_ecommerce_data_processed_20250731_202045.csv",
+    "export_params": {
+      "index": false,
+      "encoding": "utf-8",
+      "date_format": "%Y-%m-%d %H:%M:%S"
+    }
+  },
+  "memory_usage": 

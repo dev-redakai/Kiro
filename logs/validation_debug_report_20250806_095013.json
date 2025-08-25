@@ -1,0 +1,556 @@
+{
+  "report_metadata": {
+    "generated_at": "2025-08-06T09:50:13.070759",
+    "report_type": "validation_debugging",
+    "version": "1.0"
+  },
+  "validation_history": [
+    {
+      "rule_name": "order_id_not_null",
+      "field_name": "order_id",
+      "rule_type": "not_null",
+      "severity": "critical",
+      "passed": true,
+      "total_records": 1000,
+      "valid_records": 998,
+      "invalid_records": 2,
+      "error_rate": 0.2,
+      "sample_invalid_values": [],
+      "details": {
+        "null_count": 2,
+        "validation_type": "not_null",
+        "execution_time_seconds": 0.0010132789611816406,
+        "execution_timestamp": "2025-08-06T09:50:13.035269"
+      },
+      "timestamp": "2025-08-06T09:50:13.035269"
+    },
+    {
+      "rule_name": "order_id_unique",
+      "field_name": "order_id",
+      "rule_type": "unique",
+      "severity": "error",
+      "passed": true,
+      "total_records": 1000,
+      "valid_records": 998,
+      "invalid_records": 2,
+      "error_rate": 0.2,
+      "sample_invalid_values": [
+        "ORD000001"
+      ],
+      "details": {
+        "duplicate_count": 2,
+        "unique_count": 997,
+        "validation_type": "unique",
+        "execution_time_seconds": 0.0,
+        "execution_timestamp": "2025-08-06T09:50:13.036267"
+      },
+      "timestamp": "2025-08-06T09:50:13.036267"
+    },
+    {
+      "rule_name": "product_name_not_null",
+      "field_name": "product_name",
+      "rule_type": "not_null",
+      "severity": "error",
+      "passed": true,
+      "total_records": 1000,
+      "valid_records": 950,
+      "invalid_records": 50,
+      "error_rate": 5.0,
+      "sample_invalid_values": [],
+      "details": {
+        "null_count": 50,
+        "validation_type": "not_null",
+        "execution_time_seconds": 0.0,
+        "execution_timestamp": "2025-08-06T09:50:13.037126"
+      },
+      "timestamp": "2025-08-06T09:50:13.037126"
+    },
+    {
+      "rule_name": "product_name_length",
+      "field_name": "product_name",
+      "rule_type": "range",
+      "severity": "warning",
+      "passed": true,
+      "total_records": 1000,
+      "valid_records": 950,
+      "invalid_records": 50,
+      "error_rate": 5.0,
+      "sample_invalid_values": [
+        "",
+        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      ],
+      "details": {
+        "min_length": 1,
+        "max_length": 200,
+        "invalid_length_count": 50,
+        "avg_length": 13.3,
+        "validation_type": "string_length",
+        "execution_time_seconds": 0.0004773139953613281,
+        "execution_timestamp": "2025-08-06T09:50:13.038987"
+      },
+      "timestamp": "2025-08-06T09:50:13.038987"
+    },
+    {
+      "rule_name": "category_enum",
+      "field_name": "category",
+      "rule_type": "enum",
+      "severity": "warning",
+      "passed": false,
+      "total_records": 1000,
+      "valid_records": 800,
+      "invalid_records": 200,
+      "error_rate": 20.0,
+      "sample_invalid_values": [
+        "InvalidCategory"
+      ],
+      "details": {
+        "valid_values": [
+          "Electronics",
+          "Fashion",
+          "Home & Garden",
+          "Unknown"
+        ],
+        "invalid_count": 200,
+        "invalid_values": [
+          "InvalidCategory"
+        ],
+        "validation_type": "enum",
+        "execution_time_seconds": 0.0,
+        "execution_timestamp": "2025-08-06T09:50:13.040013"
+      },
+      "timestamp": "2025-08-06T09:50:13.042067"
+    },
+    {
+      "rule_name": "quantity_positive",
+      "field_name": "quantity",
+      "rule_type": "range",
+      "severity": "error",
+      "passed": true,
+      "total_records": 1000,
+      "valid_records": 900,
+      "invalid_records": 100,
+      "error_rate": 10.0,
+      "sample_invalid_values": [
+        "-5",
+        "-10",
+        "0"
+      ],
+      "details": {
+        "min_value": 1,
+        "max_value": 10000,
+        "out_of_range_count": 100,
+        "actual_min": -10.0,
+        "actual_max": 500.0,
+        "validation_type": "numeric_range",
+        "execution_time_seconds": 0.0,
+        "execution_timestamp": "2025-08-06T09:50:13.042581"
+      },
+      "timestamp": "2025-08-06T09:50:13.042581"
+    },
+    {
+      "rule_name": "quantity_statistical",
+      "field_name": "quantity",
+      "rule_type": "statistical",
+      "severity": "warning",
+      "passed": true,
+      "total_records": 1000,
+      "valid_records": 1000,
+      "invalid_records": 0,
+      "error_rate": 0.0,
+      "sample_invalid_values": [],
+      "details": {
+        "z_score_threshold": 3.0,
+        "outlier_count": 0,
+        "mean": 204.95,
+        "std": 145.69153552462657,
+        "validation_type": "statistical_outliers",
+        "execution_time_seconds": 0.0005488395690917969,
+        "execution_timestamp": "2025-08-06T09:50:13.044679"
+      },
+      "timestamp": "2025-08-06T09:50:13.044679"
+    },
+    {
+      "rule_name": "unit_price_positive",
+      "field_name": "unit_price",
+      "rule_type": "range",
+      "severity": "error",
+      "passed": false,
+      "total_records": 1000,
+      "valid_records": 800,
+      "invalid_records": 200,
+      "error_rate": 20.0,
+      "sample_invalid_values": [
+        -50.0
+      ],
+      "details": {
+        "min_value": 0.01,
+        "max_value": 100000.0,
+        "out_of_range_count": 200,
+        "actual_min": -50.0,
+        "actual_max": 999.72,
+        "validation_type": "numeric_range",
+        "execution_time_seconds": 0.0010502338409423828,
+        "execution_timestamp": "2025-08-06T09:50:13.045729"
+      },
+      "timestamp": "2025-08-06T09:50:13.047007"
+    },
+    {
+      "rule_name": "discount_range",
+      "field_name": "discount_percent",
+      "rule_type": "range",
+      "severity": "error",
+      "passed": false,
+      "total_records": 1000,
+      "valid_records": 700,
+      "invalid_records": 300,
+      "error_rate": 30.0,
+      "sample_invalid_values": [
+        1.5,
+        2.0
+      ],
+      "details": {
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "out_of_range_count": 300,
+        "actual_min": 0.002,
+        "actual_max": 2.0,
+        "validation_type": "numeric_range",
+        "execution_time_seconds": 0.000997781753540039,
+        "execution_timestamp": "2025-08-06T09:50:13.049039"
+      },
+      "timestamp": "2025-08-06T09:50:13.049634"
+    },
+    {
+      "rule_name": "region_enum",
+      "field_name": "region",
+      "rule_type": "enum",
+      "severity": "warning",
+      "passed": false,
+      "total_records": 1000,
+      "valid_records": 700,
+      "invalid_records": 300,
+      "error_rate": 30.0,
+      "sample_invalid_values": [
+        "InvalidRegion"
+      ],
+      "details": {
+        "valid_values": [
+          "North",
+          "South",
+          "East",
+          "West",
+          "Northeast",
+          "Northwest",
+          "Southeast",
+          "Southwest",
+          "Unknown"
+        ],
+        "invalid_count": 300,
+        "invalid_values": [
+          "InvalidRegion"
+        ],
+        "validation_type": "enum",
+        "execution_time_seconds": 0.0,
+        "execution_timestamp": "2025-08-06T09:50:13.049634"
+      },
+      "timestamp": "2025-08-06T09:50:13.053124"
+    },
+    {
+      "rule_name": "email_format",
+      "field_name": "customer_email",
+      "rule_type": "format",
+      "severity": "warning",
+      "passed": false,
+      "total_records": 1000,
+      "valid_records": 800,
+      "invalid_records": 200,
+      "error_rate": 20.0,
+      "sample_invalid_values": [
+        "invalid-email"
+      ],
+      "details": {
+        "invalid_format_count": 200,
+        "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+        "validation_type": "email_format",
+        "execution_time_seconds": 0.000713348388671875,
+        "execution_timestamp": "2025-08-06T09:50:13.053837"
+      },
+      "timestamp": "2025-08-06T09:50:13.055545"
+    },
+    {
+      "rule_name": "sale_date_range",
+      "field_name": "sale_date",
+      "rule_type": "range",
+      "severity": "error",
+      "passed": true,
+      "total_records": 1000,
+      "valid_records": 900,
+      "invalid_records": 100,
+      "error_rate": 10.0,
+      "sample_invalid_values": [
+        "2050-01-01"
+      ],
+      "details": {
+        "min_date": "2020-01-01",
+        "max_date": "2030-12-31",
+        "out_of_range_count": 100,
+        "actual_min_date": "2023-05-30 09:50:12.922825",
+        "actual_max_date": "2050-01-01 00:00:00",
+        "validation_type": "date_range_robust",
+        "conversion_stats": {
+          "original_dtype": "object",
+          "null_count": 100,
+          "categorical_count": 0,
+          "numeric_count": 0,
+          "string_count": 100,
+          "datetime_count": 0,
+          "conversion_attempts": 1,
+          "conversion_successes": 800,
+          "conversion_failures": 100,
+          "fallback_applied": 0
+        },
+        "error_details": [],
+        "warning_messages": [],
+        "sample_invalid_values": [
+          "2050-01-01"
+        ],
+        "sample_unconvertible_values": [],
+        "data_type_analysis": {
+          "original_dtype": "object",
+          "is_categorical": false,
+          "has_mixed_types": false
+        },
+        "execution_time_seconds": 0.004219770431518555,
+        "execution_timestamp": "2025-08-06T09:50:13.060462"
+      },
+      "timestamp": "2025-08-06T09:50:13.060462"
+    },
+    {
+      "rule_name": "revenue_calculation",
+      "field_name": "revenue",
+      "rule_type": "business_logic",
+      "severity": "error",
+      "passed": false,
+      "total_records": 1000,
+      "valid_records": 800,
+      "invalid_records": 200,
+      "error_rate": 20.0,
+      "sample_invalid_values": [
+        -7525.0,
+        -7550.0,
+        -7575.0,
+        -7600.0,
+        -7625.0,
+        -7650.0,
+        -7675.0,
+        -7700.0,
+        -7725.0,
+        -7750.0
+      ],
+      "details": {
+        "invalid_revenue_count": 200,
+        "validation_type": "business_logic",
+        "execution_time_seconds": 0.0,
+        "execution_timestamp": "2025-08-06T09:50:13.061445"
+      },
+      "timestamp": "2025-08-06T09:50:13.063370"
+    }
+  ],
+  "error_reports": [],
+  "validation_metrics": {
+    "total_rules_executed": 13,
+    "successful_rules": 7,
+    "failed_rules": 6,
+    "overall_data_quality_score": 86.8923076923077,
+    "rule_performance": {
+      "order_id_not_null": 0.0010132789611816406,
+      "order_id_unique": 0.0,
+      "product_name_not_null": 0.0,
+      "product_name_length": 0.0004773139953613281,
+      "category_enum": 0.0,
+      "quantity_positive": 0.0,
+      "quantity_statistical": 0.0005488395690917969,
+      "unit_price_positive": 0.0010502338409423828,
+      "discount_range": 0.000997781753540039,
+      "region_enum": 0.0,
+      "email_format": 0.000713348388671875,
+      "sale_date_range": 0.004219770431518555,
+      "revenue_calculation": 0.0
+    },
+    "error_distribution": {
+      "enum_warning": 2,
+      "range_error": 2,
+      "format_warning": 1,
+      "business_logic_error": 1
+    },
+    "memory_usage_mb": 81.26171875
+  },
+  "registered_rules": [
+    {
+      "name": "order_id_not_null",
+      "field_name": "order_id",
+      "rule_type": "not_null",
+      "severity": "critical",
+      "enabled": true,
+      "threshold": 20.0,
+      "parameters": {},
+      "description": "Order ID must not be null"
+    },
+    {
+      "name": "order_id_unique",
+      "field_name": "order_id",
+      "rule_type": "unique",
+      "severity": "error",
+      "enabled": true,
+      "threshold": 10.0,
+      "parameters": {},
+      "description": "Order ID should be unique"
+    },
+    {
+      "name": "product_name_not_null",
+      "field_name": "product_name",
+      "rule_type": "not_null",
+      "severity": "error",
+      "enabled": true,
+      "threshold": 10.0,
+      "parameters": {},
+      "description": "Product name must not be null"
+    },
+    {
+      "name": "product_name_length",
+      "field_name": "product_name",
+      "rule_type": "range",
+      "severity": "warning",
+      "enabled": true,
+      "threshold": 5.0,
+      "parameters": {
+        "min_length": 1,
+        "max_length": 200
+      },
+      "description": "Product name length should be between 1 and 200 characters"
+    },
+    {
+      "name": "category_enum",
+      "field_name": "category",
+      "rule_type": "enum",
+      "severity": "warning",
+      "enabled": true,
+      "threshold": 5.0,
+      "parameters": {
+        "valid_values": [
+          "Electronics",
+          "Fashion",
+          "Home & Garden",
+          "Unknown"
+        ]
+      },
+      "description": "Category should be one of the valid values"
+    },
+    {
+      "name": "quantity_positive",
+      "field_name": "quantity",
+      "rule_type": "range",
+      "severity": "error",
+      "enabled": true,
+      "threshold": 10.0,
+      "parameters": {
+        "min_value": 1,
+        "max_value": 10000
+      },
+      "description": "Quantity should be positive and reasonable"
+    },
+    {
+      "name": "quantity_statistical",
+      "field_name": "quantity",
+      "rule_type": "statistical",
+      "severity": "warning",
+      "enabled": true,
+      "threshold": 5.0,
+      "parameters": {
+        "z_score_threshold": 3.0
+      },
+      "description": "Quantity should not be a statistical outlier"
+    },
+    {
+      "name": "unit_price_positive",
+      "field_name": "unit_price",
+      "rule_type": "range",
+      "severity": "error",
+      "enabled": true,
+      "threshold": 10.0,
+      "parameters": {
+        "min_value": 0.01,
+        "max_value": 100000.0
+      },
+      "description": "Unit price should be positive and reasonable"
+    },
+    {
+      "name": "discount_range",
+      "field_name": "discount_percent",
+      "rule_type": "range",
+      "severity": "error",
+      "enabled": true,
+      "threshold": 10.0,
+      "parameters": {
+        "min_value": 0.0,
+        "max_value": 1.0
+      },
+      "description": "Discount percent should be between 0.0 and 1.0"
+    },
+    {
+      "name": "region_enum",
+      "field_name": "region",
+      "rule_type": "enum",
+      "severity": "warning",
+      "enabled": true,
+      "threshold": 5.0,
+      "parameters": {
+        "valid_values": [
+          "North",
+          "South",
+          "East",
+          "West",
+          "Northeast",
+          "Northwest",
+          "Southeast",
+          "Southwest",
+          "Unknown"
+        ]
+      },
+      "description": "Region should be one of the valid values"
+    },
+    {
+      "name": "email_format",
+      "field_name": "customer_email",
+      "rule_type": "format",
+      "severity": "warning",
+      "enabled": true,
+      "threshold": 5.0,
+      "parameters": {},
+      "description": "Email should have valid format when present"
+    },
+    {
+      "name": "sale_date_range",
+      "field_name": "sale_date",
+      "rule_type": "range",
+      "severity": "error",
+      "enabled": true,
+      "threshold": 10.0,
+      "parameters": {
+        "min_date": "2020-01-01",
+        "max_date": "2030-12-31"
+      },
+      "description": "Sale date should be within reasonable range"
+    },
+    {
+      "name": "revenue_calculation",
+      "field_name": "revenue",
+      "rule_type": "business_logic",
+      "severity": "error",
+      "enabled": true,
+      "threshold": 10.0,
+      "parameters": {},
+      "description": "Revenue should equal quantity * unit_price * (1 - discount_percent)"
+    }
+  ]
+}

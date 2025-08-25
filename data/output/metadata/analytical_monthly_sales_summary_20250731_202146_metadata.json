@@ -1,0 +1,39 @@
+{
+  "export_timestamp": "2025-07-31T20:21:46.820080",
+  "data_shape": [
+    2,
+    5
+  ],
+  "columns": [
+    "month",
+    "revenue",
+    "quantity",
+    "discount_percent",
+    "order_count"
+  ],
+  "dtypes": {
+    "month": "period[M]",
+    "revenue": "float64",
+    "quantity": "int32",
+    "discount_percent": "float64",
+    "order_count": "int64"
+  },
+  "file_hash": "03404d45",
+  "export_info": {
+    "format": "parquet",
+    "filename": "analytical_monthly_sales_summary_20250731_202146.parquet",
+    "export_params": {
+      "engine": "pyarrow",
+      "compression": "snappy",
+      "index": false
+    }
+  },
+  "memory_usage": 200,
+  "null_counts": {
+    "month": 0,
+    "revenue": 0,
+    "quantity": 0,
+    "discount_percent": 0,
+    "order_count": 0
+  }
+}

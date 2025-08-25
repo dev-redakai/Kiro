@@ -1,0 +1,29 @@
+{
+  "checkpoint_id": "data_pipeline_20250731_203000",
+  "process_id": "data_pipeline",
+  "created_at": "2025-07-31T20:30:00.560112",
+  "state": {
+    "process_name": "data_pipeline",
+    "current_step": "completed",
+    "completed_steps": [
+      "cleaning",
+      "aggregation"
+    ],
+    "additional_state": {
+      "cleaning_params": {
+        "remove_outliers": true,
+        "threshold": 3.0
+      },
+      "aggregation_params": {
+        "group_by": "category",
+        "agg_func": "mean"
+      },
+      "final_records": 3
+    }
+  },
+  "has_data": true,
+  "data_shape": [
+    3,
+    5
+  ]
+}

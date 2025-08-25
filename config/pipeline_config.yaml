@@ -1,0 +1,121 @@
+# Scalable Data Pipeline Configuration
+
+# Data processing settings
+chunk_size: 50000
+max_memory_usage: 4294967296  # 4GB in bytes
+
+# File paths
+input_data_path: data/raw
+processed_data_path: data/processed
+output_data_path: data/output
+temp_data_path: data/temp
+
+# Output formats
+output_formats:
+  - csv
+  - parquet
+
+# Anomaly detection settings
+anomaly_threshold: 3.0
+anomaly_sensitivity: 0.95
+
+# Logging settings
+log_level: INFO
+log_file: pipeline.log
+log_format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+# Data cleaning and standardization rules
+standardization_rules:
+  product_name:
+    remove_extra_spaces: true
+    convert_to_lowercase: false
+    remove_special_chars: false
+  category:
+    standardize_case: true
+    mapping:
+      electronics: Electronics
+      fashion: Fashion
+      home: Home & Garden
+  region:
+    standardize_case: true
+    mapping:
+      north: North
+      south: South
+      east: East
+      west: West
+      northeast: Northeast
+      northwest: Northwest
+      southeast: Southeast
+      southwest: Southwest
+
+# Data validation rules with enhanced error handling
+validation_rules:
+  quantity:
+    min_value: 1
+    max_value: 10000
+    allow_zero: false
+    error_category: "VALIDATION"
+    recovery_strategy: "flag_and_continue"
+    data_type_handling: "auto_convert"
+  unit_price:
+    min_value: 0.01
+    max_value: 100000.0
+    allow_zero: false
+    error_category: "DATA_QUALITY"
+    recovery_strategy: "flag_and_continue"
+    data_type_handling: "auto_convert"
+  discount_percent:
+    min_value: 0.0
+    max_value: 1.0
+    error_category: "VALIDATION"
+    recovery_strategy: "flag_and_continue"
+    data_type_handling: "auto_convert"
+  email:
+    validate_format: true
+    allow_null: true
+    error_category: "DATA_QUALITY"
+    recovery_strategy: "flag_and_continue"
+    data_type_handling: "string_only"
+  sale_date:
+    min_date: "2020-01-01"
+    max_date: "2030-12-31"
+    error_category: "VALIDATION"
+    recovery_strategy: "graceful_conversion"
+    data_type_handling: "mixed_type_support"
+    categorical_handling: "convert_or_flag"
+  order_id:
+    required: true
+    unique: true
+    error_category: "VALIDATION"
+    recovery_strategy: "flag_and_continue"
+  product_name:
+    required: true
+    max_length: 200
+    error_category: "DATA_QUALITY"
+    recovery_strategy: "flag_and_continue"
+
+# Enhanced validation configuration
+validation_config:
+  error_resilience:
+    enabled: true
+    continue_on_failure: true
+    max_error_rate: 0.20  # 20% error rate threshold
+    isolation_mode: true
+  error_handling:
+    categorization: true
+    detailed_logging: true
+    context_preservation: true
+    recovery_attempts: true
+  performance:
+    parallel_validation: false  # Disabled for data consistency
+    chunk_validation: true
+    early_exit_on_critical: false
+  reporting:
+    generate_error_reports: true
+    include_sample_values: true
+    max_sample_size: 10
+    performance_metrics: true
+
+# Dashboard settings
+dashboard_port: 8501
+dashboard_host: localhost

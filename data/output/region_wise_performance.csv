@@ -1,0 +1,4 @@
+region,total_revenue,unique_orders,total_quantity,avg_discount,avg_order_value,market_share_pct,top_category
+East,26651.13,1,10,0.0436000004410743,26651.13,21.963315154687702,Electronics
+North,25107.36,1,9,0.0617999993264675,25107.36,20.69108740913424,Electronics
+West,69585.35,3,30,0.11516666660706197,23195.11666666667,57.34559743617805,Electronics

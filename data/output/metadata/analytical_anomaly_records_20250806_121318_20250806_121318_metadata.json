@@ -1,0 +1,63 @@
+{
+  "export_timestamp": "2025-08-06T12:13:18.329338",
+  "data_shape": [
+    5,
+    13
+  ],
+  "columns": [
+    "order_id",
+    "product_name",
+    "category",
+    "quantity",
+    "unit_price",
+    "discount_percent",
+    "revenue",
+    "region",
+    "sale_date",
+    "anomaly_types",
+    "composite_anomaly_score",
+    "detailed_anomaly_reason",
+    "anomaly_rank"
+  ],
+  "dtypes": {
+    "order_id": "object",
+    "product_name": "category",
+    "category": "category",
+    "quantity": "int64",
+    "unit_price": "float64",
+    "discount_percent": "float64",
+    "revenue": "float32",
+    "region": "category",
+    "sale_date": "category",
+    "anomaly_types": "object",
+    "composite_anomaly_score": "float64",
+    "detailed_anomaly_reason": "object",
+    "anomaly_rank": "int64"
+  },
+  "file_hash": "a721e123",
+  "export_info": {
+    "format": "parquet",
+    "filename": "analytical_anomaly_records_20250806_121318_20250806_121318.parquet",
+    "export_params": {
+      "engine": "pyarrow",
+      "compression": "snappy",
+      "index": false
+    }
+  },
+  "memory_usage": 16137,
+  "null_counts": {
+    "order_id": 0,
+    "product_name": 0,
+    "category": 0,
+    "quantity": 0,
+    "unit_price": 0,
+    "discount_percent": 0,
+    "revenue": 0,
+    "region": 0,
+    "sale_date": 0,
+    "anomaly_types": 0,
+    "composite_anomaly_score": 0,
+    "detailed_anomaly_reason": 0,
+    "anomaly_rank": 0
+  }
+}

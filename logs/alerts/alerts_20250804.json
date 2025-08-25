@@ -1,0 +1,52 @@
+[
+  {
+    "alert_id": "pipeline_failure_1754310532",
+    "rule_id": "pipeline_failure",
+    "timestamp": "2025-08-04T17:58:52.883842",
+    "severity": "critical",
+    "title": "Pipeline Failure",
+    "message": "Alert: Pipeline Failure\nSeverity: CRITICAL\nDescription: Pipeline has failed or stopped unexpectedly\nTime: 2025-08-04 17:58:52\n",
+    "details": {
+      "system": {
+        "timestamp": "2025-08-04 17:58:52.865651",
+        "memory_total_gb": 31.627544403076172,
+        "memory_available_gb": 15.772937774658203,
+        "memory_used_gb": 15.854606628417969,
+        "memory_percent": 50.1,
+        "cpu_percent": 0.0,
+        "cpu_count": 32,
+        "disk_usage": {
+          ".": {
+            "total_gb": 399.99901962280273,
+            "used_gb": 117.08512878417969,
+            "free_gb": 282.91389083862305,
+            "percent": 29.271353938464756
+          },
+          "data": {
+            "total_gb": 399.99901962280273,
+            "used_gb": 117.08512878417969,
+            "free_gb": 282.91389083862305,
+            "percent": 29.271353938464756
+          }
+        }
+      },
+      "processing": {
+        "message": "No processing operations recorded"
+      },
+      "data_quality": {
+        "message": "No data quality metrics recorded"
+      },
+      "performance": {
+        "message": "No performance metrics recorded"
+      },
+      "health": {
+        "overall_status": "failed",
+        "component_statuses": {
+          "system": "failed",
+          "data_quality": "healthy"
+        },
+        "active_alerts_count": 3
+      }
+    }
+  }
+]

@@ -1,0 +1,255 @@
+{
+  "timestamp": "2025-08-04T17:58:54.917621",
+  "system_status": {
+    "overall_status": "failed",
+    "status_color": "#6c757d",
+    "component_count": 2,
+    "healthy_components": 0,
+    "warning_components": 0,
+    "critical_components": 2,
+    "last_updated": "2025-08-04T17:58:52.891810"
+  },
+  "pipeline_health": {
+    "current_status": "failed",
+    "component_statuses": {
+      "system": {
+        "status": "failed",
+        "color": "#6c757d"
+      },
+      "data_quality": {
+        "status": "failed",
+        "color": "#6c757d"
+      }
+    },
+    "active_alerts_count": 6,
+    "health_trend": [
+      {
+        "timestamp": "2025-08-04T17:58:52.891810",
+        "status": "failed",
+        "alert_count": 6
+      }
+    ],
+    "system_metrics": {
+      "timestamp": "2025-08-04 17:58:52.890812",
+      "memory_total_gb": 31.627544403076172,
+      "memory_available_gb": 15.7489013671875,
+      "memory_used_gb": 15.878643035888672,
+      "memory_percent": 50.2,
+      "cpu_percent": 0.0,
+      "cpu_count": 32,
+      "disk_usage": {
+        ".": {
+          "total_gb": 399.99901962280273,
+          "used_gb": 117.08513259887695,
+          "free_gb": 282.9138870239258,
+          "percent": 29.27135489214141
+        },
+        "data": {
+          "total_gb": 399.99901962280273,
+          "used_gb": 117.08513259887695,
+          "free_gb": 282.9138870239258,
+          "percent": 29.27135489214141
+        }
+      }
+    },
+    "last_check": "2025-08-04T17:58:52.891810"
+  },
+  "performance_metrics": {
+    "total_operations": 0,
+    "average_throughput": 0,
+    "success_rate": 100,
+    "total_records_processed": 0,
+    "total_processing_time": 0,
+    "throughput_trend": [],
+    "performance_by_category": {},
+    "recent_metrics": []
+  },
+  "data_quality_metrics": {
+    "total_records_analyzed": 52,
+    "overall_error_rate": 19.230769230769234,
+    "total_valid_records": "42",
+    "quality_status": "poor",
+    "quality_trend": [
+      {
+        "timestamp": "2025-08-04T17:58:54.917621",
+        "metric_name": "revenue_calculation",
+        "error_rate": 25.0
+      },
+      {
+        "timestamp": "2025-08-04T17:58:54.916527",
+        "metric_name": "sale_date_range",
+        "error_rate": 25.0
+      },
+      {
+        "timestamp": "2025-08-04T17:58:54.913456",
+        "metric_name": "email_format",
+        "error_rate": 25.0
+      },
+      {
+        "timestamp": "2025-08-04T17:58:54.912636",
+        "metric_name": "region_enum",
+        "error_rate": 25.0
+      },
+      {
+        "timestamp": "2025-08-04T17:58:54.909321",
+        "metric_name": "unit_price_positive",
+        "error_rate": 25.0
+      },
+      {
+        "timestamp": "2025-08-04T17:58:54.909321",
+        "metric_name": "discount_range",
+        "error_rate": 25.0
+      },
+      {
+        "timestamp": "2025-08-04T17:58:54.908808",
+        "metric_name": "quantity_statistical",
+        "error_rate": 0.0
+      },
+      {
+        "timestamp": "2025-08-04T17:58:54.907794",
+        "metric_name": "quantity_positive",
+        "error_rate": 25.0
+      },
+      {
+        "timestamp": "2025-08-04T17:58:54.905188",
+        "metric_name": "category_enum",
+        "error_rate": 25.0
+      },
+      {
+        "timestamp": "2025-08-04T17:58:54.901126",
+        "metric_name": "product_name_not_null",
+        "error_rate": 0.0
+      }
+    ],
+    "recent_metrics": [
+      {
+        "metric_name": "revenue_calculation",
+        "total_records": 4,
+        "error_rate": 25.0,
+        "timestamp": "2025-08-04T17:58:54.917621"
+      },
+      {
+        "metric_name": "sale_date_range",
+        "total_records": 4,
+        "error_rate": 25.0,
+        "timestamp": "2025-08-04T17:58:54.916527"
+      },
+      {
+        "metric_name": "email_format",
+        "total_records": 4,
+        "error_rate": 25.0,
+        "timestamp": "2025-08-04T17:58:54.913456"
+      },
+      {
+        "metric_name": "region_enum",
+        "total_records": 4,
+        "error_rate": 25.0,
+        "timestamp": "2025-08-04T17:58:54.912636"
+      },
+      {
+        "metric_name": "unit_price_positive",
+        "total_records": 4,
+        "error_rate": 25.0,
+        "timestamp": "2025-08-04T17:58:54.909321"
+      }
+    ]
+  },
+  "active_alerts": {
+    "total_active_alerts": 1,
+    "alerts_by_severity": {
+      "critical": [
+        {
+          "alert_id": "pipeline_failure_1754310532",
+          "title": "Pipeline Failure",
+          "timestamp": "2025-08-04T17:58:52.883842",
+          "acknowledged": false
+        }
+      ],
+      "error": [],
+      "warning": [],
+      "info": []
+    },
+    "alert_summary_24h": {
+      "time_period_hours": 24,
+      "total_alerts": 1,
+      "active_alerts": 1,
+      "resolved_alerts": 0,
+      "by_severity": {
+        "critical": 1
+      },
+      "by_rule": {
+        "pipeline_failure": 1
+      },
+      "resolution_rate": 0.0,
+      "recent_alerts": [
+        {
+          "alert_id": "pipeline_failure_1754310532",
+          "rule_id": "pipeline_failure",
+          "timestamp": "2025-08-04T17:58:52.883842",
+          "severity": "critical",
+          "title": "Pipeline Failure",
+          "resolved": false,
+          "acknowledged": false
+        }
+      ]
+    },
+    "recent_alerts": [
+      {
+        "alert_id": "pipeline_failure_1754310532",
+        "title": "Pipeline Failure",
+        "severity": "critical",
+        "timestamp": "2025-08-04T17:58:52.883842",
+        "resolved": false,
+        "acknowledged": false
+      }
+    ]
+  },
+  "recovery_status": {
+    "total_checkpoints": 0,
+    "recent_failures_24h": 0,
+    "recovery_success_rate": 100,
+    "monitoring_active": true,
+    "recent_failures": []
+  },
+  "processing_summary": {
+    "message": "No processing operations recorded"
+  },
+  "resource_usage": {
+    "memory": {
+      "total_gb": 31.627544403076172,
+      "used_gb": 15.839176177978516,
+      "available_gb": 15.788368225097656,
+      "percent": 50.1,
+      "status": "normal"
+    },
+    "cpu": {
+      "percent": 4.7,
+      "count": 32,
+      "status": "normal"
+    },
+    "disk": {
+      ".": {
+        "total_gb": 399.99901962280273,
+        "used_gb": 117.08513641357422,
+        "free_gb": 282.9138832092285,
+        "percent": 29.271355845818064
+      },
+      "data": {
+        "total_gb": 399.99901962280273,
+        "used_gb": 117.08513641357422,
+        "free_gb": 282.9138832092285,
+        "percent": 29.271355845818064
+      }
+    },
+    "timestamp": "2025-08-04T17:58:54.934385"
+  },
+  "recent_activities": [
+    {
+      "type": "alert",
+      "description": "Alert: Pipeline Failure",
+      "status": "critical",
+      "details": "Severity: critical",
+      "timestamp": "2025-08-04T17:58:52.883842"
+    }
+  ]
+}

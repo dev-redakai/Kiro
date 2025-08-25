@@ -1,0 +1,5 @@
+region,total_revenue,avg_revenue_per_transaction,total_quantity,avg_unit_price,avg_discount,unique_orders,avg_order_value,avg_items_per_order,market_share_pct,top_category,performance_rank
+South,22342203.51,743.97,72370,364.6,0.14,30031,743.97,2.41,29.03,Electronics,1
+West,19584343.61,780.28,60878,367.37,0.13,25099,780.28,2.43,25.45,Electronics,2
+North,19258984.15,768.73,60030,363.57,0.12,25053,768.73,2.4,25.03,Electronics,3
+East,15770930.49,795.83,48113,364.36,0.1,19817,795.83,2.43,20.49,Electronics,4

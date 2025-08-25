@@ -1,0 +1,6 @@
+order_id,product_name,category,quantity,unit_price,discount_percent,revenue,region,sale_date,anomaly_types,composite_anomaly_score,detailed_anomaly_reason,anomaly_rank
+ORD_017132,Desktop Computer,Electronics,10,2786.6201171875,0.04360000044107437,26651.13,East,2023-01-15 00:00:00,"Revenue, Quantity",24.606477994421354,Revenue: Z-score + IQR Outlier; Quantity: Z-score + IQR Outlier,1
+ORD_038405,Desktop Computer,Electronics,9,2973.43994140625,0.061799999326467514,25107.36,North,2023-01-09 00:00:00,"Revenue, Quantity",22.58468027329578,Revenue: Z-score + IQR Outlier; Quantity: Z-score + IQR Outlier,2
+ORD_025723,Desktop Computer,Electronics,10,2681.31005859375,0.08389999717473984,24563.94,West,2023-03-21 00:00:00,"Revenue, Quantity",22.367788401643953,Revenue: Z-score + IQR Outlier; Quantity: Z-score + IQR Outlier,3
+ORD_021971,Desktop Computer,Electronics,10,2855.1298828125,0.21050000190734863,22542.24,West,2023-07-28 00:00:00,"Revenue, Quantity",21.743716623029012,Revenue: Z-score + IQR Outlier; Quantity: Z-score + IQR Outlier,4
+ORD_011831,Camera,Electronics,10,2368.989990234375,0.051100000739097595,22479.17,West,2023-01-09 00:00:00,"Revenue, Quantity",21.437582712471304,Revenue: Z-score + IQR Outlier; Quantity: Z-score + IQR Outlier,5

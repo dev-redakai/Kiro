@@ -1,0 +1,235 @@
+{
+  "generated_at": "2025-08-06T09:17:59.860561",
+  "validation_summary": {
+    "time_period_hours": 24,
+    "total_validations": 13,
+    "passed_validations": 8,
+    "failed_validations": 5,
+    "success_rate": 61.53846153846154,
+    "by_severity": {
+      "warning": {
+        "total": 5,
+        "passed": 1,
+        "failed": 4,
+        "avg_error_rate": 13.78640776699029
+      },
+      "error": {
+        "total": 7,
+        "passed": 6,
+        "failed": 1,
+        "avg_error_rate": 7.489597780859918
+      },
+      "critical": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "avg_error_rate": 1.9417475728155338
+      }
+    },
+    "by_field": {
+      "order_id": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "avg_error_rate": 0.0
+      },
+      "product_name": {
+        "total": 2,
+        "passed": 1,
+        "failed": 1,
+        "avg_error_rate": 0.0
+      },
+      "category": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "avg_error_rate": 0.0
+      },
+      "quantity": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "avg_error_rate": 0.0
+      },
+      "unit_price": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "avg_error_rate": 0.0
+      },
+      "discount_percent": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "avg_error_rate": 0.0
+      },
+      "region": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "avg_error_rate": 0.0
+      },
+      "customer_email": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "avg_error_rate": 0.0
+      },
+      "sale_date": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "avg_error_rate": 0.0
+      },
+      "revenue": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "avg_error_rate": 0.0
+      }
+    },
+    "recent_failures": [
+      {
+        "rule_name": "sale_date_range",
+        "field_name": "sale_date",
+        "severity": "error",
+        "error_rate": 32.038834951456316,
+        "timestamp": "2025-08-06T09:17:59.851037"
+      },
+      {
+        "rule_name": "email_format",
+        "field_name": "customer_email",
+        "severity": "warning",
+        "error_rate": 19.41747572815534,
+        "timestamp": "2025-08-06T09:17:59.845838"
+      },
+      {
+        "rule_name": "region_enum",
+        "field_name": "region",
+        "severity": "warning",
+        "error_rate": 19.41747572815534,
+        "timestamp": "2025-08-06T09:17:59.843132"
+      },
+      {
+        "rule_name": "category_enum",
+        "field_name": "category",
+        "severity": "warning",
+        "error_rate": 19.41747572815534,
+        "timestamp": "2025-08-06T09:17:59.834033"
+      },
+      {
+        "rule_name": "product_name_length",
+        "field_name": "product_name",
+        "severity": "warning",
+        "error_rate": 9.70873786407767,
+        "timestamp": "2025-08-06T09:17:59.831588"
+      }
+    ]
+  },
+  "registered_rules": {
+    "order_id_not_null": {
+      "field_name": "order_id",
+      "rule_type": "not_null",
+      "severity": "critical",
+      "enabled": true,
+      "threshold": 20.0,
+      "description": "Order ID must not be null"
+    },
+    "order_id_unique": {
+      "field_name": "order_id",
+      "rule_type": "unique",
+      "severity": "error",
+      "enabled": true,
+      "threshold": 10.0,
+      "description": "Order ID should be unique"
+    },
+    "product_name_not_null": {
+      "field_name": "product_name",
+      "rule_type": "not_null",
+      "severity": "error",
+      "enabled": true,
+      "threshold": 10.0,
+      "description": "Product name must not be null"
+    },
+    "product_name_length": {
+      "field_name": "product_name",
+      "rule_type": "range",
+      "severity": "warning",
+      "enabled": true,
+      "threshold": 5.0,
+      "description": "Product name length should be between 1 and 200 characters"
+    },
+    "category_enum": {
+      "field_name": "category",
+      "rule_type": "enum",
+      "severity": "warning",
+      "enabled": true,
+      "threshold": 5.0,
+      "description": "Category should be one of the valid values"
+    },
+    "quantity_positive": {
+      "field_name": "quantity",
+      "rule_type": "range",
+      "severity": "error",
+      "enabled": true,
+      "threshold": 10.0,
+      "description": "Quantity should be positive and reasonable"
+    },
+    "quantity_statistical": {
+      "field_name": "quantity",
+      "rule_type": "statistical",
+      "severity": "warning",
+      "enabled": true,
+      "threshold": 5.0,
+      "description": "Quantity should not be a statistical outlier"
+    },
+    "unit_price_positive": {
+      "field_name": "unit_price",
+      "rule_type": "range",
+      "severity": "error",
+      "enabled": true,
+      "threshold": 10.0,
+      "description": "Unit price should be positive and reasonable"
+    },
+    "discount_range": {
+      "field_name": "discount_percent",
+      "rule_type": "range",
+      "severity": "error",
+      "enabled": true,
+      "threshold": 10.0,
+      "description": "Discount percent should be between 0.0 and 1.0"
+    },
+    "region_enum": {
+      "field_name": "region",
+      "rule_type": "enum",
+      "severity": "warning",
+      "enabled": true,
+      "threshold": 5.0,
+      "description": "Region should be one of the valid values"
+    },
+    "email_format": {
+      "field_name": "customer_email",
+      "rule_type": "format",
+      "severity": "warning",
+      "enabled": true,
+      "threshold": 5.0,
+      "description": "Email should have valid format when present"
+    },
+    "sale_date_range": {
+      "field_name": "sale_date",
+      "rule_type": "range",
+      "severity": "error",
+      "enabled": true,
+      "threshold": 10.0,
+      "description": "Sale date should be within reasonable range"
+    },
+    "revenue_calculation": {
+      "field_name": "revenue",
+      "rule_type": "business_logic",
+      "severity": "error",
+      "enabled": true,
+      "threshold": 10.0,
+      "description": "Revenue should equal quantity * unit_price * (1 - discount_percent)"
+    }
+  }
+}

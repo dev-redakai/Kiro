@@ -1,0 +1,45 @@
+{
+  "export_timestamp": "2025-08-11T16:42:33.061092",
+  "data_shape": [
+    12,
+    7
+  ],
+  "columns": [
+    "total_revenue",
+    "transaction_count",
+    "total_quantity",
+    "avg_discount",
+    "unique_orders",
+    "month",
+    "avg_order_value"
+  ],
+  "dtypes": {
+    "total_revenue": "float32",
+    "transaction_count": "int64",
+    "total_quantity": "int64",
+    "avg_discount": "float64",
+    "unique_orders": "int64",
+    "month": "object",
+    "avg_order_value": "float64"
+  },
+  "file_hash": "d98d762d",
+  "export_info": {
+    "format": "parquet",
+    "filename": "analytical_monthly_sales_summary_20250811_164233_20250811_164233.parquet",
+    "export_params": {
+      "engine": "pyarrow",
+      "compression": "snappy",
+      "index": false
+    }
+  },
+  "memory_usage": 1424,
+  "null_counts": {
+    "total_revenue": 0,
+    "transaction_count": 0,
+    "total_quantity": 0,
+    "avg_discount": 0,
+    "unique_orders": 0,
+    "month": 0,
+    "avg_order_value": 0
+  }
+}

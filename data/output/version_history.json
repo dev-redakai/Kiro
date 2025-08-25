@@ -1,0 +1,42 @@
+{
+  "versions": [
+    {
+      "version_id": "sample_ecommerce_data_20250731_202146",
+      "dataset_name": "sample_ecommerce_data",
+      "timestamp": "2025-07-31T20:21:46.834086",
+      "export_paths": {
+        "processed_data": {
+          "csv": "data\\output\\csv\\sample_ecommerce_data_processed_20250731_202146.csv",
+          "parquet": "data\\output\\parquet\\sample_ecommerce_data_processed_20250731_202146.parquet"
+        },
+        "analytical_tables": {
+          "monthly_sales_summary": {
+            "csv": "data\\output\\csv\\analytical_monthly_sales_summary_20250731_202146.csv",
+            "parquet": "data\\output\\parquet\\analytical_monthly_sales_summary_20250731_202146.parquet"
+          },
+          "top_products": {
+            "csv": "data\\output\\csv\\analytical_top_products_20250731_202146.csv",
+            "parquet": "data\\output\\parquet\\analytical_top_products_20250731_202146.parquet"
+          },
+          "region_wise_performance": {
+            "csv": "data\\output\\csv\\analytical_region_wise_performance_20250731_202146.csv",
+            "parquet": "data\\output\\parquet\\analytical_region_wise_performance_20250731_202146.parquet"
+          }
+        }
+      },
+      "metadata": {
+        "processed_records": 1000,
+        "analytical_tables": [
+          "monthly_sales_summary",
+          "top_products",
+          "region_wise_performance"
+        ],
+        "export_formats": [
+          "csv",
+          "parquet"
+        ]
+      }
+    }
+  ],
+  "current_version": "sample_ecommerce_data_20250731_202146"
+}

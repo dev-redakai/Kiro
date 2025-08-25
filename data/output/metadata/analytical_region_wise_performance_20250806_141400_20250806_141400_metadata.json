@@ -1,0 +1,60 @@
+{
+  "export_timestamp": "2025-08-06T14:14:00.195589",
+  "data_shape": [
+    4,
+    12
+  ],
+  "columns": [
+    "region",
+    "total_revenue",
+    "avg_revenue_per_transaction",
+    "total_quantity",
+    "avg_unit_price",
+    "avg_discount",
+    "unique_orders",
+    "avg_order_value",
+    "avg_items_per_order",
+    "market_share_pct",
+    "top_category",
+    "performance_rank"
+  ],
+  "dtypes": {
+    "region": "category",
+    "total_revenue": "float64",
+    "avg_revenue_per_transaction": "float64",
+    "total_quantity": "int64",
+    "avg_unit_price": "float64",
+    "avg_discount": "float64",
+    "unique_orders": "int64",
+    "avg_order_value": "float64",
+    "avg_items_per_order": "float64",
+    "market_share_pct": "float64",
+    "top_category": "object",
+    "performance_rank": "int64"
+  },
+  "file_hash": "2221f9f8",
+  "export_info": {
+    "format": "parquet",
+    "filename": "analytical_region_wise_performance_20250806_141400_20250806_141400.parquet",
+    "export_params": {
+      "engine": "pyarrow",
+      "compression": "snappy",
+      "index": false
+    }
+  },
+  "memory_usage": 1046,
+  "null_counts": {
+    "region": 0,
+    "total_revenue": 0,
+    "avg_revenue_per_transaction": 0,
+    "total_quantity": 0,
+    "avg_unit_price": 0,
+    "avg_discount": 0,
+    "unique_orders": 0,
+    "avg_order_value": 0,
+    "avg_items_per_order": 0,
+    "market_share_pct": 0,
+    "top_category": 0,
+    "performance_rank": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "export_timestamp": "2025-07-31T20:21:46.826085",
+  "data_shape": [
+    10,
+    4
+  ],
+  "columns": [
+    "product_name",
+    "category",
+    "revenue",
+    "quantity"
+  ],
+  "dtypes": {
+    "product_name": "object",
+    "category": "object",
+    "revenue": "float64",
+    "quantity": "int32"
+  },
+  "file_hash": "2cb9b08b",
+  "export_info": {
+    "format": "parquet",
+    "filename": "analytical_top_products_20250731_202146.parquet",
+    "export_params": {
+      "engine": "pyarrow",
+      "compression": "snappy",
+      "index": false
+    }
+  },
+  "memory_usage": 1514,
+  "null_counts": {
+    "product_name": 0,
+    "category": 0,
+    "revenue": 0,
+    "quantity": 0
+  }
+}

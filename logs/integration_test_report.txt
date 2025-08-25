@@ -1,0 +1,31 @@
+================================================================================
+SCALABLE DATA PIPELINE - INTEGRATION TEST REPORT
+================================================================================
+Test Run Date: 2025-08-04 18:23:18
+Test Environment: C:\Users\manik\AppData\Local\Temp\pipeline_integration_test_xcwrmstw
+
+TEST RESULTS SUMMARY:
+----------------------------------------
+Total Tests: 9
+Passed: 8
+Failed: 1
+Errors: 0
+Success Rate: 88.9%
+
+DETAILED RESULTS:
+----------------------------------------
+[PASS] component_ingestion            PASS     0.02s - ingestion component test
+[PASS] component_cleaning             PASS     0.03s - cleaning component test
+[PASS] component_transformation       PASS     0.01s - transformation component test
+[PASS] component_anomaly_detection    PASS     0.36s - anomaly_detection component test
+[PASS] component_export               PASS     0.05s - export component test
+[PASS] e2e_small_clean                PASS     0.01s - End-to-end test with small_clean: 1000 records
+[PASS] dashboard_integration          PASS     0.00s - Dashboard mock loaded 3 tables
+[PASS] performance_benchmark          PASS     0.12s - 50000 records, 431120.67 rec/sec
+[FAIL] unit_tests                     FAIL     0.00s - Unit tests: r.py
+ERROR tests/test_transformation.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!
+======================== 1 warning, 2 errors in 1.16s =========================
+
+
+================================================================================

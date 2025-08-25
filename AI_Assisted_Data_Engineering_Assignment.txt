@@ -1,0 +1,72 @@
+Assignment: Scalable Data Engineering Pipeline + Dashboard
+
+Objective:
+Design and build a scalable data engineering pipeline to clean, transform, and analyze a very dirty sales dataset consisting of millions of e-commerce records.. The final output should include:
+1. A working pipeline (written purely using programming logic - no advanced distributed engines like Spark)
+2. Transformed datasets with useful insights
+3. A dashboard showing key business metrics
+
+Business Context: Retail E-Commerce Data:
+You're supporting a mid-size e-commerce company selling electronics, fashion, and home goods across India and Southeast Asia. The sales team wants insight into how different regions, products, and categories are performing.
+They’ve handed you a large, messy CSV export from their systems with inconsistent data and want:
+- Monthly trends
+- Regional and category performance
+- Discount effectiveness
+- Top-selling products
+- Suspicious or anomalous transactions
+Sample Data Schema:
+| Field Name         | Type       | Description |
+|--------------------|------------|-------------|
+| order_id         | String     | Unique order ID (duplicates possible) |
+| product_name     | String     | Dirty/uncleaned / variations product names |
+| category         | String     | Product category (e.g., "electronics", "home appliance") ( not necessary standard categories,  can have variations ) |
+| quantity         | String    | Number of units sold (may be 0 or negative, strings) |
+| unit_price       | Float      | Price per unit |
+| discount_percent | Float      | Discount (0.0 to 1.0), values >1 are errors |
+| region           | String     | Sales region ("North", "nort"etc.) |
+| sale_date        | String     | Various formats, some nulls |
+| customer_email   | String     | May be null |
+| revenue          | Float      | Derived field: quantity * unit_price * (1 - discount_percent) |
+
+Tasks:
+1. Ingestion (Custom Scalable Logic)
+•	Load ~100 million rows from CSV 
+•	Do not use Spark, Dask, or any distributed data processing tool.
+•	Handle scale, chunked reading and Memory-efficient structures etc.
+2. Cleaning & Standardization
+•	Analyze the data to identify common issues and inconsistencies
+•	Apply your own logic to clean and standardize the data
+o	For example: correcting typos, handling missing or malformed fields, validating ranges, etc.
+•	Clearly document the cleaning rules you chose to apply and why
+•	Compute any required derived fields (e.g., revenue)
+3. Transformations
+Create analytical tables like - 
+•	monthly_sales_summary: Revenue, quantity, avg discount by month
+•	top_products: Top 10 by revenue and units
+•	region_wise_performance: Sales by region
+•	category_discount_map: Avg discount by category
+•	anomaly_records: Top 5 records with extremely high revenue
+You may add more analytical tables and derived matrices based on your interpretation of what can make this system insightful or production-ready. 
+4. Dashboard
+•	Monthly revenue trend
+•	Top 10 products
+•	Sales by region 
+•	Anomaly records
+•	Category discount heatmap
+•	Show your creativity: Add any other metrics, tables, or charts you think will help business stakeholders.
+5. Testing
+- Write 5+ unit tests for transformations and cleaning logic
+- Test edge cases and logic correctness
+Constraints
+- Do NOT use Spark, Dask, Ray, or other distributed frameworks
+- Use only native programming languages and their frameworks.
+- Design the logic to work efficiently with 100M+ records.
+Deliverables
+GitHub repo or ZIP folder containing:
+•	pipeline source code
+•	Dashboard source code (dashboard_app/)
+•	Transformed output (CSV or Parquet)
+•	Tests
+•	README.md
+•	Optional: Sample data (or script to generate it)
+

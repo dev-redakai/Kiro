@@ -1,0 +1,54 @@
+{
+  "entries": {
+    "53af3710098674260e925ca706af60b1": {
+      "cache_key": "53af3710098674260e925ca706af60b1",
+      "data_identifier": "data_pipeline_cleaning",
+      "parameters": {
+        "remove_outliers": true,
+        "threshold": 3.0
+      },
+      "description": "Intermediate result for data_pipeline - cleaning",
+      "created_at": "2025-07-31T20:27:53.237205",
+      "data_shape": [
+        4984,
+        4
+      ],
+      "columns": [
+        "id",
+        "value",
+        "category",
+        "timestamp"
+      ],
+      "size_bytes": 153109,
+      "formats": [
+        "parquet"
+      ]
+    },
+    "f8bdd2ae05e839c2e18d2562bc695b9a": {
+      "cache_key": "f8bdd2ae05e839c2e18d2562bc695b9a",
+      "data_identifier": "data_pipeline_aggregation",
+      "parameters": {
+        "group_by": "category",
+        "agg_func": "mean"
+      },
+      "description": "Intermediate result for data_pipeline - aggregation",
+      "created_at": "2025-07-31T20:27:53.763208",
+      "data_shape": [
+        3,
+        5
+      ],
+      "columns": [
+        "category",
+        "value_mean",
+        "value_std",
+        "value_count",
+        "id_count"
+      ],
+      "size_bytes": 3913,
+      "formats": [
+        "parquet"
+      ]
+    }
+  },
+  "total_size": 157022
+}
