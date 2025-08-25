@@ -1,0 +1,8 @@
+.kiro/
+.pytest_cache/
+.venv/
+.vscode/
+kiro.code-workspace
+__pycache__
+
+
